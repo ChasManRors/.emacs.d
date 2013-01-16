@@ -35,6 +35,8 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace) ;; Remove trailing white space
 (load-theme (quote wombat) nil nil) ;; try a color theme
 (desktop-save-mode 1) ;; very time consuming
+(custom-set-variables '(speedbar-show-unknown-files t)) ;; make speedbar show the files
+
 
 ;; ==== requires ====
 (require 'yaml-mode)
@@ -143,7 +145,7 @@
 
 ;; ==== file associations ====
 ;(add-to-list 'auto-mode-alist '("\\.rhtml\\'" . rhtml-mode))
-
+ (add-to-list 'auto-mode-alist '("\\.rhtml$" . rhtml-mode))
 
 
 ;; ==== headless stuff ====
