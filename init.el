@@ -1,10 +1,24 @@
 (require 'package)
-(setq package-archives '
-      (("gnu" . "http://elpa.gnu.org/packages/")
-       ("marmalade" . "http://marmalade-repo.org/packages")
-       ("melpa" . "http://melpa.milkbox.net/packages/")))
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+;; ==== requires ====
+(require 'yaml-mode)
+
+(add-to-list 'load-path "~/.emacs.d/rhtml") ; from https://github.com/eschulte/rhtml
+(require 'rhtml-mode)
+
+(require 'auto-complete-config)
+(global-auto-complete-mode)
+
+(yas-global-mode)
+
+(require 'ido)
+(ido-mode t)
+
+;; ==== set up options ====
 (push "/Users/cmagid/brew/bin" exec-path)
 (push "/usr/local/bin" exec-path)
 (push "/Users/cmagid/.rvm/gems/ruby-1.9.3-p327@emacs24/bin" exec-path)
@@ -36,18 +50,6 @@
 (load-theme (quote wombat) nil nil) ;; try a color theme
 (desktop-save-mode 1) ;; very time consuming
 (custom-set-variables '(speedbar-show-unknown-files t)) ;; make speedbar show the files
-
-
-;; ==== requires ====
-(require 'yaml-mode)
-
-(add-to-list 'load-path "~/.emacs.d/rhtml") ; from https://github.com/eschulte/rhtml
-(require 'rhtml-mode)
-
-(require 'auto-complete-config)
-(global-auto-complete-mode)
-
-(yas-global-mode)
 
 
 ;; ==== aliases ====
