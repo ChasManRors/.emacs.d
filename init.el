@@ -45,6 +45,8 @@
 (require 'auto-complete-config)
 (global-auto-complete-mode)
 
+(yas-global-mode)
+
 
 ;; ==== aliases ====
 (defalias 'cmm-global-replace-t-toggle-mark-Q-Query-Replace 'find-name-dired)
@@ -138,6 +140,10 @@
 ;; Org-mode todo list macro
 (fset 'cmm-add-todo-in-org-mode
    [?\C-a ?* ?  ?t ?o ?d ?o ?\C-\[ ?b ?\C-\[ ?u ?: ?  ?\C-\[ ?x ?i ?n ?s ?e ?r ?  ?d ?a ?\C-m ?\C-\M-m M-right ?S ?u ?m ?m ?a ?r ?y ?: ?\C-\M-m ?T ?o ?d ?a ?y ?: ?\C-\M-m ?L ?o ?n ?g ?  ?T ?e ?r ?m ?: ?\C-\M-m ?S ?c ?r ?a ?t ?c ?h ?\C-c ?\C-u])
+
+;; ==== file associations ====
+;(add-to-list 'auto-mode-alist '("\\.rhtml\\'" . rhtml-mode))
+
 
 
 ;; ==== headless stuff ====
