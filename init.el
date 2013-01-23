@@ -4,6 +4,14 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+
+;; Other package manager ;)
+(add-to-list 'load-path "~/.emacs.d/auto-install/")
+(require 'auto-install)
+(setq auto-install-directory "~/.emacs.d/auto-install/auto-install")
+(auto-install-update-emacswiki-package-name t)
+
+
 ;; ==== requires ====
 (require 'yaml-mode)
 
@@ -17,6 +25,9 @@
 
 (require 'ido)
 (ido-mode t)
+
+(require 'autopair)
+(autopair-global-mode)
 
 ;; ==== set up options ====
 (push "/Users/cmagid/brew/bin" exec-path)
@@ -49,7 +60,7 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace) ;; Remove trailing white space
 (load-theme (quote wombat) nil nil) ;; try a color theme
 (desktop-save-mode 1) ;; very time consuming
-(custom-set-variables '(speedbar-show-unknown-files t)) ;; make speedbar show the files
+(custom-set-variables '(speedbar-show-unknown-files t)) ;; make speedbar show the files http://stackoverflow.com/questions/2220005/how-do-i-enable-speedbar-to-display-all-types-of-files
 
 
 ;; ==== aliases ====
