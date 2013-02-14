@@ -7,10 +7,17 @@
 
 ;; Other package manager ;)
 (add-to-list 'load-path "~/.emacs.d/auto-install/")
+(add-to-list 'load-path "~/.emacs.d/auto-install/auto-install")
 (require 'auto-install)
 (setq auto-install-directory "~/.emacs.d/auto-install/auto-install")
 (auto-install-update-emacswiki-package-name t)
 
+(require 'col-highlight)
+(require 'column-marker)
+(require 'crosshairs)
+(require 'hl-line+)
+(require 'vline)
+;; (require 'auto-pair+)
 
 ;; ==== requires ====
 (require 'yaml-mode)
@@ -26,8 +33,14 @@
 (require 'ido)
 (ido-mode t)
 
-(require 'autopair)
-(autopair-global-mode)
+;; (require 'autopair)
+;; (autopair-global-mode)
+
+(require 'wrap-region)
+(wrap-region-mode t) ;or M-x wrap-region-mode To start wrap-region:
+(wrap-region-global-mode t)
+(wrap-region-add-wrapper "'" "'")
+(wrap-region-add-wrapper "`" "`")
 
 ;; ==== set up options ====
 (push "/Users/cmagid/brew/bin" exec-path)
@@ -47,20 +60,27 @@
 
 (fset 'yes-or-no-p 'y-or-n-p)
 (delete-selection-mode t)
-(scroll-bar-mode -1)
+(scroll-bar-mode 'right)
 (tool-bar-mode -1)
 (blink-cursor-mode t)
 (show-paren-mode t)
 (column-number-mode t)
-(set-fringe-style -1)
+(set-fringe-style 5)
 (tooltip-mode -1)
 (set-frame-font "Menlo-16")
 (set-variable (quote visible-bell) t nil) ;; Flash screen for c-g do not ring bell
-(setq-default show-trailing-whitespace t) ;; Note trailing white space
-(add-hook 'before-save-hook 'delete-trailing-whitespace) ;; Remove trailing white space
+(setq-default show-trailing-whitespace nil) ;; Note trailing white space
+;(add-hook 'before-save-hook 'delete-trailing-whitespace) ;; Remove trailing white space
 (load-theme (quote wombat) nil nil) ;; try a color theme
 (desktop-save-mode 1) ;; very time consuming
-(custom-set-variables '(speedbar-show-unknown-files t)) ;; make speedbar show the files http://stackoverflow.com/questions/2220005/how-do-i-enable-speedbar-to-display-all-types-of-files
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(scroll-bar-mode (quote right))
+ '(speedbar-show-unknown-files t))
+ ;; make speedbar show the files http://stackoverflow.com/questions/2220005/how-do-i-enable-speedbar-to-display-all-types-of-files
 
 
 ;; ==== aliases ====
@@ -70,6 +90,16 @@
 ;; ==== keys ====
 (global-set-key (kbd "C-s-;") (quote forward-word))
 (global-set-key (kbd "C-s-:") (quote backward-word))
+
+;(global-set-key (kbd "C-s-k") (quote forward-word))
+(global-set-key [C-s-268632075] (quote forward-word))
+;(global-set-key (kbd "C-s-j") (quote backward-word))
+(global-set-key [C-s-268632074] (quote backward-word))
+
+(global-set-key [M-s-left] (quote backward-word))
+(global-set-key [M-s-right] (quote forward-word))
+
+
 (define-key global-map (kbd "C-+") 'crosshairs-mode)
 (global-set-key [s-left] (quote backward-sexp)) ;; enable command arrow for movements
 (global-set-key [s-right] (quote forward-sexp))
