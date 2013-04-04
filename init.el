@@ -72,7 +72,7 @@
 (setq-default show-trailing-whitespace nil) ;; Note trailing white space
 ;(add-hook 'before-save-hook 'delete-trailing-whitespace) ;; Remove trailing white space
 (load-theme (quote wombat) nil nil) ;; try a color theme
-(desktop-save-mode 1) ;; very time consuming
+(desktop-save-mode nil) ;; very time consuming
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -82,6 +82,8 @@
  '(speedbar-show-unknown-files t))
  ;; make speedbar show the files http://stackoverflow.com/questions/2220005/how-do-i-enable-speedbar-to-display-all-types-of-files
 
+(add-hook 'ruby-mode-hook 'robe-mode)
+;; (add-hook 'ruby-mode-hook 'iedit-mode) ;;; not needed c-; is already active
 
 ;; ==== aliases ====
 (defalias 'cmm-global-replace-t-toggle-mark-Q-Query-Replace 'find-name-dired)
@@ -103,6 +105,12 @@
 (define-key global-map (kbd "C-+") 'crosshairs-mode)
 (global-set-key [s-left] (quote backward-sexp)) ;; enable command arrow for movements
 (global-set-key [s-right] (quote forward-sexp))
+
+
+;(global-set-key [C-S-l] (quote linum-mode)) ;; BAD it doesnt like this
+(global-set-key [33554444] (quote linum-mode))
+
+
 
 ;; ==== defs ====
 ;; Insert date
@@ -151,7 +159,7 @@
 (define-key ctl-x-4-map "t" 'toggle-window-split)
 
 ;; instead of tail -f
-(defun ansi-color-file ()
+(defun cmm-ansi-color-file ()
   "Show the ansi color escape code in log file correctly"
   (interactive)
   (let (var1)
@@ -186,11 +194,62 @@
 (fset 'cmm-add-todo-in-org-mode
    [?\C-a ?* ?  ?t ?o ?d ?o ?\C-\[ ?b ?\C-\[ ?u ?: ?  ?\C-\[ ?x ?i ?n ?s ?e ?r ?  ?d ?a ?\C-m ?\C-\M-m M-right ?S ?u ?m ?m ?a ?r ?y ?: ?\C-\M-m ?T ?o ?d ?a ?y ?: ?\C-\M-m ?L ?o ?n ?g ?  ?T ?e ?r ?m ?: ?\C-\M-m ?S ?c ?r ?a ?t ?c ?h ?\C-c ?\C-u])
 
+;; ==== macros for debugging in ruby-mode ====
+(fset 'cmm-awesome-print-helper
+   [?\C-a ?p ?  ?a ?p ?  ?\C-e return])
+(global-set-key [8388720] (quote cmm-awesome-print-helper)) ;; move to local when I have time [COMMAND-p]
+
+(fset 'cmm-ruby-debugger-list-current-point
+   [escape ?> ?\C-c ?\C-u ?l ?  ?= return escape ?>]) ;; do a list =
+(global-set-key [8388669] (quote cmm-ruby-debugger-list-current-point)) ;; [COMMAND-=]
+
+(fset 'cmm-sync-debug-code-position
+   [escape ?\C-r ?^ ?\\ ?\[ ?\C-a ?\C-  ?\C-e escape ?w ?\C-x ?o ?\C-x ?b ?d ?e ?b ?u ?g return ?g ?  ?\C-y return])
+
+(fset 'cmm-sync-debug-code-position
+   [?\C-\[ ?\C-r ?^ ?\\ ?\[ ?\C-a ?\C-  ?\C-e ?\C-\[ ?w ?\C-\[ ?> ?\C-x ?o ?\C-x ?b ?d ?e ?b ?u ?g ?\C-m ?g ?  ?\C-y ?\C-m])
+
+
+
+; define some keys only when the major mode shell-mode is active
+(add-hook 'shell-mode-hook
+          (lambda ()
+            (local-set-key (kbd "s-o") 'cmm-sync-debug-code-position)
+            ;; (local-set-key (kbd "C-c b") 'blue-word)
+            ;; (local-set-key (kbd "C-c p") 'insert-p)
+            ;; (local-set-key (kbd "M-4") 'tag-image)
+            ;; (local-set-key (kbd "M-5") 'wrap-url)
+            )
+          )
+
+
+
+;; cmm-sync-debug-code-possition
+
+;; (defun cmm-sync-debug-code-possition-new ()
+;;   "DOCSTRING"
+;;   (interactive)
+;;   (let (var1)
+;;     (setq var1 some)
+    
+;;     ))
+
+
 ;; ==== file associations ====
 ;(add-to-list 'auto-mode-alist '("\\.rhtml\\'" . rhtml-mode))
  (add-to-list 'auto-mode-alist '("\\.rhtml$" . rhtml-mode))
 
 
+(global-set-key [142614560] (quote textmate-clear-cache))
+(set-cursor-color "white")
+
+(global-set-key (kbd "<C-s-up>")     'buf-move-up) ; => control-command-up
+(global-set-key (kbd "<C-s-down>")   'buf-move-down)
+(global-set-key (kbd "<C-s-left>")   'buf-move-left)
+(global-set-key (kbd "<C-s-right>")  'buf-move-right)
+
+
 ;; ==== headless stuff ====
 (server-start) ;;; Use C-x # to close an emacsclient buffer. ;; very time consuming
 (shell nil) ;;; Start up a shell ;; very time consuming
+
