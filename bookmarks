@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("git examples directory"
+(("aliases"
+ (filename . "~/aliases/")
+ (front-context-string . "macs_aliases~\n  ")
+ (rear-context-string . " Dec  3  2012 .e")
+ (position . 1566))
+("foo.txt"
+ (filename . "~/projects/local-data/organize/foo.txt")
+ (front-context-string . "What are your th")
+ (rear-context-string . "nswers please.\n\n")
+ (position . 26))
+("a_filters_controller.rb"
+ (filename . "~/projects/merging/decorators/lux/controllers/a_filters_controller.rb")
+ (front-context-string . "class AFiltersCo")
+ (rear-context-string)
+ (position . 1))
+("krhodes.bashrc"
+ (filename . "~/projects/local-data/useful_scripts/bash/.bashrc")
+ (front-context-string . "# F.A.O: Find An")
+ (rear-context-string)
+ (position . 1))
+("git examples directory"
  (filename . "~/brew/Cellar/git/1.8.0.2/share/git-core/contrib/examples/")
  (front-context-string . "git-verify-tag.s")
  (rear-context-string . "49 Dec 10 16:53 ")

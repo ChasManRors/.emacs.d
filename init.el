@@ -85,6 +85,10 @@
 (add-hook 'ruby-mode-hook 'robe-mode)
 ;; (add-hook 'ruby-mode-hook 'iedit-mode) ;;; not needed c-; is already active
 
+(add-hook 'term-mode-hook (lambda()
+                (yas-minor-mode -1)))
+
+
 ;; ==== aliases ====
 (defalias 'cmm-global-replace-t-toggle-mark-Q-Query-Replace 'find-name-dired)
 
@@ -108,8 +112,9 @@
 
 
 ;(global-set-key [C-S-l] (quote linum-mode)) ;; BAD it doesnt like this
-(global-set-key [33554444] (quote linum-mode))
+(global-set-key [33554444] (quote linum-mode)) ;; C-shft-L
 
+(global-set-key [33554452] (quote toggle-truncate-lines)) ;; C-shft-T
 
 
 ;; ==== defs ====
@@ -210,6 +215,10 @@
    [?\C-\[ ?\C-r ?^ ?\\ ?\[ ?\C-a ?\C-  ?\C-e ?\C-\[ ?w ?\C-\[ ?> ?\C-x ?o ?\C-x ?b ?d ?e ?b ?u ?g ?\C-m ?g ?  ?\C-y ?\C-m])
 
 
+;; expects to have ticket number in kill ring and to be placed in the more info cell at the top without ()
+(fset 'cmm-more-info-from-tick-number-to
+   [?\C-y ?\C-  C-s-268632074 escape ?w C-s-268632075 ?_ ?m ?o ?r ?e ?_ ?i ?n ?f ?o ?\C-  s-left ?\[ ?\C-  s-right escape ?w ?\C-y ?\C-  s-left s-left ?\[ ?\C-i ?\C-p ?\C-e C-s-268632074])
+
 
 ; define some keys only when the major mode shell-mode is active
 (add-hook 'shell-mode-hook
@@ -248,7 +257,38 @@
 (global-set-key (kbd "<C-s-left>")   'buf-move-left)
 (global-set-key (kbd "<C-s-right>")  'buf-move-right)
 
+;; thanks to JohnB's friend
+(require 'thingatpt)
+(defun my-git-grep (pattern)
+(interactive (list (read-string "Search pattern: " (substring-no-properties (or (thing-at-point 'symbol) "")))))
+(vc-git-grep pattern "" (substring (shell-command-to-string "git rev-parse --show-toplevel") 0 -1)))
+(if (eq system-type 'darwin)
+(global-set-key (kbd "C-c C-f") 'my-git-grep))
 
+
+
+
+  (add-to-list 'auto-mode-alist '("Capfile" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("Rakefile" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("\\.rake\\'" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("\\.rb\\'" . ruby-mode))
+  (add-to-list 'auto-mode-alist '("\\.ru\\'" . ruby-mode))
+
+
+; http://viget.com/extend/emacs-24-rails-development-environment-from-scratch-to-productive-in-5-minu
+
+;; (defun ruby-mode-hook ()
+;;   (autoload 'ruby-mode "ruby-mode" nil t)
+;;   (add-hook 'ruby-mode-hook '(lambda ()
+;;                                (setq ruby-deep-arglist t)
+;;                                (setq ruby-deep-indent-paren nil)
+;;                                (setq c-tab-always-indent nil)
+;;                                (require 'inf-ruby)
+;;                                (require 'ruby-compilation))))
+;; (defun rhtml-mode-hook ()
+
+(require 'todotxt)
 ;; ==== headless stuff ====
 (server-start) ;;; Use C-x # to close an emacsclient buffer. ;; very time consuming
 (shell nil) ;;; Start up a shell ;; very time consuming
