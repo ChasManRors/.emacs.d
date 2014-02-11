@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 9ECBF20C-003E-41D9-A881-4BAC0656F9DC
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: verify — render
+# key: verify
+# --
+verify :only => [:$1], :method => :post, :render => {:status => 500, :text => "use HTTP-POST"}

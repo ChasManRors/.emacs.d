@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 62BEA590-F4EF-4001-B661-764EDFB92811
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: page.insert_html (position, id, partial)
+# key: ins
+# --
+page.insert_html :${1:top}, ${2:"${3:id}"}, :${4:partial => "${5:template}"}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 1CB65A0D-4FEC-4438-9B4F-8B0BD13FB875
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: named_scope
+# key: nc
+# --
+named_scope :name${1:, :joins => :${2:table}}, :conditions => ${3:['${4:${5:field} = ?}', ${6:true}]}

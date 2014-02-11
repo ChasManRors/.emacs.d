@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 7053B86A-9B81-4154-AB3C-61B8035C5D33
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: logger.error
+# key: loge
+# --
+logger.error { "${1:message}" }$0

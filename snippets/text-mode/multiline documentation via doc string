@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: multiline documentation via doc string
+# key: doc
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+<<-DOC
+$0
+DOC

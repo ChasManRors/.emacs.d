@@ -2,7 +2,62 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("aliases"
+(("spreadsheet_upload"
+ (filename . "~/projects/rbmember/spreadsheet_upload/")
+ (front-context-string . ".bowerrc\n  drwxr")
+ (rear-context-string . "28 Jan 17 12:53 ")
+ (position . 291))
+("environment.plist"
+ (filename . "~/.MacOSX/environment.plist")
+ (front-context-string . "	<string>/Users/")
+ (rear-context-string . "ey>TMPDIR</key>\n")
+ (position . 626))
+("critical.rb"
+ (filename . "~/critical.rb")
+ (front-context-string . "\n    require 'pc")
+ (rear-context-string . "ers => :setup do")
+ (position . 5267))
+("current"
+ (filename . "~/projects/alternate/sites/pcs/app/models/order.rb")
+ (front-context-string)
+ (rear-context-string . "mark_as_uploaded")
+ (position . 887))
+("iChats"
+ (filename . "~/Documents/iChats/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Mar 28  2013 ")
+ (position . 273))
+("known_hosts"
+ (filename . "~/.ssh/known_hosts")
+ (front-context-string)
+ (rear-context-string . "HtLFHFCYJ9kGDk=\n")
+ (position . 28818))
+("scratch.sql"
+ (filename . "~/aliases/scratch.sql")
+ (front-context-string . "-- DELETE FROM c")
+ (rear-context-string)
+ (position . 1))
+("vzt syncr.rb in location.rb"
+ (filename . "~/projects/alternate/sites/vzt/app/models/location.rb")
+ (front-context-string . "\n      :attr002 ")
+ (rear-context-string . "   :field_map=>{")
+ (position . 5272))
+("FeedbackCategories.html"
+ (filename . "~/projects/local-data/organize/FeedbackCategories.html")
+ (front-context-string . "\n<?xml version=\"")
+ (rear-context-string)
+ (position . 1))
+("FeedbackCategories.org"
+ (filename . "~/projects/local-data/organize/FeedbackCategories.org")
+ (front-context-string . " :block_complian")
+ (rear-context-string . "ack categories\n\n")
+ (position . 71))
+("FeedbackCategories.html.orig"
+ (filename . "~/projects/local-data/organize/FeedbackCategories.html.orig")
+ (front-context-string . "\n<?xml version=\"")
+ (rear-context-string)
+ (position . 1))
+("aliases"
  (filename . "~/aliases/")
  (front-context-string . "macs_aliases~\n  ")
  (rear-context-string . " Dec  3  2012 .e")

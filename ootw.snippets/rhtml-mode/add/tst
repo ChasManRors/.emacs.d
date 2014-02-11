@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+## name: testerb
+# key: testerb
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+test an erb/rhtml yasnippet

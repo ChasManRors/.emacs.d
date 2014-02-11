@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 3F26FDB4-ACF9-4856-9312-6A4D78DC8564
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: wants.format
+# key: wants
+# --
+wants.${1:js|xml|html}${2: { $0 `"}"`}

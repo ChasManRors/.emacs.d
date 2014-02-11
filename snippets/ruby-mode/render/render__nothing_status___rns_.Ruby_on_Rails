@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 724A68C1-A727-46FF-AF59-288E26B09629
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: render (nothing, status)
+# key: rns
+# --
+render :nothing => ${1:true}, :status => ${2:401}

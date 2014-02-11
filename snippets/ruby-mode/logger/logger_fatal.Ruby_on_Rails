@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 35E95C81-22F7-4C40-8297-ED21086DDA81
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: logger.fatal
+# key: logf
+# --
+logger.fatal { "${1:message}" }$0

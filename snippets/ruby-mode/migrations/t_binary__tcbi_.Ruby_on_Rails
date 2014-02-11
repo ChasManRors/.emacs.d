@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: 7CE57C6C-E4BE-11DC-A11A-00112475D960
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: t.binary (tcbi)
+# key: t.
+# --
+t.binary :${1:title}${2:, :limit => ${3:2}.megabytes}
+t.$0

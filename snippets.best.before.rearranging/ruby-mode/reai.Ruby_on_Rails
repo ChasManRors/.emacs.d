@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 2233B484-73BA-11D9-B752-000D932CD5BA
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: redirect_to (action, id)
+# key: reai
+# --
+redirect_to :action => "${1:show}", :id => ${0:@item}

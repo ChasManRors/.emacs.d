@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 7B03D38B-7580-41AC-BC2B-3766AB074A43
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: render (action)
+# key: ra
+# --
+render :action => "${1:action}"

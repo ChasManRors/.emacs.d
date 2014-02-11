@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+## name: test2
+# key: test2
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+this is a new tst snippet for ruby mode snippets

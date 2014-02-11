@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 046FB1B6-9C65-4702-91EC-4AA9878CD949
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: render (partial, collection)
+# key: rpc
+# --
+render :partial => "${1:item}", :collection => ${2:@$1s}

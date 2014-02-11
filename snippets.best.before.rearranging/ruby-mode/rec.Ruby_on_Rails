@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 053490FE-73BA-11D9-B752-000D932CD5BA
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: redirect_to (controller)
+# key: rec
+# --
+redirect_to :controller => "${1:items}"

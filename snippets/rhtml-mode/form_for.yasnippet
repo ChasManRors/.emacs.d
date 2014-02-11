@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name : <%= form_for ... do |f| %>
+# key: form_for
+# --
+<%= form_for @${1:attribute}${2: :action => "${3:create}"} do |f| %>
+  $0
+  <%= f.submit "Create" %>
+<% end %>

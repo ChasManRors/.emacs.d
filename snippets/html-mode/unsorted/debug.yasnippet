@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: debug
+# key: debug
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+<%= debug($1) if Rails.env.development? %>$0

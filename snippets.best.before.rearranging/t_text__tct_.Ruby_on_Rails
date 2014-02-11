@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# uuid: FFE7B820-E4BD-11DC-A11A-00112475D960
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: t.text (tct)
+# key: t.
+# --
+t.text :${1:title}
+t.$0

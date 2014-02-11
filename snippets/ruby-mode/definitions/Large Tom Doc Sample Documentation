@@ -1,0 +1,145 @@
+# -*- mode: snippet -*-
+# name: Large Tom Doc Sample Documentation
+# key: tomdoc
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+#;;;Tom Doc Method Documentation
+# Public: | Internal: | Deprecated: Duplicate some text an arbitrary number of times.
+# #### The Description Section ####
+#
+# text  - The String to be duplicated.
+# count - The Integer number of times to duplicate the text.
+#
+# Examples
+#
+#   multiplex('Tom', 4)
+#   # => 'TomTomTomTom'
+#
+# Returns the duplicated String.
+def multiplex(text, count)
+  text * count
+end
+
+;;;Arguments Section
+# element - The Symbol representation of the element. The Symbol should
+#           contain only lowercase ASCII alpha characters.
+# actor - An object that responds to to_s. Represents the actor that
+#         will be output in the log.
+
+;;;Optional Arguments Section
+# host - The String hostname to bind (default: '0.0.0.0').
+
+
+;;;Hash Arguments Section
+# options - The Hash options used to refine the selection (default: {}):
+#           :color  - The String color to restrict by (optional).
+#           :weight - The Float weight to restrict by. The weight should
+#                     be specified in grams (optional).
+
+;;;Block Arguments Section
+# Print a log line to STDOUT. You can customize the output by specifying
+# a block.
+#
+# msgs  - Zero or more String messages that will be printed to the log
+#         separated by spaces.
+# block - An optional block that can be used to customize the date format.
+#         If it is present, it will be sent a Time object representing
+#         the current time. Your block should return a String version of
+#         the time, formatted however you please.
+#
+# Examples
+#
+#   log("An error occurred.")
+#
+#   log("No such file", "/var/log/server.log") do |time|
+#     time.strftime("%Y-%m-%d %H:%M:%S")
+#   end
+#
+# Returns nothing.
+def log(*msgs, &block)
+  ...
+end
+
+
+;;;Yields Arguments Section
+# Yields the Integer index of the iteration.
+
+;;;Examples
+# Examples
+#
+#   multiplex('x', 4)
+#   # => 'xxxx'
+#
+#   multiplex('apple', 2)
+#   # => 'appleapple'
+
+
+;;;Returns Raises Section
+# Returns the duplicated String. |
+# Returns the given element Symbol or nil if none was found. |
+# Returns nothing.
+# |
+# Returns nothing.
+# Raises Errno::ENOENT if the file cannot be found.
+# Raises Errno::EACCES if the file cannot be accessed.
+
+;;;Signature Section
+# Signature
+#
+#   find_by_<field>[_and_<field>...](args)
+#
+# field - A field name.
+
+;;;Metaprogrammed Section
+# Public: Find Records by a specific field name and value. This method
+# will be available for each field defined on the record.
+#
+# args - The value or Array of values of the field(s) to find by.
+#
+# Examples
+#
+#   find_by_name_and_email("Tom", "tom@mojombo.com")
+#
+# Returns an Array of matching Records.
+#
+# Signature
+#
+#   find_by_<field>[_and_<field>...](args)
+#
+# field - A field name.
+
+;;;Class Module Section
+# Public: Various methods useful for performing mathematical operations.
+# All methods are module methods and should be called on the Math module.
+#
+# Examples
+#
+#   Math.square_root(9)
+#   # => 3
+module Math
+  ...
+end
+
+;;;Constants Section
+# Public: Integer number of seconds to wait before connection timeout.
+CONNECTION_TIMEOUT = 60
+
+;;;Constructor Section
+# Public: Initialize a Widget.
+#
+# name - A String naming the widget.
+def initialize(name)
+  ...
+end
+
+;;;Attributes Section
+# Public: Returns the String name of the user.
+attr_reader :name
+|
+# Public: Sets the String name of the user.
+attr_writer :name
+|
+# Public: Gets/Sets the String name of the user.
+attr_accessor :name

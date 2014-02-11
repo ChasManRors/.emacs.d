@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 4E286CB4-069E-474C-A970-95216FE7DE95
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: named_scope lambda
+# key: ncl
+# --
+named_scope :name, lambda { |${1:param}| { :conditions => ${3:['${4:${5:field} = ?}', ${6:$1}]} } }

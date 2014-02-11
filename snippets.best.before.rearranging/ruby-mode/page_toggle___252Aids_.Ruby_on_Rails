@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 028DA0A4-B310-4BEF-8643-2A22993C21C7
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: page.toggle (*ids)
+# key: tog
+# --
+page.toggle ${1:"${2:id(s)}"}

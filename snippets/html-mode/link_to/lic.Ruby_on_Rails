@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 74590E16-7BCB-11D9-906A-000D932CD5BA
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: link_to (controller)
+# key: lic
+# --
+`(or (yas-getenv "TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to "${1") "link text...")`", :controller => "${2:items}"`(or (yas-getenv "TM_RAILS_TEMPLATE_END_RUBY_EXPR") "")`

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: F2F3167C-73B9-11D9-B752-000D932CD5BA
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: redirect_to (action)
+# key: rea
+# --
+redirect_to :action => "${1:index}"

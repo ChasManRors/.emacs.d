@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 1E5DE984-510C-4992-8AD5-C5FA6D7F2A88
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: render (inline, locals)
+# key: ril
+# --
+render :inline => "${1:<%= 'hello' %>}", :locals => { ${2::name} => "${3:value}"$4 }

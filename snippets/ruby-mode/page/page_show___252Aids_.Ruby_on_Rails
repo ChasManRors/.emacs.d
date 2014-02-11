@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# uuid: 5ACBF49D-B5A5-495C-89D8-18AA740D9D02
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: page.show (*ids)
+# key: show
+# --
+page.show ${1:"${2:id(s)}"}
