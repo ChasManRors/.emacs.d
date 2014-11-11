@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Nov 11 10:58:48 2014
+;; Created Tue Nov 11 11:31:29 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21602 12856 490646 0) (desktop . "206") "cmagid@dhcp-4-114.hq.corp.lan" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 1) (right-fringe . 9) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (environment) (display . "dhcp-4-114.hq.corp.lan") (visibility . t) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 41) (width . 112) (left . 288) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 3) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 100) (min-pixel-height-ignore . 95) (min-pixel-width-ignore . 30) (min-pixel-height-safe . 38) (min-pixel-width-safe . 20)) vc (pixel-width . 1130) (pixel-height . 760) (total-width . 113) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1130) (pixel-height . 380) (total-width . 113) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "gtd.org" (selected) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 4338568) (start . 4338288))) (leaf (last . t) (pixel-width . 1130) (pixel-height . 380) (total-width . 113) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Buffer List*" (selected . t) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (21602 14817 819532 0) (desktop . "206") "cmagid@dhcp-4-114.hq.corp.lan" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 1) (right-fringe . 9) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (environment) (display . "dhcp-4-114.hq.corp.lan") (visibility . t) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 41) (width . 112) (left . 288) (top . 22)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 30) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1145) (pixel-height . 760) (total-width . 114) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "gtd.org" (selected . t) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 4338277) (start . 4078965))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,7 +22,7 @@
   "gtd.org"
   'org-mode
   '(textmate-mode yas-minor-mode wrap-region-mode auto-revert-mode)
-  4338568
+  4338277
   '(1 nil)
   nil
   nil
@@ -32,7 +32,7 @@
   "/Users/cmagid/.emacs.d/csv-mode.el"
   "csv-mode.el"
   'emacs-lisp-mode
-  '(textmate-mode)
+  '(textmate-mode yas-minor-mode wrap-region-mode)
   1
   '(nil nil)
   nil
@@ -42,8 +42,8 @@
 (desktop-create-buffer 206
   "/Users/cmagid/rbmRetcon-0066.csv"
   "rbmRetcon-0066.csv"
-  'csv-mode
-  '(textmate-mode)
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
   1
   '(nil nil)
   nil
@@ -73,21 +73,10 @@
   nil)
 
 (desktop-create-buffer 206
-  "/Users/cmagid/.emacs.d/cvs-mode.el"
-  "cvs-mode.el"
-  'emacs-lisp-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode)
-  1
-  '(56020 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/o2/public/stylesheets/colorbox.css"
   "colorbox.css"
   'css-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode)
+  '(textmate-mode yas-minor-mode wrap-region-mode rainbow-mode)
   1
   '(4453 nil)
   nil
