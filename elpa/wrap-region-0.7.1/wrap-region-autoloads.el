@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "wrap-region" "wrap-region.el" (21454 39551
+;;;### (autoloads nil "wrap-region" "wrap-region.el" (21602 22894
 ;;;;;;  0 0))
 ;;; Generated autoloads from wrap-region.el
 
@@ -13,7 +13,7 @@ Wrap region with stuff.
 \(fn &optional ARG)" t nil)
 
 (autoload 'turn-on-wrap-region-mode "wrap-region" "\
-Turn on `wrap-region-mode'.
+Turn on `wrap-region-mode'
 
 \(fn)" t nil)
 

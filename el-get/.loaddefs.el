@@ -304,48 +304,6 @@ TextMate Emulation Minor Mode
 
 ;;;***
 
-;;;### (autoloads nil "wrap-region/wrap-region" "wrap-region/wrap-region.el"
-;;;;;;  (21454 39551 0 0))
-;;; Generated autoloads from wrap-region/wrap-region.el
-
-(autoload 'wrap-region-mode "wrap-region/wrap-region" "\
-Wrap region with stuff.
-
-\(fn &optional ARG)" t nil)
-
-(autoload 'turn-on-wrap-region-mode "wrap-region/wrap-region" "\
-Turn on `wrap-region-mode'.
-
-\(fn)" t nil)
-
-(autoload 'turn-off-wrap-region-mode "wrap-region/wrap-region" "\
-Turn off `wrap-region-mode'.
-
-\(fn)" t nil)
-
-(defvar wrap-region-global-mode nil "\
-Non-nil if Wrap-Region-Global mode is enabled.
-See the command `wrap-region-global-mode' for a description of this minor mode.
-Setting this variable directly does not take effect;
-either customize it (see the info node `Easy Customization')
-or call the function `wrap-region-global-mode'.")
-
-(custom-autoload 'wrap-region-global-mode "wrap-region/wrap-region" nil)
-
-(autoload 'wrap-region-global-mode "wrap-region/wrap-region" "\
-Toggle Wrap-Region mode in all buffers.
-With prefix ARG, enable Wrap-Region-Global mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
-
-Wrap-Region mode is enabled in all buffers where
-`turn-on-wrap-region-mode' would do it.
-See `wrap-region-mode' for more information on Wrap-Region mode.
-
-\(fn &optional ARG)" t nil)
-
-;;;***
-
 ;;;### (autoloads nil nil ("rhtml-mode/rhtml-erb.el" "rhtml-mode/rhtml-fonts.el"
 ;;;;;;  "rhtml-mode/rhtml-navigation.el" "rhtml-mode/rhtml-ruby-hook.el"
 ;;;;;;  "rhtml-mode/rhtml-sgml-hacks.el" "todotxt/todotxt.el" "wrap-region/wrap-region-autoloads.el"

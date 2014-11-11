@@ -94,9 +94,9 @@ The app is chosen from your OS's preference."
 
 
 
-(load-file "~/.emacs.d/elpa/yasnippet-20140810.1626/yasnippet.el")
+;; (load-file "~/.emacs.d/elpa/yasnippet-20140810.1626/yasnippet.el")
 
-(yas-global-mode t)
+;;(yas-global-mode t)
 
 
 
@@ -114,15 +114,9 @@ The app is chosen from your OS's preference."
 
 
 
-(load-file "~/.emacs.d/elpa/dash-20140811.523/dash.el")  ; => dependency of wrap
+;(load-file "~/.emacs.d/elpa/dash-20140811.523/dash.el")  ; => dependency of wrap
 
 
-(wrap-region-global-mode t)
-(wrap-region-add-wrapper "$" "$")
-(wrap-region-add-wrapper "{-" "-}" "#")
-(wrap-region-add-wrapper "/" "/" nil 'ruby-mode)
-(wrap-region-add-wrapper "/* " " */" "#" '(java-mode javascript-mode css-mode))
-(wrap-region-add-wrapper "`" "`" nil '(markdown-mode ruby-mode))
 
 
 
@@ -153,15 +147,15 @@ The app is chosen from your OS's preference."
   (setq command-line-default-directory "/Users/cmagid/projects/att")
   (shell "*debug-helper*")
 
-  (switch-to-buffer "*foooooo*")
-  (cd "/Users/cmagid/projects/compliance-visualization-dashboard-frontend")
-  (setq command-line-default-directory "/Users/cmagid/projects/compliance-visualization-dashboard-frontend")
-  (shell "*frontend*")
+  ;; (switch-to-buffer "*foooooo*")
+  ;; (cd "/Users/cmagid/projects/compliance-visualization-dashboard-frontend")
+  ;; (setq command-line-default-directory "/Users/cmagid/projects/compliance-visualization-dashboard-frontend")
+  ;; (shell "*frontend*")
 
-  (switch-to-buffer "*foooooo*")
-  (cd "/Users/cmagid/projects/compliance-visualization-dashboard-backend")
-  (setq command-line-default-directory "/Users/cmagid/projects/compliance-visualization-dashboard-backend")
-  (shell "*backend*")
+  ;; (switch-to-buffer "*foooooo*")
+  ;; (cd "/Users/cmagid/projects/compliance-visualization-dashboard-backend")
+  ;; (setq command-line-default-directory "/Users/cmagid/projects/compliance-visualization-dashboard-backend")
+  ;; (shell "*backend*")
 
   (switch-to-buffer "*foooooo*")
   (cd "/Users/cmagid/projects/rbm_geek_guides")
@@ -213,6 +207,15 @@ The app is chosen from your OS's preference."
 
 
 
+
+
+
+
+
+
+
+
+
 (fset 'chasm-get-symbol-at-point
    [escape ?\C-b ?\C-  escape ?\C-f escape ?w])
 
@@ -241,6 +244,16 @@ The app is chosen from your OS's preference."
 (load "~/.emacs.d/rainbow-mode.el")
 (add-hook 'css-mode-hook 'rainbow-mode) ;; chasm
 
+(defun wrap-region-global-mode-on nil
+  (wrap-region-global-mode t)
+  (wrap-region-add-wrapper "$" "$")
+  (wrap-region-add-wrapper "{-" "-}" "#")
+  (wrap-region-add-wrapper "/" "/" nil 'ruby-mode)
+  (wrap-region-add-wrapper "/* " " */" "#" '(java-mode javascript-mode css-mode))
+  (wrap-region-add-wrapper "`" "`" nil '(markdown-mode ruby-mode)))
+(add-hook 'ruby-mode-hook 'wrap-region-global-mode-on) 
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -267,3 +280,4 @@ The app is chosen from your OS's preference."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+

@@ -1,7 +1,5 @@
 ((cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
- (dash-at-point status "installed" recipe
-                (:name dash-at-point :description "Search the word at point with Dash. Dash is an API Documentation Browser and Code Snippet Manager. dash-at-point make it easy to search the word at point with Dash." :type github :pkgname "stanaka/dash-at-point"))
  (iedit status "installed" recipe
         (:name iedit :description "Edit multiple regions with the same content simultaneously." :type emacswiki :features iedit))
  (load-relative status "installed" recipe
@@ -45,11 +43,4 @@
  (textmate status "installed" recipe
            (:name textmate :type git :url "git://github.com/defunkt/textmate.el" :load "textmate.el"))
  (todotxt status "installed" recipe
-          (:name todotxt :description "Todo.txt client for Emacs" :type github :pkgname "rpdillon/todotxt.el"))
- (wrap-region status "installed" recipe
-              (:name wrap-region :description "Wrap text with punctation or tag" :type elpa :prepare
-                     (progn
-                       (autoload 'wrap-region-mode "wrap-region" nil t)
-                       (autoload 'turn-on-wrap-region-mode "wrap-region" nil t)
-                       (autoload 'turn-off-wrap-region-mode "wrap-region" nil t)
-                       (autoload 'wrap-region-global-mode "wrap-region" nil t)))))
+          (:name todotxt :description "Todo.txt client for Emacs" :type github :pkgname "rpdillon/todotxt.el")))
