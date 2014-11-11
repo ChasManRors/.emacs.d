@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# uuid: 8A65E175-18F2-428F-A695-73E01139E41A
+# contributor: Translated from textmate snippet by textmate-import.el
+# contributor: Imported by Charles Magid
+# name: require
+# key: req
+# type: command
+# --
+(setq yas---t-lst (list 
+	(list "^.*?([\\w_]+).*$" "\\L$1" "")))
+(yas-expand-snippetyas/expand-snippet "${2:$(apply 'yas---t/ (nth 0 yas---t-lst))} = require ${2:'${1:sys}'}$3")

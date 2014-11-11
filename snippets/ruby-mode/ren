@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: ren
+# key: ren
+# binding: direct-keybinding
+# --
+rename_column :${1:table_name}, :${2:old_column}, :${3:new_column}
+$0

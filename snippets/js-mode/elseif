@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: elseif
+# key: elseif
+# binding: direct-keybinding
+# --
+if (${1:condition}) {
+  return "positive";
+} else if (${2:other_condition}) {
+  return "negative";
+} else {
+  return "neutral";
+}
