@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: 7BBD3F57-57A5-4CD0-8E79-B931021FC110
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: verify — redirect
-# key: verify
-# --
-verify :only => [:$1], :session => :user, :params => :id, :redirect_to => {:action => '${2:index}'}

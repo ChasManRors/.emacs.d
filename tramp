@@ -1,61 +1,56 @@
-;; -*- emacs-lisp -*- <14/02/04 14:43:57 /Users/cmagid/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <14/11/10 18:46:26 /Users/cmagid/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["scpc"
-   #("app" 0 1
-     (front-sticky
-      (inhibit-line-move-field-capture)
-      rear-nonsticky
-      (inhibit-line-move-field-capture)
-      inhibit-line-move-field-capture t)
-     1 2
-     (front-sticky
-      (inhibit-line-move-field-capture)
-      rear-nonsticky
-      (inhibit-line-move-field-capture)
-      inhibit-line-move-field-capture t)
-     2 3
-     (front-sticky
-      (inhibit-line-move-field-capture)
-      rear-nonsticky
-      (inhibit-line-move-field-capture)
-      inhibit-line-move-field-capture t))
-   #("vzw-stg-app-00.dc-00.rbm.local" 0 30
-     (front-sticky
-      (field inhibit-line-move-field-capture)
-      rear-nonsticky t inhibit-line-move-field-capture t))
-   nil nil]
-  ("uname" "Linux 2.6.9-89.ELsmp")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("busybox" nil)
-  (#("~" 0 1
-     (inhibit-line-move-field-capture t rear-nonsticky t front-sticky
-                                      (field inhibit-line-move-field-capture)))
-   "/home/app")
-  ("file-exists" "test -e")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("readlink" nil)
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 502))
- (["scpc"
-   #("app" 0 3
-     (face font-lock-string-face))
-   #("o2-prod-app-00.dc-00.rbm.local" 0 30
-     (face font-lock-string-face))
-   nil nil]
+((["scp" "app" "o2-prod-app-00.dc-00.rbm.local" nil nil]
   ("uname" "Linux 2.6.9-100.ELsmp")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("busybox" nil)
+  ("locale" "LC_ALL=en_US.utf8")
+  ("~" "/home/app")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 502)
+  ("readlink" nil)
+  ("gid-string" "app")
+  ("trash" nil)
+  ("uid-integer" 502))
+ (["scp" "app" "o2-stg-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-100.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 502)
+  ("~" "/home/app")
+  ("readlink" nil)
+  ("gid-string" "app")
+  ("uid-integer" 502))
+ (["scp" "app" "sgh-stg-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-103.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("~" "/home/app")
   ("file-exists" "test -e")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
@@ -64,62 +59,101 @@
   ("stat" "\\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 502)
+  ("gid-string" "app")
   ("ls" "/bin/ls --color=never")
   ("ls-dired" t)
+  ("uid-integer" 502)
+  ("tmpdir" "/scp:app@sgh-stg-app-00.dc-00.rbm.local:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch"))
+ (["scp" "app" "rog-stg-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-101.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 502)
+  ("gid-string" "app")
+  ("readlink" nil)
   ("~" "/home/app"))
- (["scpc" "app" "pcs-prod-app-00.dc-00.rbm.local" nil nil]
+ (["scp" "app" "vzw-prod-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-103.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("stat" "\\stat")
+  ("ls" "/bin/ls --color=never")
+  ("id" "/usr/bin/id")
+  ("gid-string" "app")
+  ("gid-integer" 502)
+  ("readlink" nil))
+ (["scp" "app" "rog-prod-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-101.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("stat" "\\stat")
+  ("ls" "/bin/ls --color=never")
+  ("id" "/usr/bin/id")
+  ("gid-string" "app")
+  ("gid-integer" 502)
+  ("readlink" nil)
+  ("gvfs-monitor-dir" nil)
+  ("inotifywait" nil))
+ (["scp" "app" "vzw-stg-app-00.dc-00.rbm.local" nil nil]
   ("uname" "Linux 2.6.9-89.ELsmp")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("busybox" nil)
+  ("locale" "LC_ALL=en_US.utf8")
   ("file-exists" "test -e")
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 502)
-  ("readlink" nil)
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
+  ("stat" "\\stat")
   ("ls" "/bin/ls --color=never")
-  ("ls-dired" t))
- (["scpc" "app" "lgs-demo-app-00.dc-00.rbm.local" nil nil]
-  ("uname" "Linux 2.6.9-103.ELsmp")
+  ("id" "/usr/bin/id")
+  ("gid-string" "app")
+  ("gid-integer" 502)
+  ("readlink" nil)
+  ("~" "/home/app"))
+ (["scp" "app" "att-stg-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-89.0.25.ELsmp")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("busybox" nil)
-  ("~" "/home/app")
+  ("locale" "LC_ALL=en_US.utf8")
   ("file-exists" "test -e")
+  ("readlink" nil)
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
-  ("readlink" nil)
   ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 502)
   ("ls" "/bin/ls --color=never")
-  ("ls-dired" t))
- (["scpc" "app"
-   #("vmm-test-app-00.hq.rbm.local" 0 28
-     (front-sticky
-      (field inhibit-line-move-field-capture)
-      rear-nonsticky t inhibit-line-move-field-capture t))
-   nil nil]
-  ("uname" "Linux 2.6.9-103.ELsmp")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("busybox" nil)
-  ("~" "/home/app")
-  ("file-exists" "test -e")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("readlink" nil)
-  ("stat" "\\stat")
   ("id" "/usr/bin/id")
-  ("gid-integer" 502)))
+  ("gid-string" "app")
+  ("gid-integer" 502)
+  ("uid-integer" 502)))

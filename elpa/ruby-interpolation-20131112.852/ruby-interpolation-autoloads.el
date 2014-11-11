@@ -1,10 +1,10 @@
 ;;; ruby-interpolation-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (ruby-interpolation-mode) "ruby-interpolation"
-;;;;;;  "ruby-interpolation.el" (21160 47079 0 0))
+;;;### (autoloads nil "ruby-interpolation" "ruby-interpolation.el"
+;;;;;;  (21528 30059 0 0))
 ;;; Generated autoloads from ruby-interpolation.el
 
 (autoload 'ruby-interpolation-mode "ruby-interpolation" "\
@@ -14,16 +14,9 @@ Automatic insertion of ruby string interpolation.
 
 ;;;***
 
-;;;### (autoloads nil nil ("ruby-interpolation-pkg.el") (21160 47079
-;;;;;;  207364 0))
-
-;;;***
-
-(provide 'ruby-interpolation-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; ruby-interpolation-autoloads.el ends here

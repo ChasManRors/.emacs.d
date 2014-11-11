@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: 273E5E76-8D13-4476-9C38-8AF87432CB96
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: page.replace (id, partial)
-# key: rep
-# --
-page.replace ${1:"${2:id}"}, :${3:partial => "${4:template}"}

@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: 326B57A7-B4A9-447B-A3D2-0EA74158E1E1
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: link_to (path)
-# key: lip
-# --
-`(or (yas-getenv "TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1") ""${2:link text...")`"}, ${3:${12:model}_path(${13:@}${14:$12})}`(or (yas-getenv "TM_RAILS_TEMPLATE_END_RUBY_EXPR") "")`

@@ -46,5 +46,3 @@ the file at point.
 Dependencies:
 
 If `rspec-use-rvm` is set to true `rvm.el' is required.
-
-The expectations depend on `el-expectations.el'.

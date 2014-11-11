@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: AC8A995F-0034-433C-905D-E5C1F29D6EFF
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: render (nothing)
-# key: rn
-# --
-render :nothing => ${1:true}

@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: B25B7560-FACB-4A9E-A226-B71C796BD1F3
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: mattr_accessor
-# key: mrw
-# --
-mattr_accessor :${0:attr_names}

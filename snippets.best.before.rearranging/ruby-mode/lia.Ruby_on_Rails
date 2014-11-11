@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: 9E2B42FE-7BC8-11D9-906A-000D932CD5BA
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: link_to (action)
-# key: lia
-# --
-`(or (yas-getenv "TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to "${1") "link text...")`", :action => "${2:index}"`(or (yas-getenv "TM_RAILS_TEMPLATE_END_RUBY_EXPR") "")`

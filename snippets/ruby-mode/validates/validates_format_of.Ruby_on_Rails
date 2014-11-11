@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: EB47FBA1-AFB3-42F9-94A4-552D3175C17A
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: validates_format_of
-# key: vf
-# --
-validates_format_of :${1:attribute}, :with => /${2:^[${3:\w\d}]+\$}/${4:, :on => :${5:create}, :message => "${6:is invalid}"}

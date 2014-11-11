@@ -2,7 +2,67 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("spreadsheet_upload"
+(("update_status_test_info.txt"
+ (filename . "~/projects/local-data/organize/update_status_test_info.txt")
+ (front-context-string)
+ (rear-context-string . "us is 68.982433\n")
+ (position . 1119))
+("routes.rb"
+ (filename . "~/projects/compliance-visualization-dashboard-backend/lib/compliance_visualization_dashboard/rails/routes.rb")
+ (front-context-string . "          namesp")
+ (rear-context-string . "mespace :api do\n")
+ (position . 173))
+("Engineering"
+ (filename . "/Volumes/Group/Engineering/")
+ (front-context-string . ".BAH.fiCqR\n  -rw")
+ (rear-context-string . "384 2013-04-08  ")
+ (position . 259))
+("test data "
+ (filename . "~/projects/compliance-visualization-dashboard-frontend/server/routes/regions.js")
+ (front-context-string . " id: 131749,\n   ")
+ (rear-context-string . " 11\n  },\n  {\n   ")
+ (position . 7734))
+("application_controller.rb"
+ (filename . "~/projects/pcs/app/controllers/application_controller.rb")
+ (front-context-string . "def load_model_p")
+ (rear-context-string . "   end\n  end\n\n  ")
+ (position . 23571))
+("PhoneRecordings"
+ (filename . "~/Library/Caches/TemporaryItems/")
+ (front-context-string)
+ (rear-context-string . "36 Jun  4 11:04 ")
+ (position . 330))
+("gtd-archive.org"
+ (filename . "~/projects/local-data/organize/gtd-archive.org")
+ (front-context-string . "* OPTIONS FOR OR")
+ (rear-context-string)
+ (position . 1))
+("urls.org"
+ (filename . "~/aliases/urls.org")
+ (front-context-string . "http://p00-qa-ap")
+ (rear-context-string . "·_GitHub.png]]\n\n")
+ (position . 254))
+("rvminfo.txt"
+ (filename . "~/projects/rvminfo.txt")
+ (front-context-string . "\n\n\n\n\n\n\n\n\n=======")
+ (rear-context-string . " origin master\n\n")
+ (position . 711))
+("ups.rb"
+ (filename . "~/projects/pcs/vendor/gems/active_shipping-0.9.14/lib/active_shipping/shipping/carriers/ups.rb")
+ (front-context-string . "      self.retry")
+ (rear-context-string . "s UPS < Carrier\n")
+ (position . 92))
+("temp"
+ (filename . "~/aliases/foobar.txt")
+ (front-context-string . "\n\npandora.com\ncm")
+ (rear-context-string . "d and round pond")
+ (position . 78))
+("index.js"
+ (filename . "~/projects/ember-app-kit/app/routes/index.js")
+ (front-context-string . "export default E")
+ (rear-context-string)
+ (position . 1))
+("spreadsheet_upload"
  (filename . "~/projects/rbmember/spreadsheet_upload/")
  (front-context-string . ".bowerrc\n  drwxr")
  (rear-context-string . "28 Jan 17 12:53 ")
@@ -109,7 +169,7 @@
  (position . 259))
 ("gtd.org"
  (filename . "~/projects/local-data/organize/gtd.org")
- (front-context-string . "	 https://redmin")
- (rear-context-string . " for new hires\n\n")
- (position . 565))
+ (front-context-string . "https://redmine.")
+ (rear-context-string)
+ (position . 1))
 )

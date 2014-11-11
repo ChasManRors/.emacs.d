@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: A3B09AFE-40B5-4623-8B85-E9F369ECE22D
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: render (text, layout)
-# key: rtl
-# --
-render :text => "${1:text to render...}", :layout => "${2:layoutname}"

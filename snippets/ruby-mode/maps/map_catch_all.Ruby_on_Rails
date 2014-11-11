@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# uuid: F3606586-F905-4A91-92CA-82319239221D
-# contributor: Translated from textmate snippet by textmate-import.el
-# contributor: Imported by Charles Magid
-# name: map.catch_all
-# key: mapca
-# --
-${1:map}.catch_all "*${2:anything}", :controller => "${3:default}", :action => "${4:error}"

@@ -1,11 +1,10 @@
 ;;; wrap-region-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (wrap-region-global-mode turn-off-wrap-region-mode
-;;;;;;  turn-on-wrap-region-mode wrap-region-mode) "wrap-region"
-;;;;;;  "wrap-region.el" (21241 36207 0 0))
+;;;### (autoloads nil "wrap-region" "wrap-region.el" (21454 39551
+;;;;;;  0 0))
 ;;; Generated autoloads from wrap-region.el
 
 (autoload 'wrap-region-mode "wrap-region" "\
@@ -46,16 +45,9 @@ See `wrap-region-mode' for more information on Wrap-Region mode.
 
 ;;;***
 
-;;;### (autoloads nil nil ("wrap-region-pkg.el") (21241 36207 515271
-;;;;;;  0))
-
-;;;***
-
-(provide 'wrap-region-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; wrap-region-autoloads.el ends here
