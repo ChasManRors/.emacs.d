@@ -226,16 +226,38 @@ The app is chosen from your OS's preference."
 
 ;; C-S-j
 (global-set-key [33554442] (quote chasm-jump-to-line-in-file))
+;; (fset 'chasm-jump-to-line-in-file
+;;    [?\C-  escape ?x ?m ?o ?v ?e ?- ?b ?e ?g ?i ?n ?n ?i ?n ?g ?- ?o ?f ?- ?l ?i ?n ?e return escape ?w escape ?> ?g ?  ?\C-y return])
 (fset 'chasm-jump-to-line-in-file
-   [?\C-  escape ?x ?m ?o ?v ?e ?- ?b ?e ?g ?i ?n ?n ?i ?n ?g ?- ?o ?f ?- ?l ?i ?n ?e return escape ?w escape ?> ?g ?  ?\C-y return])
+   [escape ?\C-r ?^ ?\\ ?\[ ?\C-a ?\C-  ?\C-e escape ?w ?\C-x ?o ?\C-x ?b ?* ?d ?e ?b ?u ?g ?- ?h ?e ?l ?p ?e ?r ?* return ?g ?  ?\C-y return])
 
 
-(defun chasm-highlight (args)
+
+
+(defun chasm-mark (args)
   (interactive "P")
   (markerpen8)
   (markerpen-mark-region nil) ;(markerpen-clear-region)
   )
-(global-set-key (kbd "<C-S-u>")  'chasm-highlight)
+(global-set-key (kbd "<C-S-u>")  'chasm-mark)
+
+
+(defun chasm-mark1 (args)
+  (interactive "P")
+  (markerpen1)
+  (markerpen-mark-region nil) ;(markerpen-clear-region)
+  )
+
+
+(defun chasm-mark2 (args)
+  (interactive "P")
+  (markerpen1)
+  (markerpen-mark-region nil) ;(markerpen-clear-region)
+  (markerpen8)
+  (markerpen-mark-region nil) ;(markerpen-clear-region)  
+  )
+
+
 
 ;; c-x g
 (global-set-key [24 103] (quote chasm-get-symbol-at-point))
@@ -245,6 +267,7 @@ The app is chosen from your OS's preference."
 (add-hook 'css-mode-hook 'rainbow-mode) ;; chasm
 
 (defun wrap-region-global-mode-on nil
+  (interactive)
   (wrap-region-global-mode t)
   (wrap-region-add-wrapper "$" "$")
   (wrap-region-add-wrapper "{-" "-}" "#")
@@ -281,3 +304,6 @@ The app is chosen from your OS's preference."
  ;; If there is more than one, they won't work right.
  )
 
+
+
+     (define-key global-map "\C-cc" 'org-capture)

@@ -2,53 +2,603 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Nov 11 15:17:14 2014
+;; Created Mon Nov 17 16:30:45 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21602 28362 907731 0) (desktop . "206") "cmagid@dhcp-4-114.hq.corp.lan" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 1) (right-fringe . 9) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (environment) (display . "dhcp-4-114.hq.corp.lan") (visibility . t) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 41) (width . 112) (left . 288) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 100) (min-pixel-height-ignore . 76) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 38) (min-pixel-width-safe . 20)) vc (pixel-width . 1145) (pixel-height . 760) (total-width . 114) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1145) (pixel-height . 380) (total-width . 114) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "junk.csv" (selected) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 1145) (pixel-height . 380) (total-width . 114) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "gtd.org" (selected . t) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 4338581) (start . 4338507)))))])
+(setq desktop-saved-frameset [frameset 1 (21610 26885 811497 0) (desktop . "206") "cmagid@vpn-5-108.hq.rbm.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 1) (right-fringe . 9) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen) (display . "vpn-5-108.hq.rbm.local") (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (visibility . t) (horizontal-scroll-bars . t) (environment) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 41) (width . 141) (left . 0) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 100) (min-pixel-height-ignore . 76) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 38) (min-pixel-width-safe . 20)) vc (pixel-width . 1435) (pixel-height . 760) (total-width . 143) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1435) (pixel-height . 380) (total-width . 143) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "content_order.rb" (selected) (hscroll . 0) (fringes 1 9 nil) (margins 3) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 8678) (start . 8495))) (leaf (last . t) (pixel-width . 1435) (pixel-height . 380) (total-width . 143) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 1 9 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 13) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("csv" "on_deck" "remote_dir" "o2 (development" "o2 (development)$" "-o" "-e" "ruby" "compl" "auto" "anythin" "helm" "comple" "all" "wrap-region" "wrap"))
-(setq regexp-search-ring '("upda" "grep.*" "^\\[[0-9]+, " "placement.*\\.pla" "^" "^[0-9]+" "^\\*" "http.*extra" "devic.*sh" "^\\[[0-9]+, " "^\\[" "^\\[[0-9]+, " "de.*_all" "^\\[[0-9]+, " "this.get.*locations" "^#"))
-(setq register-alist (list (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
-(setq file-name-history '("~/projects/o2/junk.csv" "~/.emacs.d" "/Users/cmagid/.emacs.d/csv-mode.el" "/Users/cmagid/projects/o2/junk.csv" "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake" "/Users/cmagid/projects/o2/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc" "~/projects/o2/config/mactag.rb" "~/.emacs.d.current/" "~/rbmRetcon-0066.csv" "/Users/cmagid/.emacs.d/csv-mode.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/.emacs.d/cvs-mode.el" "~/.emacs.d/" "/Users/cmagid/projects/o2/junk.csv" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/./public/stylesheets/colorbox.css" "/scp:app@o2-prod-app-00.dc-00.rbm.local:~/temp.csv" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/public/stylesheets/controllers/" "/Users/cmagid/.emacs.d/init.el" "~/projects/o2/public/stylesheets/controllers/locations.css" "~/projects/o2/./public/stylesheets/controllers/tools.css" "~/.emacs.d/rainbow-mode.el" "~/.emacs.d/" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/lib/tasks/sites/o2.rake" "/Users/cmagid/buffer-list.14.txt" "~/projects/r12/gdmf.log" "/Users/cmagid/projects/r12/gdd.log" "/Users/cmagid/projects/o2/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc" "/Users/cmagid/projects/att/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc" "/Users/cmagid/projects/att/.rvmrc" "~/projects/r12/sites/o2/config/crontab.prod.primary" "~/projects/r12/lib/tasks/sites/o2.rake" "~/projects/att/tester.rb" "~/projects/att/spedup.log" "~/projects/att/" "~/projects/att/original.log" "~/projects/att/" "~/projects/local-data/organize/skuter-speedup-result.log" "~/projects/local-data/organize/" "/Users/cmagid/projects/att/masterspeedtest" "~/projects/att/" "/Users/cmagid/projects/att/masterspeedtest" "~/projects/local-data/organize/temp.txt" "/scp:app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15/tester.rb" "/scp:app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15/" "/scp:app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15/tester.rb" "/Users/cmagid/projects/att/.git/config" "~/projects/att/.git/config" "~/projects/" "/Users/cmagid/projects/att/.git/COMMIT_EDITMSG" "~/projects/att/placement/placement/status.rb" "/Users/cmagid/projects/att/.git/MERGE_MSG" "/Users/cmagid/projects/att/.git/COMMIT_EDITMSG" "/Users/cmagid/projects/att/app/controllers/security/roles_controller.rb" "/Users/cmagid/projects/att/config/database.yml" "~/projects/att/app/controllers/skuter_runs_controller.rb" "~/projects/r12/db/migrate/20131030171839_add_print_fixture_report_perm.rb" "~/projects/att/db/migrate/20141105144115_add_include_update_status_to_skuter_run.rb" "~/projects/r12/db/migrate/20100126212559_permission_content_types.rb" "~/projects/r12/db/migrate/20091116160614_create_rake_task_user.rb" "~/projects/r12/db/migrate/20091026195616_add_floorplans_can_add_and_delete_permission.rb" "~/projects/r12/db/migrate/20090313020610_add_categories_roles.rb" "~/projects/att/db/migrate/20141105144115_add_include_update_status_to_skuter_run.rb" "~/projects/att/db/migrate/./20110118195745_add_roles_questionnaires_table.rb" "~/projects/att/db/migrate/./20100204203043_add_roles_props.rb" "~/projects/att/app/" "~/projects/att/app/controllers/" "~/projects/att/" "/scp:app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15/" "/scp:app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15/tester.rb" "/app@att-stg-app-00.dc-00.rbm.local:/home/app/slots/15" "/Users/cmagid/projects/local-data/organize/junk.rb" "/Users/cmagid/projects/att/app/controllers/locations_controller.rb" "/Users/cmagid/projects/r12/app/controllers/locations_controller.rb" "/Users/cmagid/projects/att/ustester.rb" "~/projects/att/temp.txt" "~/projects/att/app/models/skuter_run.rb" "/Users/cmagid/projects/att/config/database.yml" "~/projects/att/app/models/skuter_run.rb" "~/projects/att/app/controllers/skuter_runs_controller.rb" "/Users/cmagid/projects/att/app/views/extra_skuables/index.haml" "/Users/cmagid/projects/att/.git/MERGE_MSG" "/Users/cmagid/projects/att/.git/COMMIT_EDITMSG" "~/projects/att/app/controllers/skuter_runs_controller.rb" "/Users/cmagid/projects/att/app/controllers/skuter_runs_controller.rb" "/Users/cmagid/projects/att/app/models/app/controllers/skuter_runs_controller.rb" "/Users/cmagid/projects/att/app/views/skuter_runs/show.haml" "/Users/cmagid/projects/att/app/models/location.rb" "/Users/cmagid/projects/att/app/models/skuter_run.rb" "/Users/cmagid/projects/att/app/controllers/app/models/skuter_run.rb" "/Users/cmagid/projects/att/config/database.yml" "/Users/cmagid/projects/att/app/models/skuter_run.rb" "/Users/cmagid/projects/att/db/migrate/20141105144115_add_include_update_status_to_skuter_run.rb" "~/projects/att/db/migrate/"))
+(setq search-ring '("date: " "date: mon" "from: visual merchandising" "created_at" ", " "process_content_feed" "be ra" "update_backorders" "inser" "chasm-jump-to-line-in-file" "path" "inter" "row" "field" "," "field"))
+(setq regexp-search-ring '("^\\[" "upda" "grep.*" "^\\[[0-9]+, " "placement.*\\.pla" "^" "^[0-9]+" "^\\*" "http.*extra" "devic.*sh" "^\\[[0-9]+, " "^\\[" "^\\[[0-9]+, " "de.*_all" "^\\[[0-9]+, " "this.get.*locations"))
+(setq register-alist (list '(114 . "be rake pcs:process_content_feed") '(112 . "[#A]") '(97 . "org-archive-subtree-default") (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
+(setq file-name-history '("/Users/cmagid/projects/r12/tmp/mails/rbm@rbmtechnologies.com" "~/projects/r12/log/sync.Content20141117_155543.log" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02/gems/wirble-0.1.3/lib/wirble.rb" "/Users/cmagid/projects/r12/app/models/content_order.rb" "~/projects/r12/tmp/mails/" "/Users/cmagid/projects/r12/app/models/content_order.rb" "/Users/cmagid/projects/r12/lib/tasks/sites/pcs.rake" "~/projects/r12/app/models/content_order.rb" "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rb" "/Users/cmagid/projects/r12/log/sync.Content20141117_130932.log" "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rb" "/Users/cmagid/projects/r12/tmp/feed/content" "/Users/cmagid/projects/r12/sites/pcs/app/models/content.rb" "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rb" "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rbe" "~/projects/r12/log/" "/Users/cmagid/projects/r12/sites/pcs/app/models/content.rb" "/Users/cmagid/Downloads/rbmRetailShipments20141007-1715.txt" "/Users/cmagid/projects/r12/Gemfile" "/usr/local/bin/git-wtf" "~/Downloads/rbmRetailShipments20141007-1715.txt" "/Users/cmagid/projects/r12/lib/tasks/sites/pcs.rake" "~/projects/r12/lib/tasks/sites/" "/Users/cmagid/projects/r12/app/models/order.rb" "/Users/cmagid/projects/r12/sites/pcs/app/models/order.rb" "~/projects/r12/./lib/tasks/sites/pcs.rake" "/Users/cmagid/projects/r12/Gemfile" "~/projects/r12/" "/Users/cmagid/projects/att/.rvmrc" "/Users/cmagid/projects/.rvmrc" "/Users/cmagid/projects/rbm_geek_guides/.git/config" "/Users/cmagid/projects/att/config/database.yml" "~/projects/orion/" "~/projects/orion/bin/" "/Users/cmagid/projects/orion/Guardfile" "/Users/cmagid/projects/orion/Rakefile" "/Users/cmagid/projects/att/Gemfile" "/Users/cmagid/projects/att/junk.rb" "~/projects/local-data/organize/" "~/projects/local-data/organize/4mike.org" "~/projects/local-data/organize/" "/Users/cmagid/projects/local-data/organize/experiment.org_archive" "~/projects/local-data/organize/gettingthingsdoneexperiment.org" "~/projects/local-data/organize/" "/Users/cmagid/.notes" "~/projects/o2/TAGS" "/Users/cmagid/.emacs.d/elpa/mactag-0.0.1/mactag.el" "~/projects/o2/./config/mactag.rb" "/Users/cmagid/projects/o2/config/database.yml" "/Users/cmagid/projects/o2/Gemfile" "~/projects/o2/config/mactag.rb" "~/projects/o2/app/helpers/locations_helper.rb" "~/projects/o2/spec/tasks/retcon_spec.rb" "/Users/cmagid/.emacs.d/init.el" "~/projects/o2/retti.csv" "~/projects/o2/./lib/tasks/sites/o2.rake" "~/projects/o2/junk.csv" "~/Documents/" "/Users/cmagid/.tmp/vendor/gems/" "~/.tmp/RackMultipart20131009-42029-12ahxrm-0" "~/.tmp/babel-160239jL/" "~/Library/LaunchAgents" "~/tmp/" "~/.rvm/" "~/projects/att/.rvmrc" "~/projects/o2/junk.csv" "~/.emacs.d" "/Users/cmagid/.emacs.d/csv-mode.el" "/Users/cmagid/projects/o2/junk.csv" "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake" "/Users/cmagid/projects/o2/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc" "~/projects/o2/config/mactag.rb" "~/.emacs.d.current/" "~/rbmRetcon-0066.csv" "/Users/cmagid/.emacs.d/csv-mode.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/.emacs.d/cvs-mode.el" "~/.emacs.d/" "/Users/cmagid/projects/o2/junk.csv" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/./public/stylesheets/colorbox.css" "/scp:app@o2-prod-app-00.dc-00.rbm.local:~/temp.csv" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/public/stylesheets/controllers/" "/Users/cmagid/.emacs.d/init.el" "~/projects/o2/public/stylesheets/controllers/locations.css" "~/projects/o2/./public/stylesheets/controllers/tools.css" "~/.emacs.d/rainbow-mode.el" "~/.emacs.d/" "/app@o2-prod-app-00.dc-00.rbm.local:/home/app/rails/current/tmp/feed/shipment_event_originals" "~/projects/o2/lib/tasks/sites/o2.rake" "/Users/cmagid/buffer-list.14.txt" "~/projects/r12/gdmf.log" "/Users/cmagid/projects/r12/gdd.log" "/Users/cmagid/projects/o2/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc" "/Users/cmagid/projects/att/.rvmrc" "/Users/cmagid/projects/r12/.rvmrc"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/app/models/content_order.rb"
+  "content_order.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  8678
+  '(8718 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/tmp/mails/rbm@rbmtechnologies.com"
+  "rbm@rbmtechnologies.com"
+  'dcl-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  1277
+  '(436 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/log/sync.Content20141117_155543.log"
+  "sync.Content20141117_155543.log"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode auto-revert-mode)
+  810
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02/gems/wirble-0.1.3/lib/wirble.rb"
+  "wirble.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  2303
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "mails"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  264
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/r12/tmp/mails/")
+  nil)
+
 (desktop-create-buffer 206
   "/Users/cmagid/projects/local-data/organize/gtd.org"
   "gtd.org"
   'org-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode auto-revert-mode)
-  4338581
-  '(4337842 nil)
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  4306939
+  '(4306939 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/lib/tasks/sites/pcs.rake"
+  "pcs.rake"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  3047
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rb"
+  "syncable.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  12801
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  7724
+  '(7521 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/sites/pcs/app/models/content.rb"
+  "content.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  3694
+  '(170 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "log"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  258
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/r12/log/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/Downloads/rbmRetailShipments20141007-1715.txt"
+  "rbmRetailShipments20141007-1715.txt"
+  'text-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  1
+  '(111 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/Gemfile"
+  "Gemfile"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  1584
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "rbmRetailS*"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  194
+  '(159 nil)
+  t
+  '("/Users/cmagid/Downloads/rbmRetailS*")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/Downloads/rbmRetailShipments20141106-1715.txt"
+  "rbmRetailShipments20141106-1715.txt"
+  'text-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  3
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  nil
+  "sites"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  610
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/r12/lib/tasks/sites/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/app/models/order.rb"
+  "order.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  13038
+  '(10473 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/r12/sites/pcs/app/models/order.rb"
+  "order.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  1465
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "r12"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  523
+  '(523 t)
+  t
+  '("/Users/cmagid/projects/r12/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".rub*"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  150
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/r12/.rub*")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/.rvmrc"
+  ".rvmrc"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  26
+  '(9 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/.rvmrc"
+  ".rvmrc"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  18
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/rbm_geek_guides/.git/config"
+  "config"
+  'conf-unix-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  461
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/config/database.yml"
+  "database.yml"
+  'yaml-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  327
+  '(229 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/app/controllers/recovery_controller.rb"
+  "recovery_controller.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  1230
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/orion/app/controllers/application_controller.rb"
+  "application_controller.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "controllers"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  335
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/orion/app/controllers/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "app"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  320
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/orion/app/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "orion"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  1194
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/orion/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/orion/Procfile"
+  "Procfile"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  162
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/orion/.env.example"
+  ".env.example"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  13
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/orion/Guardfile"
+  "Guardfile"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  978
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/Gemfile"
+  "Gemfile"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  3330
+  '(3330 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/junk.rb"
+  "junk.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  74
+  '(85 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/Users/cmagid/projects/o2/junk.csv"
   "junk.csv"
   'csv-mode
-  '(textmate-mode wrap-region-mode text-scale-mode)
-  1
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  210
+  '(159 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "organize"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  841
+  '(296 nil)
+  t
+  '("/Users/cmagid/projects/local-data/organize/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "HOW-TO"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  458
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/local-data/organize/HOW-TO/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Administrivia"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  373
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/local-data/organize/Administrivia/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/local-data/organize/non-specific/Information_Requested_by_Neil.org"
+  "Information_Requested_by_Neil.org"
+  'org-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  14147
   '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake"
-  "o2.rake"
+  nil
+  "evernote-mode-0.41"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  430
+  '(nil nil)
+  t
+  '("/Users/cmagid/.emacs.d/elpa/evernote-mode-0.41/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/retti.csv"
+  "retti.csv"
+  'csv-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode linum-mode)
+  1
+  '(172 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/app/helpers/locations_helper.rb"
+  "locations_helper.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
-  47070
-  '(46929 nil)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  9641
+  '(9926 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/elpa/mactag-0.0.1/mactag.el"
+  "mactag.el"
+  'emacs-lisp-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  4772
+  '(4452 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake"
+  "o2.rake"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  42874
+  '(42842 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/config/mactag.rb"
+  "mactag.rb"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  747
+  '(472 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/config/database.yml"
+  "database.yml"
+  'yaml-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  110
+  '(87 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/Gemfile"
+  "Gemfile"
+  'ruby-mode
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  1633
+  '(1626 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/spec/tasks/retcon_spec.rb"
+  "retcon_spec.rb"
+  'ruby-mode
+  '(textmate-mode rspec-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
+  8312
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "Documents"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  3312
+  '(1 nil)
+  t
+  '("/Users/cmagid/Documents/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "db"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  256
+  '(nil nil)
+  t
+  '("/Users/cmagid/tmp/db/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "tmp"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  2481
+  '(nil nil)
+  t
+  '("/Users/cmagid/tmp/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "gems"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  251
+  '(nil nil)
+  t
+  '("/Users/cmagid/.rvm/gems/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".rvm"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  1092
+  '(nil nil)
+  t
+  '("/Users/cmagid/.rvm/")
+  nil)
 
 (desktop-create-buffer 206
   "/Users/cmagid/.emacs.d/csv-mode.el"
@@ -73,34 +623,12 @@
   nil)
 
 (desktop-create-buffer 206
-  "/Users/cmagid/projects/o2/config/mactag.rb"
-  "mactag.rb"
-  'ruby-mode
-  '(textmate-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
-  1088
-  '(1088 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/o2/.rvmrc"
   ".rvmrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode)
+  '(textmate-mode yas-minor-mode wrap-region-mode)
   1
   '(20 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/projects/r12/.rvmrc"
-  ".rvmrc"
-  'fundamental-mode
-  '(textmate-mode wrap-region-mode)
-  43
-  '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
@@ -109,23 +637,12 @@
   "/Users/cmagid/projects/att/placement/placement/data_dumper.rb"
   "data_dumper.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   31
   '(907 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode)
-  8458
-  '(8054 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   nil
@@ -186,7 +703,7 @@
   "/Users/cmagid/Downloads/dump_snippets.rb"
   "dump_snippets.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   876
   '(1199 nil)
   nil
@@ -216,21 +733,10 @@
   '((buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
-  nil
-  "Documents"
-  'dired-mode
-  '(textmate-mode yas-minor-mode)
-  2344
-  '(2344 nil)
-  t
-  '("/Users/cmagid/Documents/")
-  nil)
-
-(desktop-create-buffer 206
   "/Users/cmagid/Downloads/exerciser.rb"
   "exerciser.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   8975
   '(7368 nil)
   nil
@@ -252,7 +758,7 @@
   "/Users/cmagid/projects/r12/lib/tasks/sites/o2.rake"
   "o2.rake"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   5424
   '(1 nil)
   nil
@@ -263,7 +769,7 @@
   "/Users/cmagid/projects/att/placement/placement/status.rb"
   "status.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   1
   '(3414 nil)
   nil
@@ -274,9 +780,9 @@
   "/Users/cmagid/projects/att/app/controllers/skuter_runs_controller.rb"
   "skuter_runs_controller.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode linum-mode)
-  12352
-  '(12357 nil)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
+  12014
+  '(12014 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
@@ -285,7 +791,7 @@
   "/Users/cmagid/projects/att/placement/placement.rb"
   "placement.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode linum-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
   35
   '(3342 nil)
   nil
@@ -296,7 +802,7 @@
   "/Users/cmagid/projects/att/app/models/skuter_run.rb"
   "skuter_run.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode linum-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode linum-mode)
   799
   '(799 nil)
   nil
@@ -340,7 +846,7 @@
   "/Users/cmagid/projects/att/db/migrate/20100124190434_add_contents_requires_approval.rb"
   "20100124190434_add_contents_requires_approval.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   204
   '(214 nil)
   nil
@@ -351,7 +857,7 @@
   "/Users/cmagid/projects/att/db/migrate/20100610234200_use_i18n_translations.rb"
   "20100610234200_use_i18n_translations.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   244
   '(201 nil)
   nil
@@ -362,20 +868,9 @@
   "/Users/cmagid/projects/att/spec/controllers/skuter_runs_controller_spec.rb"
   "skuter_runs_controller_spec.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   1
   '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/projects/att/Gemfile"
-  "Gemfile"
-  'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
-  1990
-  '(1944 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
@@ -395,23 +890,12 @@
   "/Users/cmagid/projects/att/lib/tasks/sites/att.rake"
   "att.rake"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   31685
   '(31685 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/Documents/Access.txt"
-  "Access.txt"
-  'text-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode)
-  8032
-  '(1823 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/Users/cmagid/projects/att/app/views/shared_skuables/show.haml"
@@ -428,7 +912,7 @@
   "/Users/cmagid/projects/att/app/models/content_placement.rb"
   "content_placement.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   8099
   '(1708 nil)
   nil
@@ -472,7 +956,7 @@
   "/Users/cmagid/projects/att/app/models/accessory_skuable.rb"
   "accessory_skuable.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   33
   '(1 nil)
   nil
@@ -483,7 +967,7 @@
   "/Users/cmagid/projects/att/app/models/device_skuable.rb"
   "device_skuable.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   30
   '(1 nil)
   nil
@@ -516,7 +1000,7 @@
   "/Users/cmagid/projects/att/place_ab/place_ab.rb"
   "place_ab.rb"
   'ruby-mode
-  '(textmate-mode yas-minor-mode wrap-region-mode rspec-verifiable-mode inf-ruby-minor-mode auto-complete-mode)
+  '(textmate-mode rspec-verifiable-mode yas-minor-mode inf-ruby-minor-mode wrap-region-mode auto-complete-mode)
   5889
   '(5208 nil)
   nil
@@ -595,6 +1079,28 @@
   'js-mode
   '(textmate-mode yas-minor-mode wrap-region-mode)
   319
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  29093
+  '(963 nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/share/info/emacs/org" "Installation" ((history ("/Users/cmagid/brew/Cellar/emacs/HEAD/share/info/emacs/org" "Top" 10517))))
+  '((tab-width . 8) (buffer-file-coding-system . iso-latin-1-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.notes"
+  ".notes"
+  'fundamental-mode
+  '(textmate-mode yas-minor-mode wrap-region-mode)
+  1
   '(nil nil)
   nil
   nil
