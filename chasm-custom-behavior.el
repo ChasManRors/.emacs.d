@@ -20,7 +20,7 @@
 ;(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; very time consuming but very helpful
-(desktop-save-mode nil)
+(desktop-save-mode t)
 ;; prevent accidental data loss
 (put 'erase-buffer 'disabled nil)
 ;;
