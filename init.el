@@ -307,3 +307,5 @@ The app is chosen from your OS's preference."
 
 
      (define-key global-map "\C-cc" 'org-capture)
+
+(yas-global-mode t)

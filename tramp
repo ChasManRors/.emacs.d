@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <14/11/10 18:46:26 /Users/cmagid/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <14/11/19 16:40:06 /Users/cmagid/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -156,4 +156,20 @@
   ("id" "/usr/bin/id")
   ("gid-string" "app")
   ("gid-integer" 502)
-  ("uid-integer" 502)))
+  ("uid-integer" 502))
+ (["scp" "app" "pcs-prod-app-00.dc-00.rbm.local" nil nil]
+  ("uname" "Linux 2.6.9-89.ELsmp")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("stat" "\\stat")
+  ("ls" "/bin/ls --color=never")
+  ("id" "/usr/bin/id")
+  ("gid-string" "app")
+  ("gid-integer" 502)))
