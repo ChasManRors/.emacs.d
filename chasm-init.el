@@ -86,7 +86,7 @@ The app is chosen from your OS's preference."
 
   (switch-to-buffer "*foooooo*")
   (kill-buffer "*foooooo*"))
-(myshell)
+;(myshell)
 
 
 (fset 'chasm-debugger

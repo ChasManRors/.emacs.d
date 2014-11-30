@@ -3,8 +3,10 @@
 ;;; Code:
 
 
-;;;### (autoloads nil "dash-at-point/dash-at-point" "dash-at-point/dash-at-point.el"
-;;;;;;  (21377 26494 0 0))
+;;;### (autoloads (dash-at-point-with-docset dash-at-point dash-at-point-mode-alist-legacy
+;;;;;;  dash-at-point-mode-alist dash-at-point-legacy-mode dash-at-point)
+;;;;;;  "dash-at-point/dash-at-point" "dash-at-point/dash-at-point.el"
+;;;;;;  (21616 55615 0 0))
 ;;; Generated autoloads from dash-at-point/dash-at-point.el
 
 (let ((loads (get 'dash-at-point 'custom-loads))) (if (member '"dash-at-point/dash-at-point" loads) nil (put 'dash-at-point 'custom-loads (cons '"dash-at-point/dash-at-point" loads))))
@@ -71,8 +73,8 @@ choosing the docset.
 
 ;;;***
 
-;;;### (autoloads nil "iedit/iedit" "iedit/iedit.el" (21377 27880
-;;;;;;  0 0))
+;;;### (autoloads (iedit-rectangle-mode iedit-mode-on-function iedit-mode)
+;;;;;;  "iedit/iedit" "iedit/iedit.el" (21616 55615 0 0))
 ;;; Generated autoloads from iedit/iedit.el
 
 (autoload 'iedit-mode "iedit/iedit" "\
@@ -139,8 +141,9 @@ Toggle iedit-RECT mode.
 
 ;;;***
 
-;;;### (autoloads nil "load-relative/load-relative" "load-relative/load-relative.el"
-;;;;;;  (21377 27443 0 0))
+;;;### (autoloads (provide-me require-relative-list require-relative
+;;;;;;  load-relative __FILE__) "load-relative/load-relative" "load-relative/load-relative.el"
+;;;;;;  (21616 55615 0 0))
 ;;; Generated autoloads from load-relative/load-relative.el
 
 (autoload '__FILE__ "load-relative/load-relative" "\
@@ -209,8 +212,9 @@ same as writing (provide 'bar-foo)
 
 ;;;***
 
-;;;### (autoloads nil "loc-changes/loc-changes" "loc-changes/loc-changes.el"
-;;;;;;  (21377 27449 0 0))
+;;;### (autoloads (loc-changes-reset-position loc-changes-clear-buffer
+;;;;;;  loc-changes-add-and-goto loc-changes-goto-line) "loc-changes/loc-changes"
+;;;;;;  "loc-changes/loc-changes.el" (21616 55615 0 0))
 ;;; Generated autoloads from loc-changes/loc-changes.el
 
 (autoload 'loc-changes-goto-line "loc-changes/loc-changes" "\
@@ -253,8 +257,8 @@ so that its positions are will be reflected.
 
 ;;;***
 
-;;;### (autoloads nil "rhtml-mode/rhtml-mode" "rhtml-mode/rhtml-mode.el"
-;;;;;;  (21377 26129 0 0))
+;;;### (autoloads (rhtml-mode) "rhtml-mode/rhtml-mode" "rhtml-mode/rhtml-mode.el"
+;;;;;;  (21616 55616 0 0))
 ;;; Generated autoloads from rhtml-mode/rhtml-mode.el
 
 (autoload 'rhtml-mode "rhtml-mode/rhtml-mode" "\
@@ -266,8 +270,8 @@ Embedded Ruby Mode (RHTML)
 
 ;;;***
 
-;;;### (autoloads nil "test-simple/test-simple" "test-simple/test-simple.el"
-;;;;;;  (21377 27436 0 0))
+;;;### (autoloads (test-simple-clear test-simple-start) "test-simple/test-simple"
+;;;;;;  "test-simple/test-simple.el" (21616 55616 0 0))
 ;;; Generated autoloads from test-simple/test-simple.el
 
 (autoload 'test-simple-start "test-simple/test-simple" "\
@@ -284,8 +288,8 @@ out information from the previous run.
 
 ;;;***
 
-;;;### (autoloads nil "textmate/textmate" "textmate/textmate.el"
-;;;;;;  (21377 24120 0 0))
+;;;### (autoloads (textmate-mode) "textmate/textmate" "textmate/textmate.el"
+;;;;;;  (21616 55616 0 0))
 ;;; Generated autoloads from textmate/textmate.el
 
 (defvar textmate-mode nil "\
@@ -301,13 +305,6 @@ or call the function `textmate-mode'.")
 TextMate Emulation Minor Mode
 
 \(fn &optional ARG)" t nil)
-
-;;;***
-
-;;;### (autoloads nil nil ("rhtml-mode/rhtml-erb.el" "rhtml-mode/rhtml-fonts.el"
-;;;;;;  "rhtml-mode/rhtml-navigation.el" "rhtml-mode/rhtml-ruby-hook.el"
-;;;;;;  "rhtml-mode/rhtml-sgml-hacks.el" "todotxt/todotxt.el" "wrap-region/wrap-region-autoloads.el"
-;;;;;;  "wrap-region/wrap-region-pkg.el") (21454 39552 363377 0))
 
 ;;;***
 
