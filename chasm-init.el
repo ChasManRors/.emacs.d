@@ -144,14 +144,14 @@ The app is chosen from your OS's preference."
    [escape ?\C-r ?^ ?\\ ?\[ ?\C-a ?\C-  ?\C-e escape ?w ?\C-x ?o ?\C-x ?b ?* ?d ?e ?b ?u ?g ?- ?h ?e ?l ?p ?e ?r ?* return ?g ?  ?\C-y return])
 
 
-
-
 (defun chasm-mark (args)
   (interactive "P")
   (markerpen8)
   (markerpen-mark-region nil) ;(markerpen-clear-region)
   )
 (global-set-key (kbd "<C-S-u>")  'chasm-mark)
+;; this should be the same as the line above. I don't know why that one didn't work
+(global-set-key [33554453] (quote chasm-mark))
 
 
 (defun chasm-mark1 (args)
