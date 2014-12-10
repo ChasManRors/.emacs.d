@@ -153,10 +153,10 @@
  (rear-context-string . "elow this line.\n")
  (position . 208))
 ("Access.txt"
- (filename . "~/Documents/Access.txt")
- (front-context-string)
- (rear-context-string . " \nrbm 4 charles\n")
- (position . 31))
+ (filename . "~/Documents/private/Access.txt")
+ (front-context-string . "\nEclipse\n     In")
+ (rear-context-string . "name\n    boomer\n")
+ (position . 3022))
 (".rvmrc"
  (filename . "~/projects/.rvmrc")
  (front-context-string . "rvm --default us")
@@ -168,8 +168,8 @@
  (rear-context-string . "97 May 24 16:58 ")
  (position . 259))
 ("gtd.org"
- (filename . "~/projects/local-data/organize/gtd.org")
- (front-context-string . "https://redmine.")
- (rear-context-string)
- (position . 1))
+ (filename . "~/Dropbox/aliases/gtd.org")
+ (front-context-string . "* JUMP LIST\n  ht")
+ (rear-context-string . "ll be obsolete\n\n")
+ (position . 45758))
 )
