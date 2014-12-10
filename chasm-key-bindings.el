@@ -1,7 +1,5 @@
  ;; Interface to document definitions. Dash ( http://kapeli.com/ ) is an API Documentation Browser & snippet
 (global-set-key "\C-cd" 'dash-at-point)
-;; toggle ruby block do end vs {  }
-(global-set-key (kbd "C-c C-{") (quote ruby-toggle-block))
 
 ;;; Additional Key bindings I really like:
 ;; C-⌘ k
@@ -23,8 +21,7 @@
 
 ;; Interface to document definitions. Dash ( http://kapeli.com/ ) is an API Documentation Browser & snippet
 (global-set-key "\C-cd" 'dash-at-point)
-;; toggle ruby block do end vs {  }
-(global-set-key (kbd "C-c C-{") (quote ruby-toggle-block))
+
 ;; ⌘ <- Go to Left over sexp
 (global-set-key [s-left] (quote backward-sexp))
 ;; ⌘ -> Go to Right over sexp
@@ -46,7 +43,13 @@
 ;; alt-⌘-t
 (global-set-key [142614560] (quote textmate-clear-cache))
 
+;; may not work
+(global-set-key (kbd "<C-S-up>")     'buf-move-up)
+(global-set-key (kbd "<C-S-down>")   'buf-move-down)
+(global-set-key (kbd "<C-S-left>")   'buf-move-left)
+(global-set-key (kbd "<C-S-right>")  'buf-move-right)
 
+(global-set-key [24 103] (quote chasm-get-symbol-at-point)) ;; c-x g
 
 ;; >>>> Not emacs related but I provided a set of Divvy key bindings
 ;; C-⌥⌘ g
