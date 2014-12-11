@@ -11,8 +11,9 @@
 (load "~/.emacs.d/chasm-wrap-region.el")
 (load "~/.emacs.d/chasm-ruby-mode.el")
 (load "~/.emacs.d/chasm-debugging.el")
-(load "~/.emacs.d/chasm-yasnippet.el")
-(load "~/.emacs.d/chasm-webjump.el")
+(load "~/.emacs.d/chasm-webjump") ; I compiled this because it did not seem to load correctly
+(load "~/.emacs.d/chasm-yasnippet.el") ;use c-c & c-s
+
 
     ;; Stuff To Be Sorted Out And May No Longer Be Needed - Wed Dec 10 11:14:21 2014 - Probably fold into chasm-viget.el
     (setq ls-lisp-use-insert-directory-program nil)
