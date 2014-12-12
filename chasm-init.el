@@ -14,7 +14,6 @@
 (load "~/.emacs.d/chasm-webjump") ; I compiled this because it did not seem to load correctly
 (load "~/.emacs.d/chasm-yasnippet.el") ;use c-c & c-s
 
-
     ;; Stuff To Be Sorted Out And May No Longer Be Needed - Wed Dec 10 11:14:21 2014 - Probably fold into chasm-viget.el
     (setq ls-lisp-use-insert-directory-program nil)
     (require 'ls-lisp)
@@ -42,3 +41,39 @@
 (load "~/.emacs.d/chasm-key-bindings.el") ; eventually remove this and place in corresponding corresponding chasm files
 ;; switched back again because I pushed everythin into  chasm-init.el instead of init.el
 (desktop-read)
+
+
+;; $ brew uninstall --force emacs
+;; Uninstalling emacs...
+;; $ brew install emacs --cocoa --use-git-head --HEAD
+;; ==> Cloning http://git.sv.gnu.org/r/emacs.git
+;; Updating /Users/cmagid/Library/Caches/Homebrew/emacs--git
+;; ==> Checking out branch master
+;; ==> ./autogen.sh
+;; ==> ./configure --prefix=/Users/cmagid/brew/Cellar/emacs/HEAD --enable-locallisppath=/Users/cmagid/brew/share/emacs/site-lisp --infodir=/Users/cmagid/brew/Cellar/emacs/HEAD/share/in
+;; ==> make
+;; ==> make install
+;; ==> Caveats
+;; A command line wrapper for the cocoa app was installed to:
+;;   /Users/cmagid/brew/Cellar/emacs/HEAD/bin/emacs
+;;
+;; To have launchd start emacs at login:
+;;     ln -sfv /Users/cmagid/brew/opt/emacs/*.plist ~/Library/LaunchAgents  chasm [DONE]
+;; Then to load emacs now:
+;;     launchctl load ~/Library/LaunchAgents/homebrew.mxcl.emacs.plist
+;; .app bundles were installed.
+;; Run `brew linkapps` to symlink these to /Applications.
+;; ==> Summary
+;; 🍺  /Users/cmagid/brew/Cellar/emacs/HEAD: 3900 files, 116M, built in 7.1 minutes
+;; $ ln -sfv /Users/cmagid/brew/opt/emacs/*.plist ~/Library/LaunchAgents
+;; /Users/cmagid/Library/LaunchAgents/homebrew.mxcl.emacs.plist -> /Users/cmagid/brew/opt/emacs/homebrew.mxcl.emacs.plist
+;; $ brew linkapps
+;; Linking /Users/cmagid/brew/Cellar/emacs/HEAD/Emacs.app
+;; Linking /Users/cmagid/brew/Cellar/kdiff3/0.9.98/kdiff3.app
+;; Error: /Applications/kdiff3.app already exists, skipping.
+;; Linking /Users/cmagid/brew/Cellar/qt/4.8.6/Assistant.app
+;; Linking /Users/cmagid/brew/Cellar/qt/4.8.6/Designer.app
+;; Linking /Users/cmagid/brew/Cellar/qt/4.8.6/Linguist.app
+;; Linking /Users/cmagid/brew/Cellar/qt/4.8.6/QMLViewer.app
+;; Linking /Users/cmagid/brew/Cellar/qt/4.8.6/qttracereplay.app
+;; Finished linking. Find the links under /Applications.

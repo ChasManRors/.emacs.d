@@ -2,28 +2,380 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Dec 10 21:01:20 2014
+;; Created Thu Dec 11 22:21:32 2014
 ;; Desktop file format version 206
-;; Emacs version 24.4.50.1
+;; Emacs version 25.0.50.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21640 64240 538887 0) (desktop . "206") "cmagid@rmbp15-2012-00.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 0) (right-fringe . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (title . "Ediff") (icon-type) (auto-raise . t) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (scrollbar-width . 0) (scrollbar-height . 0) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (visibility . t) (icon-name . "Ediff 13/13") (user-position . t) (minibuffer) (frameset--id . "1BBF-9627-3328-F267") (frameset--mini nil . "8A08-2111-2A64-AF95") (height . 2) (width . 18) (modeline . t) (unsplittable) (left . 1083) (top . 1) (right-divider-width . 0) (bottom-divider-width . 0) (display . "rmbp15-2012-00.local") (explicit-name . t) (tool-bar-position . top)) ((min-height . 2) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 38) (min-pixel-width . 100) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 14) (min-pixel-height-safe . 16) (min-pixel-width-safe . 14)) leaf (last . t) (pixel-width . 126) (pixel-height . 32) (total-width . 18) (total-height . 2) (normal-height . 1.0) (normal-width . 1.0) (buffer "*Ediff Control Panel*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated . t) (point . 1) (start . 1))) (((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 14) (right-fringe . 14) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (frameset--id . "4F04-5D7D-5D20-8CEA") (frameset--mini t) (height . 43) (width . 176) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 22) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "rmbp15-2012-00.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 63) (min-pixel-height-safe . 16) (min-pixel-width-safe . 14)) leaf (pixel-width . 1275) (pixel-height . 672) (total-width . 182) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (buffer "aaaaaaaaaaaaaa" (selected) (hscroll . 0) (fringes 14 14 nil) (margins nil) (scroll-bars 15 3 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 15) (right-fringe . 15) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (environment) (display . "rmbp15-2012-00.local") (visibility . t) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 36) (width . 123) (left . 0) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 7) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 100) (min-pixel-height-ignore . 76) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 38) (min-pixel-width-safe . 20)) vc (pixel-width . 1275) (pixel-height . 665) (total-width . 127) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1275) (pixel-height . 342) (total-width . 127) (total-height . 18) (normal-height . 0.5) (normal-width . 1.0) (buffer ".gitignore" (selected) (hscroll . 0) (fringes 15 15 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 139) (start . 1))) (leaf (last . t) (pixel-width . 1275) (pixel-height . 323) (total-width . 127) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 15 15 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 784157) (start . 783776)))))])
+(setq desktop-saved-frameset [frameset 1 (21642 24380 786241 0) (desktop . "206") "cmagid@rmbp15-2012-00.ad.corp.lan.home" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 12) (right-fringe . 12) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (environment) (display . "rmbp15-2012-00.ad.corp.lan.home") (visibility . t) (frameset--id . "8A08-2111-2A64-AF95") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 36) (width . 123) (left . 0) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 100) (min-pixel-height-ignore . 95) (min-pixel-width-ignore . 100) (min-pixel-height-safe . 38) (min-pixel-width-safe . 20)) vc (pixel-width . 1269) (pixel-height . 665) (total-width . 126) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1269) (pixel-height . 342) (total-width . 126) (total-height . 18) (normal-height . 0.5) (normal-width . 1.0) (buffer "location.rb" (selected) (hscroll . 0) (fringes 12 12 nil) (margins 4) (scroll-bars nil 2 t nil 0 nil) (vscroll . 0) (dedicated) (point . 22164) (start . 21632))) (leaf (last . t) (pixel-width . 1269) (pixel-height . 323) (total-width . 126) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Buffer List*" (selected . t) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars nil 2 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("elpa/archives/melpa/archive-contents" "web" "mes" ".emacs.d (master)$ " ".emacs.d" " auto" " " "log" "vmm (bnch_dev_44_bby_integration" "vmm (development" "stra" "bby" "webj" "chasm" "web" "provid"))
-(setq regexp-search-ring '("^I" "mer" "^> " "con.*sku" "^\\[" "upda" "grep.*" "^\\[[0-9]+, " "placement.*\\.pla" "^" "^[0-9]+" "^\\*" "http.*extra" "devic.*sh" "^\\[[0-9]+, " "^\\["))
-(setq register-alist (list '(106 . "java -jar schemaSpy_5.0.0.jar -t pgsql -db prod -u postgres -s bau -o html/ -dp postgresql-9.0-801.jdbc3.jar") '(115 . "Overview of Sift++") '(100 . "/Users/cmagid/aliases/") '(114 . "be rake pcs:process_content_feed") '(112 . "[#A]") '(97 . "org-archive-subtree-default") (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
-(setq file-name-history '("~/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/chasm-webjump.el" "~/.emacs.d/chasm-init.el" "~/installed.log" "~/Dropbox/aliases/packages.log" "~/installed.log" "~/Dropbox/aliases/" "~/projects/vmm/db/" "~/projects/vmm/db/schema.rb.BASE.1794.rb" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/vmm/.git/COMMIT_EDITMSG" "~/projects/vmm/" "~/.emacs.d/" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/vmm/.git/config" "/Users/cmagid/projects/r12/lib/tasks/sites/o2.rake" "~/projects/r12/./lib/tasks/sites/pcs.rake" "~/projects/r12/./lib/tasks/compliance.rake" "~/projects/r12/./spec/services/compliance_snapshot_removal_spec.rb" "~/projects/r12/./lib/tasks/compliance.rake" "~/projects/r12/./app/services/compliance_snapshot_removal.rb" "~/projects/r12/app/services/compliances/campaign_compliance_snapshot.rb" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/att/.rvmrc" "/Users/cmagid/projects/att/Gemfile" "/Users/cmagid/projects/att/config/database.yml" "~/.emacs.d" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 pivoted.csv" "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 (8).csv" "~/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/rbm_geek_guides/.git/config" "~/projects/vmm/app/models/location.rb" "~/.emacs.d/" "~/.emacs.d/chasm-*" "/Users/cmagid/.emacs.d/.gitignore" "/Users/cmagid/.emacs.d/.git/MERGE_MSG" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/snippets/ruby-mode/" "/Users/cmagid/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-yasnippet.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-key-bindings.el" "/Users/cmagid/.emacs.d/chasm-debugging.el" "~/.emacs.d/chasm-ruby-mode.el" "~/.emacs.d/chasm-wrap-region.el" "~/.emacs.d/\"~/.emacs.d/chasm-wrap-region.el" "~/.emacs.d/chasm-rainbow-mode.el" "/Users/cmagid/.emacs.d/rainbow-mode.el" "~/.emacs.d/chasm-viget.el" "~/.emacs.d/chasm-key-bindings.el" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/chasm-custom-markerpen.el" "/Users/cmagid/.emacs.d/viget.el" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/chasm-key-bindings.el" "~/.emacs.d/chasm-shells.el" "/Users/cmagid/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-key-bindings.el" "~/.emacs.d/" "~/.emacs.d/chasm-Open-File-in-External-App.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-init.el" "~/.emacs.d/init.el" "/Users/cmagid/Downloads/1SummaryoftheIntegrationNeeds.txt" "/bby@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@pcs-stg-app-00.dc-00.rbm.local:/home/app/rails/current/" "/guest@ec2-54-172-104-131.compute-1.amazonaws.com/" "/rbm@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/usr" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/" "/Users/cmagid/projects/vmm/db/schema.rb.BASE.1794.rb" "~/projects/local-data/organize/foo.org" "/Users/cmagid/projects/att/db/schema.rb" "~/projects/local-data/organize/junk.uml" "~/.ssh" "~/projects/r12/./lib/tasks/sites/pcs.rake" "~/.emacs.d/ac-comphist.dat" "/Users/cmagid/.emacs.d/.gitignore" "~/projects/zen/spec/" "/Users/cmagid/projects/sift/spec/mq/configurator_spec.rb" "~/projects/sift/coverage/index.html" "~/projects/sift/without-mq.log" "~/projects/sift/with-mq.log" "~/projects/local-data/organize/without-mq.txt" "/Users/cmagid/projects/zen/app/models/feedback.rb" "/Users/cmagid/projects/sift/spec/requests/v1/location_filters_controller/filter_read_spec.rb" "/Users/cmagid/projects/zen/spec/services/zendesk/accept_trigger_spec.rb" "~/projects/zen/spec/services/zendesk/accept_trigger_spec.rb" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/.emacs.desktop" "~/projects/sift/spec/requests/v1/location_filters_controller/filter_read_spec.rb" "/Users/cmagid/brew/var/log/rabbitmq/rabbit@localhost-sasl.log" "/Users/cmagid/brew/var/log/rabbitmq/rabbit@localhost.log"))
+(setq search-ring '("indent-gui" "indent-guide" "gui" "help" "iedit" "\\i" "ssh" "fixture" "stop" "task" "handlers_to_copy" "content" "att." "att" "def" "m"))
+(setq regexp-search-ring '("^ *=" "^I" "^I " "^I" "mer" "^> " "con.*sku" "^\\[" "upda" "grep.*" "^\\[[0-9]+, " "placement.*\\.pla" "^" "^[0-9]+" "^\\*" "http.*extra"))
+(setq register-alist (list '(110 . "  # 2222222222222222222222222222222222222222222222222222222222222222222222") '(106 . "java -jar schemaSpy_5.0.0.jar -t pgsql -db prod -u postgres -s bau -o html/ -dp postgresql-9.0-801.jdbc3.jar") '(115 . "Overview of Sift++") '(100 . "/Users/cmagid/aliases/") '(114 . "be rake pcs:process_content_feed") '(112 . "[#A]") '(97 . "org-archive-subtree-default") (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
+(setq file-name-history '("~/projects/vmm/lib/tasks/sites/att.rake" "~/.emacs.d/elpa/" "~/.emacs.d/elpa/buffer-move-20141010.117/" "/Users/cmagid/.emacs.d/elpa/buffer-move-20141010.117/buffer-move-autoloads.el" "~/.emacs.d/chasm-shells.el" "~/projects/vmm/lib/tasks/sites/bby.rake" "/Users/cmagid/brew/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/emacs-rails-new/Gemfile" "/Users/cmagid/projects/emacs-rails-new/bin/bundle" "~/projects/emacs-rails-new/" "~/.emacs.d/rails-new.el" "~/.emacs.d/" "~/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/net/" "~/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/net/gnutls.el.gz" "~/Library/LaunchAgents/homebrew.mxcl.emacs.plist" "~/.emacs.d/viget.el" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/chasm-webjump.el" "~/.emacs.d/chasm-init.el" "~/installed.log" "~/Dropbox/aliases/packages.log" "~/installed.log" "~/Dropbox/aliases/" "~/projects/vmm/db/" "~/projects/vmm/db/schema.rb.BASE.1794.rb" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/vmm/.git/COMMIT_EDITMSG" "~/projects/vmm/" "~/.emacs.d/" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/vmm/.git/config" "/Users/cmagid/projects/r12/lib/tasks/sites/o2.rake" "~/projects/r12/./lib/tasks/sites/pcs.rake" "~/projects/r12/./lib/tasks/compliance.rake" "~/projects/r12/./spec/services/compliance_snapshot_removal_spec.rb" "~/projects/r12/./lib/tasks/compliance.rake" "~/projects/r12/./app/services/compliance_snapshot_removal.rb" "~/projects/r12/app/services/compliances/campaign_compliance_snapshot.rb" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/att/.rvmrc" "/Users/cmagid/projects/att/Gemfile" "/Users/cmagid/projects/att/config/database.yml" "~/.emacs.d" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 pivoted.csv" "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 (8).csv" "~/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-webjump.el" "/Users/cmagid/projects/rbm_geek_guides/.git/config" "~/projects/vmm/app/models/location.rb" "~/.emacs.d/" "~/.emacs.d/chasm-*" "/Users/cmagid/.emacs.d/.gitignore" "/Users/cmagid/.emacs.d/.git/MERGE_MSG" "/Users/cmagid/.emacs.d/.gitignore" "~/.emacs.d/snippets/ruby-mode/" "/Users/cmagid/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-yasnippet.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-key-bindings.el" "/Users/cmagid/.emacs.d/chasm-debugging.el" "~/.emacs.d/chasm-ruby-mode.el" "~/.emacs.d/chasm-wrap-region.el" "~/.emacs.d/\"~/.emacs.d/chasm-wrap-region.el" "~/.emacs.d/chasm-rainbow-mode.el" "/Users/cmagid/.emacs.d/rainbow-mode.el" "~/.emacs.d/chasm-viget.el" "~/.emacs.d/chasm-key-bindings.el" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/chasm-custom-markerpen.el" "/Users/cmagid/.emacs.d/viget.el" "/Users/cmagid/.emacs.d/chasm-init.el" "/Users/cmagid/.emacs.d/chasm-key-bindings.el" "~/.emacs.d/chasm-shells.el" "/Users/cmagid/.emacs.d/chasm-custom-behavior.el" "~/.emacs.d/chasm-key-bindings.el" "~/.emacs.d/" "~/.emacs.d/chasm-Open-File-in-External-App.el" "~/.emacs.d/" "/Users/cmagid/.emacs.d/chasm-init.el" "~/.emacs.d/init.el" "/Users/cmagid/Downloads/1SummaryoftheIntegrationNeeds.txt" "/bby@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@pcs-stg-app-00.dc-00.rbm.local:/home/app/rails/current/" "/guest@ec2-54-172-104-131.compute-1.amazonaws.com/" "/rbm@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/usr" "/app@ec2-54-172-104-131.compute-1.amazonaws.com/" "/Users/cmagid/projects/vmm/db/schema.rb.BASE.1794.rb" "~/projects/local-data/organize/foo.org" "/Users/cmagid/projects/att/db/schema.rb" "~/projects/local-data/organize/junk.uml"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/vmm/app/models/location.rb"
+  "location.rb"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode indent-guide-mode)
+  22164
+  '(67927 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/vmm/lib/tasks/sites/bby.rake"
+  "bby.rake"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode text-scale-mode)
+  915
+  '(909 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/local-data/organize/gtd.org"
+  "gtd.org"
+  'org-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  4412748
+  '(4412734 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/vmm/lib/tasks/sites/att.rake"
+  "att.rake"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  1
+  '(20302 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/chasm-shells.el"
+  "chasm-shells.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  540
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/elpa/auto-complete-20141208.809/auto-complete.el"
+  "auto-complete.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  14923
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/elpa/buffer-move-20141010.117/buffer-move.el"
+  "buffer-move.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  4839
+  '(4316 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "buffer-move-20141010.117"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  474
+  '(nil nil)
+  t
+  '("/Users/cmagid/.emacs.d/elpa/buffer-move-20141010.117/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/elpa/buffer-move-20141010.117/buffer-move-autoloads.el"
+  "buffer-move-autoloads.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  1197
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/chasm-init.el"
+  "chasm-init.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  353
+  '(338 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.profile"
+  ".profile"
+  'sh-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "db"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  804
+  '(1 nil)
+  t
+  '("/Users/cmagid/projects/vmm/db/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  12867
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "bin"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  325
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/bin/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "share"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  529
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/share/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "HEAD"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  761
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Emacs.app"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  198
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/Emacs.app/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Contents"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  204
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/Emacs.app/Contents/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/games/bubbles-default-2-10-10-scores"
+  "bubbles-default-2-10-10-scores"
+  'fundamental-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  187
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/elpa/bubbles-0.5/bubbles.el"
+  "bubbles.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  19852
+  '(4162 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "bubbles-0.5"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  388
+  '(nil nil)
+  t
+  '("/Users/cmagid/.emacs.d/elpa/bubbles-0.5/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/url/url-http.el.gz"
+  "url-http.el.gz"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  20022
+  '(20004 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake"
+  "o2.rake"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
+  43401
+  '(42875 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.rvm/gems/ruby-2.1.2@sift-service/gems/thor-0.19.1/lib/thor/actions.rb"
+  "actions.rb"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  7075
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/emacs-rails-new/Gemfile"
+  "Gemfile"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  1082
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb"
+  "kernel_require.rb"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  2074
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.rvm/gems/ruby-2.1.2@sift-service/bin/ruby_executable_hooks"
+  "ruby_executable_hooks"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  337
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/rails-new.el"
+  "rails-new.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  1
+  '(6935 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  1453
+  '(1 nil)
+  t
+  '("/Users/cmagid/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/vmm/app/decorators/application_decorator.rb"
+  "application_decorator.rb"
+  'ruby-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
+  922
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "net"
+  'dired-mode
+  '(textmate-mode yas-minor-mode)
+  281
+  '(nil nil)
+  t
+  '("/Users/cmagid/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/net/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.emacs.d/viget.el"
+  "viget.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  155
+  '(107 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
 (desktop-create-buffer 206
   "/Users/cmagid/.emacs.d/.gitignore"
   ".gitignore"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   139
-  '(216 nil)
+  '(139 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
@@ -32,7 +384,7 @@
   "/Users/cmagid/.emacs.d/chasm-webjump.el"
   "chasm-webjump.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   856
   '(833 nil)
   nil
@@ -40,21 +392,10 @@
   '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/projects/local-data/organize/gtd.org"
-  "gtd.org"
-  'org-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  4403225
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/installed.log"
   "my computer"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   12992
   '(12899 nil)
   nil
@@ -65,7 +406,7 @@
   "/Users/cmagid/Dropbox/aliases/packages.log"
   "work-computer"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   13044
   '(12348 nil)
   nil
@@ -76,7 +417,7 @@
   nil
   "aliases"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   8441
   '(8441 nil)
   t
@@ -84,21 +425,10 @@
   nil)
 
 (desktop-create-buffer 206
-  nil
-  "db"
-  'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
-  881
-  '(1 nil)
-  t
-  '("/Users/cmagid/projects/vmm/db/")
-  nil)
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/vmm/db/schema.rb.LOCAL.1794.rb"
   "schema.rb.LOCAL.1794.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -109,7 +439,7 @@
   "/Users/cmagid/projects/vmm/db/schema.rb.BASE.1794.rb"
   "schema.rb.BASE.1794.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(59858 nil)
   nil
@@ -120,7 +450,7 @@
   nil
   "vmm"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   389
   '(nil nil)
   t
@@ -131,7 +461,7 @@
   "/Users/cmagid/projects/vmm/.irbrc"
   ".irbrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   392
   '(nil nil)
   nil
@@ -142,7 +472,7 @@
   "/Users/cmagid/projects/vmm/.rspec"
   ".rspec"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -153,7 +483,7 @@
   "/Users/cmagid/projects/vmm/.ruby-version"
   ".ruby-version"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -164,7 +494,7 @@
   "/Users/cmagid/projects/vmm/.ruby-gemset"
   ".ruby-gemset"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -172,54 +502,10 @@
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  nil
-  ".emacs.d"
-  'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
-  1360
-  '(2004 nil)
-  t
-  '("/Users/cmagid/.emacs.d/")
-  nil)
-
-(desktop-create-buffer 206
-  "/Users/cmagid/brew/Cellar/emacs/HEAD/share/emacs/24.4.50/lisp/net/webjump.el.gz"
-  "webjump.el.gz"
-  'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  19933
-  '(20672 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/projects/vmm/app/decorators/application_decorator.rb"
-  "application_decorator.rb"
-  'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/projects/o2/lib/tasks/sites/o2.rake"
-  "o2.rake"
-  'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
-  43401
-  '(42875 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/r12/lib/tasks/sites/o2.rake"
   "o2.rake"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   3112
   '(1 nil)
   nil
@@ -230,7 +516,7 @@
   "/Users/cmagid/projects/r12/lib/tasks/sites/pcs.rake"
   "pcs.rake"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   4696
   '(155 nil)
   nil
@@ -238,21 +524,10 @@
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/.bashrc"
-  ".bashrc"
-  'sh-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  23894
-  '(23860 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/.bash_profile"
   ".bash_profile"
   'sh-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(1 nil)
   nil
@@ -263,7 +538,7 @@
   "/Users/cmagid/projects/att/Gemfile"
   "Gemfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1990
   '(2712 nil)
   nil
@@ -274,7 +549,7 @@
   "/Users/cmagid/projects/att/config/database.yml"
   "database.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   35
   '(26 nil)
   nil
@@ -285,7 +560,7 @@
   "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 pivoted.csv"
   "0153 VMM Data 12.02.2014 pivoted.csv"
   'org-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   621
   '(611 nil)
   nil
@@ -296,7 +571,7 @@
   "/Users/cmagid/Downloads/0153 VMM Data 12.02.2014 (8).csv"
   "0153 VMM Data 12.02.2014 (8).csv"
   'csv-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1300
   '(1 nil)
   nil
@@ -307,7 +582,7 @@
   "/Users/cmagid/.emacs.d/chasm-custom-behavior.el"
   "chasm-custom-behavior.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(3544 nil)
   nil
@@ -318,7 +593,7 @@
   "/Users/cmagid/projects/rbm_geek_guides/.git/config"
   "config"
   'conf-unix-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   632
   '(nil nil)
   nil
@@ -329,7 +604,7 @@
   "/Users/cmagid/buffer-list.14.txt"
   "buffer-list.14.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   27922
   '(28236 nil)
   nil
@@ -337,21 +612,10 @@
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/projects/vmm/app/models/location.rb"
-  "location.rb"
-  'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode rinari-minor-mode magit-auto-revert-mode)
-  6806
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/.emacs.d/chasm-key-bindings.el"
   "chasm-key-bindings.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(750 nil)
   nil
@@ -362,7 +626,7 @@
   nil
   "chasm-*"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   596
   '(1 nil)
   t
@@ -373,7 +637,7 @@
   "/Users/cmagid/.emacs.d/chasm-yasnippet.el"
   "chasm-yasnippet.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   123
   '(104 nil)
   nil
@@ -384,7 +648,7 @@
   nil
   "ruby-mode"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   738
   '(1558 nil)
   t
@@ -395,7 +659,7 @@
   "/Users/cmagid/.emacs.d/snippets/ruby-mode/eawi"
   "eawi"
   'snippet-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -406,7 +670,7 @@
   "/Users/cmagid/.emacs.d/chasm-ruby-mode.el"
   "chasm-ruby-mode.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   579
   '(358 nil)
   nil
@@ -417,7 +681,7 @@
   "/Users/cmagid/.emacs.d/chasm-debugging.el"
   "chasm-debugging.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   501
   '(437 nil)
   nil
@@ -428,7 +692,7 @@
   "/Users/cmagid/.emacs.d/chasm-wrap-region.el"
   "chasm-wrap-region.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1041
   '(1 nil)
   nil
@@ -439,7 +703,7 @@
   "/Users/cmagid/.emacs.d/chasm-rainbow-mode.el"
   "chasm-rainbow-mode.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   41
   '(1 nil)
   nil
@@ -450,7 +714,7 @@
   "/Users/cmagid/.emacs.d/chasm-viget.el"
   "chasm-viget.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   37
   '(139 nil)
   nil
@@ -461,7 +725,7 @@
   "/Users/cmagid/.emacs.d/chasm-custom-markerpen.el"
   "chasm-custom-markerpen.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   439
   '(439 nil)
   nil
@@ -469,21 +733,10 @@
   '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/.emacs.d/viget.el"
-  "viget.el"
-  'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  2636
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/sift/without-mq.log"
   "without-mq.log"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   2271
   '(2897 nil)
   nil
@@ -491,21 +744,10 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/.emacs.d/chasm-shells.el"
-  "chasm-shells.el"
-  'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  860
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/.emacs.d/chasm-Open-File-in-External-App.el"
   "chasm-Open-File-in-External-App.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1665
   '(1 nil)
   nil
@@ -516,9 +758,9 @@
   "/Users/cmagid/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  2017
-  '(2044 nil)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  2137
+  '(2164 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
@@ -527,7 +769,7 @@
   nil
   "*info*"
   'Info-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   29315
   '(1 nil)
   t
@@ -538,7 +780,7 @@
   "/Users/cmagid/Downloads/1SummaryoftheIntegrationNeeds.txt"
   "1SummaryoftheIntegrationNeeds.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   666
   '(610 nil)
   nil
@@ -549,7 +791,7 @@
   "/Users/cmagid/projects/vmm/app/models/a_layout_placement_group.rb"
   "a_layout_placement_group.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   777
   '(5723 nil)
   nil
@@ -560,7 +802,7 @@
   "/Users/cmagid/projects/att/db/schema.rb"
   "schema.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   21979
   '(21862 nil)
   nil
@@ -571,7 +813,7 @@
   "/Users/cmagid/projects/att/app/models/campaign_content_group_generation.rb"
   "campaign_content_group_generation.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(1118 nil)
   nil
@@ -582,7 +824,7 @@
   "/Users/cmagid/projects/sift/db/schema.rb"
   "schema.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1381
   '(1 nil)
   nil
@@ -593,7 +835,7 @@
   "/Users/cmagid/projects/vmm/app/models/campaign.rb"
   "campaign.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -604,7 +846,7 @@
   "/Users/cmagid/projects/vmm/app/models/content.rb"
   "content.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   8441
   '(nil nil)
   nil
@@ -615,7 +857,7 @@
   "/Users/cmagid/.ssh/config"
   "config"
   'conf-space-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -626,7 +868,7 @@
   nil
   ".ssh"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   250
   '(nil nil)
   t
@@ -637,7 +879,7 @@
   "/Users/cmagid/projects/zen/spec/services/zendesk/create_ticket_spec.rb"
   "create_ticket_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode linum-mode rubocop-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode linum-mode rubocop-mode)
   223
   '(210 nil)
   nil
@@ -648,7 +890,7 @@
   "/Users/cmagid/projects/zen/spec/services/zen/cache_source_identifier_spec.rb"
   "cache_source_identifier_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   500
   '(96 nil)
   nil
@@ -659,7 +901,7 @@
   "/Users/cmagid/projects/sift/spec/mq/configurator_spec.rb"
   "configurator_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   802
   '(1813 nil)
   nil
@@ -670,7 +912,7 @@
   "/Users/cmagid/projects/sift/spec/requests/v1/location_filters_controller/filter_read_spec.rb"
   "filter_read_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   2461
   '(3338 nil)
   nil
@@ -681,7 +923,7 @@
   "/Users/cmagid/projects/local-data/organize/without-mq.txt"
   "without-mq.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   229692
   '(1 nil)
   nil
@@ -692,7 +934,7 @@
   "/Users/cmagid/projects/att/node_modules/coffee-script/lib/coffee-script.js"
   "coffee-script.js"
   'js-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   319
   '(nil nil)
   nil
@@ -703,9 +945,9 @@
   "/Users/cmagid/brew/sbin/rabbitmq-server"
   "rabbitmq-server"
   'sh-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  6269
-  '(5165 nil)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  3971
+  '(3971 nil)
   t
   nil
   '((buffer-file-coding-system . undecided-unix)))
@@ -714,7 +956,7 @@
   "/Users/cmagid/projects/zen/app/models/feedback.rb"
   "feedback.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode rubocop-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode rubocop-mode)
   2340
   '(nil nil)
   nil
@@ -725,7 +967,7 @@
   "/Users/cmagid/projects/zen/spec/services/zendesk/accept_trigger_spec.rb"
   "accept_trigger_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode rubocop-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode rubocop-mode)
   1400
   '(1487 nil)
   nil
@@ -736,7 +978,7 @@
   "/Users/cmagid/projects/sift/Gemfile"
   "Gemfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode rubocop-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode rubocop-mode)
   1119
   '(1099 nil)
   nil
@@ -744,21 +986,10 @@
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/Documents/Access.txt"
-  "Access.txt"
-  'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  980
-  '(954 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/sift/lib/docs/source/includes/_tenancy.md"
   "_tenancy.md"
   'markdown-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1099
   '(1304 nil)
   nil
@@ -769,7 +1000,7 @@
   "/Users/cmagid/projects/sift/lib/docs/source/includes/_auth.md"
   "_auth.md"
   'markdown-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1270
   '(nil nil)
   nil
@@ -780,7 +1011,7 @@
   "/Users/cmagid/projects/sift/config/database.yml"
   "database.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode rinari-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode rinari-minor-mode)
   85
   '(68 nil)
   nil
@@ -791,7 +1022,7 @@
   "/Users/cmagid/projects/sift/spec/models/location_spec.rb"
   "location_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   689
   '(646 nil)
   nil
@@ -802,7 +1033,7 @@
   "/Users/cmagid/projects/sift/config/rabbitmq.yml"
   "rabbitmq.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   803
   '(1493 nil)
   nil
@@ -813,7 +1044,7 @@
   "/Users/cmagid/.rspec"
   ".rspec"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   44
   '(44 nil)
   nil
@@ -824,7 +1055,7 @@
   nil
   "cmagid"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   6597
   '(256 nil)
   t
@@ -835,7 +1066,7 @@
   "/Users/cmagid/.rvm/gems/ruby-2.1.2@sift-service/gems/rspec-core-2.99.2/lib/rspec/core/configuration.rb"
   "configuration.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   25051
   '(24992 nil)
   nil
@@ -846,7 +1077,7 @@
   "/Users/cmagid/projects/sift/.rspec"
   ".rspec"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode)
   32
   '(nil nil)
   nil
@@ -857,7 +1088,7 @@
   "/Users/cmagid/.rdebugrc"
   ".rdebugrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   65
   '(1 nil)
   nil
@@ -868,7 +1099,7 @@
   "/Users/cmagid/projects/sift/Gemfile.lock"
   "Gemfile.lock"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode)
   1236
   '(1236 nil)
   nil
@@ -879,7 +1110,7 @@
   "/Users/cmagid/projects/sift/spec/spec_helper.rb"
   "spec_helper.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   551
   '(589 nil)
   nil
@@ -890,7 +1121,7 @@
   "/Users/cmagid/projects/sift/spec/models/attribute_set_spec.rb"
   "attribute_set_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   298
   '(298 nil)
   nil
@@ -901,7 +1132,7 @@
   nil
   "models"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   937
   '(1 nil)
   t
@@ -912,7 +1143,7 @@
   "/Users/cmagid/projects/sift/app/models/attribute_set.rb"
   "attribute_set.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode whitespace-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode whitespace-mode)
   289
   '(289 nil)
   nil
@@ -923,7 +1154,7 @@
   "/Users/cmagid/projects/sift/app/models/campaign.rb"
   "campaign.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   466
   '(433 nil)
   nil
@@ -934,7 +1165,7 @@
   nil
   "models"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   531
   '(nil nil)
   t
@@ -945,7 +1176,7 @@
   "/Users/cmagid/projects/r12/spec/models/brand_spec.rb"
   "brand_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   1002
   '(nil nil)
   nil
@@ -956,7 +1187,7 @@
   nil
   "models"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   246
   '(nil nil)
   t
@@ -967,7 +1198,7 @@
   "/Users/cmagid/projects/sift/spec/models/category_translation_spec.rb"
   "category_translation_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -978,7 +1209,7 @@
   "/Users/cmagid/projects/sift/app/models/category.rb"
   "category.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   855
   '(435 nil)
   nil
@@ -989,7 +1220,7 @@
   "/Users/cmagid/projects/sift/app/models/concerns/attribute_cleanser.rb"
   "attribute_cleanser.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   148
   '(nil nil)
   nil
@@ -1000,7 +1231,7 @@
   "/Users/cmagid/projects/sift/spec/models/category_spec.rb"
   "category_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode rinari-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode rinari-minor-mode)
   476
   '(nil nil)
   nil
@@ -1011,7 +1242,7 @@
   "/Users/cmagid/projects/sift/spec/models/campaign_spec.rb"
   "campaign_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   336
   '(nil nil)
   nil
@@ -1022,7 +1253,7 @@
   nil
   "spec"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   302
   '(nil nil)
   t
@@ -1033,7 +1264,7 @@
   "/Users/cmagid/projects/sift/spec/models/api_key_spec.rb"
   "api_key_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   250
   '(nil nil)
   nil
@@ -1044,7 +1275,7 @@
   "/Users/cmagid/projects/sift/spec/factories.rb"
   "factories.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   369
   '(nil nil)
   nil
@@ -1055,7 +1286,7 @@
   "/Users/cmagid/projects/sift/db/migrate/20140409053226_add_digest_to_filter.rb"
   "20140409053226_add_digest_to_filter.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -1066,7 +1297,7 @@
   nil
   "migrate"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   513
   '(nil nil)
   t
@@ -1077,7 +1308,7 @@
   "/Users/cmagid/projects/sift/app/models/query.rb"
   "query.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   34
   '(nil nil)
   nil
@@ -1088,7 +1319,7 @@
   "/Users/cmagid/projects/sift/config/initializers/apartment.rb"
   "apartment.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   869
   '(665 nil)
   nil
@@ -1099,7 +1330,7 @@
   "/Users/cmagid/projects/sift/.git/config"
   "config"
   'conf-unix-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   138
   '(nil nil)
   nil
@@ -1110,7 +1341,7 @@
   nil
   "Documents"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   435
   '(3032 nil)
   t
@@ -1121,7 +1352,7 @@
   "/Users/cmagid/rbmretcon.111814.csv"
   "rbmretcon.111814.csv"
   'csv-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   100
   '(1 nil)
   nil
@@ -1132,7 +1363,7 @@
   "/Users/cmagid/projects/sift/lib/docs/Gemfile"
   "Gemfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   640
   '(367 nil)
   nil
@@ -1143,7 +1374,7 @@
   nil
   "docs"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   338
   '(nil nil)
   t
@@ -1154,7 +1385,7 @@
   "/Users/cmagid/projects/sift/lib/docs/CONTRIBUTING.md"
   "CONTRIBUTING.md"
   'markdown-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -1165,7 +1396,7 @@
   nil
   "Dropbox"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   2992
   '(2992 t)
   t
@@ -1176,7 +1407,7 @@
   nil
   "aliases"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   199
   '(nil nil)
   t
@@ -1187,7 +1418,7 @@
   nil
   "organize"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   2467
   '(2445 nil)
   t
@@ -1198,7 +1429,7 @@
   "/Users/cmagid/projects/rbm_geek_guides/vmm/README.md"
   "README.md"
   'markdown-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -1209,7 +1440,7 @@
   "/Users/cmagid/projects/sift/db/seeds.rb"
   "seeds.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   290
   '(nil nil)
   nil
@@ -1220,7 +1451,7 @@
   nil
   "config"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   556
   '(556 t)
   t
@@ -1231,7 +1462,7 @@
   "/Users/cmagid/projects/sift/config/database.example.yml"
   "database.example.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -1242,7 +1473,7 @@
   "/Users/cmagid/projects/sift/.pryrc"
   ".pryrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   45
   '(nil nil)
   nil
@@ -1253,7 +1484,7 @@
   nil
   "rbm_geek_guides"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   750
   '(nil nil)
   t
@@ -1264,7 +1495,7 @@
   nil
   "sift"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   522
   '(nil nil)
   t
@@ -1275,7 +1506,7 @@
   "/Users/cmagid/projects/sift/.ruby-gemset"
   ".ruby-gemset"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   13
   '(1 nil)
   nil
@@ -1286,7 +1517,7 @@
   "/Users/cmagid/projects/sift/app/controllers/application_controller.rb"
   "application_controller.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -1297,7 +1528,7 @@
   "/Users/cmagid/projects/att/app/models/placement_settings.rb"
   "placement_settings.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   1078
   '(4005 nil)
   nil
@@ -1308,7 +1539,7 @@
   "/Users/cmagid/.emacs.d/elpa/ruby-compilation-20140620.217/ruby-compilation.el"
   "ruby-compilation.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode checkdoc-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode checkdoc-minor-mode)
   6349
   '(6322 nil)
   nil
@@ -1319,20 +1550,9 @@
   "/Users/cmagid/.emacs.d/chasm-defuns.el"
   "chasm-defuns.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/cmagid/brew/Cellar/emacs/HEAD/share/emacs/24.4.50/lisp/emacs-lisp/package.el.gz"
-  "package.el.gz"
-  'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  2946
-  '(84087 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
@@ -1341,7 +1561,7 @@
   "/Users/cmagid/.emacs.d/chasm-custom-auto-complete-experimental-behavior.el"
   "chasm-custom-auto-complete-experimental-behavior.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   334
   '(126 nil)
   nil
@@ -1352,7 +1572,7 @@
   "/Users/cmagid/projects/att/app/models/skuable.rb"
   "skuable.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   2
   '(37 nil)
   nil
@@ -1363,7 +1583,7 @@
   nil
   "el-get"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   2576
   '(nil nil)
   t
@@ -1374,7 +1594,7 @@
   nil
   "snippets"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   3655
   '(3655 nil)
   t
@@ -1385,7 +1605,7 @@
   "/Users/cmagid/projects/r12/config/initializers/console.rb"
   "console.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   18
   '(18 nil)
   nil
@@ -1396,7 +1616,7 @@
   nil
   "git-commit-mode"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   275
   '(nil nil)
   t
@@ -1407,7 +1627,7 @@
   "/Users/cmagid/.emacs.d/elpa/yasnippet-20141117.327/yasnippet.el"
   "yasnippet.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1338
   '(nil nil)
   nil
@@ -1418,7 +1638,7 @@
   nil
   "yasnippet-20141117.327"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   589
   '(nil nil)
   t
@@ -1429,7 +1649,7 @@
   nil
   "elpa"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   8074
   '(259 nil)
   t
@@ -1440,7 +1660,7 @@
   "/Users/cmagid/projects/git_101/.git/config"
   "config"
   'conf-unix-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   202
   '(nil nil)
   nil
@@ -1451,7 +1671,7 @@
   "/Users/cmagid/projects/git_101/alumni.md"
   "alumni.md"
   'markdown-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   688
   '(nil nil)
   nil
@@ -1462,7 +1682,7 @@
   nil
   ".git"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   325
   '(nil nil)
   t
@@ -1473,7 +1693,7 @@
   "/Users/cmagid/projects/r12/.ruby-version"
   ".ruby-version"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   18
   '(1 nil)
   nil
@@ -1484,7 +1704,7 @@
   "/Users/cmagid/projects/r12/Gemfile"
   "Gemfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(2472 nil)
   nil
@@ -1495,7 +1715,7 @@
   nil
   "config"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   1507
   '(1507 nil)
   t
@@ -1506,7 +1726,7 @@
   "/Users/cmagid/projects/r12/config/site_hosts.yml"
   "site_hosts.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(2720 nil)
   nil
@@ -1517,7 +1737,7 @@
   "/Users/cmagid/projects/r12/config/benchmarks.yml"
   "benchmarks.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -1528,7 +1748,7 @@
   nil
   "originals"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   445
   '(445 nil)
   t
@@ -1539,7 +1759,7 @@
   "/Users/cmagid/projects/r12/log/sync.Content20141119_095330.log"
   "sync.Content20141119_095330.log"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   604
   '(nil nil)
   nil
@@ -1550,7 +1770,7 @@
   nil
   "content"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   257
   '(1 nil)
   t
@@ -1561,7 +1781,7 @@
   nil
   "rbmRetailS*"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   195
   '(160 nil)
   t
@@ -1572,7 +1792,7 @@
   "/Users/cmagid/Downloads/rbmRetailShipments20141003-1715.txt"
   "rbmRetailShipments20141003-1715.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(1 nil)
   nil
@@ -1583,7 +1803,7 @@
   nil
   "log"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   258
   '(nil nil)
   t
@@ -1594,7 +1814,7 @@
   "/Users/cmagid/projects/r12/log/sync.Content20141118_101022.log"
   "sync.Content20141118_101022.log"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   59
   '(nil nil)
   nil
@@ -1605,7 +1825,7 @@
   "/Users/cmagid/projects/r12/vendor/plugins/acts_as_syncable/lib/active_record/acts/syncable.rb"
   "syncable.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   12801
   '(nil nil)
   nil
@@ -1616,7 +1836,7 @@
   "/Users/cmagid/projects/r12/tmp/feed/content/originals/rbmCatalog.20141117.txt"
   "rbmCatalog.20141117.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(220633 nil)
   nil
@@ -1627,7 +1847,7 @@
   nil
   "r12"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   523
   '(1 nil)
   t
@@ -1638,7 +1858,7 @@
   "/Users/cmagid/projects/r12/log/sync.Content20141117_173435.log"
   "sync.Content20141117_173435.log"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   736
   '(nil nil)
   nil
@@ -1649,7 +1869,7 @@
   "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02/gems/wirble-0.1.3/lib/wirble.rb"
   "wirble.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   2303
   '(nil nil)
   nil
@@ -1660,7 +1880,7 @@
   nil
   "sync.*"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   364
   '(nil nil)
   t
@@ -1671,7 +1891,7 @@
   "/Users/cmagid/projects/r12/.irbrc"
   ".irbrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   152
   '(34 nil)
   nil
@@ -1682,7 +1902,7 @@
   "/Users/cmagid/projects/r12/app/models/content_order.rb"
   "content_order.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   8678
   '(8718 nil)
   nil
@@ -1693,7 +1913,7 @@
   "/Users/cmagid/projects/r12/tmp/mails/rbm@rbmtechnologies.com"
   "rbm@rbmtechnologies.com"
   'dcl-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1277
   '(436 nil)
   nil
@@ -1704,7 +1924,7 @@
   nil
   "mails"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   264
   '(nil nil)
   t
@@ -1715,7 +1935,7 @@
   "/Users/cmagid/projects/r12/sites/pcs/app/models/content.rb"
   "content.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   3694
   '(170 nil)
   nil
@@ -1726,7 +1946,7 @@
   "/Users/cmagid/Downloads/rbmRetailShipments20141007-1715.txt"
   "rbmRetailShipments20141007-1715.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(111 nil)
   nil
@@ -1737,7 +1957,7 @@
   "/Users/cmagid/Downloads/rbmRetailShipments20141106-1715.txt"
   "rbmRetailShipments20141106-1715.txt"
   'text-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   3
   '(nil nil)
   nil
@@ -1748,7 +1968,7 @@
   nil
   "sites"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   610
   '(nil nil)
   t
@@ -1759,7 +1979,7 @@
   "/Users/cmagid/projects/r12/app/models/order.rb"
   "order.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   13038
   '(10473 nil)
   nil
@@ -1770,7 +1990,7 @@
   "/Users/cmagid/projects/r12/sites/pcs/app/models/order.rb"
   "order.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1465
   '(nil nil)
   nil
@@ -1781,7 +2001,7 @@
   nil
   ".rub*"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   150
   '(nil nil)
   t
@@ -1792,7 +2012,7 @@
   "/Users/cmagid/projects/.rvmrc"
   ".rvmrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   18
   '(1 nil)
   nil
@@ -1803,7 +2023,7 @@
   "/Users/cmagid/projects/att/app/controllers/recovery_controller.rb"
   "recovery_controller.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1230
   '(nil nil)
   nil
@@ -1814,7 +2034,7 @@
   "/Users/cmagid/projects/orion/app/controllers/application_controller.rb"
   "application_controller.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -1825,7 +2045,7 @@
   nil
   "controllers"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   335
   '(nil nil)
   t
@@ -1836,7 +2056,7 @@
   nil
   "app"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   320
   '(nil nil)
   t
@@ -1847,7 +2067,7 @@
   nil
   "orion"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   1194
   '(nil nil)
   t
@@ -1858,7 +2078,7 @@
   "/Users/cmagid/projects/orion/Procfile"
   "Procfile"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   162
   '(nil nil)
   nil
@@ -1869,7 +2089,7 @@
   "/Users/cmagid/projects/orion/.env.example"
   ".env.example"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   13
   '(1 nil)
   nil
@@ -1880,7 +2100,7 @@
   "/Users/cmagid/projects/orion/Guardfile"
   "Guardfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   978
   '(nil nil)
   nil
@@ -1891,7 +2111,7 @@
   "/Users/cmagid/projects/att/junk.rb"
   "junk.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   74
   '(85 nil)
   nil
@@ -1902,7 +2122,7 @@
   "/Users/cmagid/projects/o2/junk.csv"
   "junk.csv"
   'csv-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   210
   '(159 nil)
   nil
@@ -1913,7 +2133,7 @@
   nil
   "HOW-TO"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   448
   '(nil nil)
   t
@@ -1924,7 +2144,7 @@
   nil
   "Administrivia"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   370
   '(nil nil)
   t
@@ -1935,7 +2155,7 @@
   "/Users/cmagid/projects/local-data/organize/non-specific/Information_Requested_by_Neil.org"
   "Information_Requested_by_Neil.org"
   'org-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   14147
   '(nil nil)
   nil
@@ -1946,7 +2166,7 @@
   nil
   "evernote-mode-0.41"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   430
   '(nil nil)
   t
@@ -1957,7 +2177,7 @@
   "/Users/cmagid/projects/o2/retti.csv"
   "retti.csv"
   'csv-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode linum-mode)
   1
   '(172 nil)
   nil
@@ -1968,7 +2188,7 @@
   "/Users/cmagid/projects/o2/app/helpers/locations_helper.rb"
   "locations_helper.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   9641
   '(9926 nil)
   nil
@@ -1979,7 +2199,7 @@
   "/Users/cmagid/.emacs.d/elpa/mactag-0.0.1/mactag.el"
   "mactag.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   4772
   '(4452 nil)
   nil
@@ -1990,7 +2210,7 @@
   "/Users/cmagid/projects/o2/config/mactag.rb"
   "mactag.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   747
   '(472 nil)
   nil
@@ -2001,7 +2221,7 @@
   "/Users/cmagid/projects/o2/config/database.yml"
   "database.yml"
   'yaml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   110
   '(87 nil)
   nil
@@ -2012,7 +2232,7 @@
   "/Users/cmagid/projects/o2/Gemfile"
   "Gemfile"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1633
   '(1626 nil)
   nil
@@ -2023,7 +2243,7 @@
   "/Users/cmagid/projects/o2/spec/tasks/retcon_spec.rb"
   "retcon_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   8312
   '(nil nil)
   nil
@@ -2034,7 +2254,7 @@
   nil
   "db"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   256
   '(nil nil)
   t
@@ -2045,7 +2265,7 @@
   nil
   "tmp"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   2481
   '(nil nil)
   t
@@ -2056,7 +2276,7 @@
   nil
   "gems"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   251
   '(nil nil)
   t
@@ -2067,7 +2287,7 @@
   nil
   ".rvm"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   1092
   '(nil nil)
   t
@@ -2078,7 +2298,7 @@
   "/Users/cmagid/.emacs.d/csv-mode.el"
   "csv-mode.el"
   'emacs-lisp-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   320
   '(1420 nil)
   nil
@@ -2089,7 +2309,7 @@
   "/Users/cmagid/projects/o2/.rvmrc"
   ".rvmrc"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(20 nil)
   nil
@@ -2100,7 +2320,7 @@
   "/Users/cmagid/projects/att/placement/placement/data_dumper.rb"
   "data_dumper.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   31
   '(907 nil)
   nil
@@ -2111,7 +2331,7 @@
   nil
   ".git"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   342
   '(nil nil)
   t
@@ -2122,7 +2342,7 @@
   nil
   "el-get"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   343
   '(nil nil)
   t
@@ -2133,7 +2353,7 @@
   nil
   ".emacs.d.current"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   1271
   '(nil nil)
   t
@@ -2144,7 +2364,7 @@
   "/Users/cmagid/rbmRetcon-0066.csv"
   "rbmRetcon-0066.csv"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -2155,7 +2375,7 @@
   "/Users/cmagid/projects/o2/public/stylesheets/colorbox.css"
   "colorbox.css"
   'css-mode
-  '(textmate-mode rainbow-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode rainbow-mode wrap-region-mode yas-minor-mode)
   1
   '(4453 nil)
   nil
@@ -2166,7 +2386,7 @@
   "/Users/cmagid/Downloads/dump_snippets.rb"
   "dump_snippets.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   876
   '(1199 nil)
   nil
@@ -2177,7 +2397,7 @@
   nil
   "controllers"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   1683
   '(nil nil)
   t
@@ -2188,7 +2408,7 @@
   "/Users/cmagid/Downloads/exerciser.rb"
   "exerciser.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   8975
   '(7368 nil)
   nil
@@ -2199,7 +2419,7 @@
   "/Users/cmagid/projects/att/placement/placement/status.rb"
   "status.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   1
   '(3414 nil)
   nil
@@ -2210,7 +2430,7 @@
   "/Users/cmagid/projects/att/app/controllers/skuter_runs_controller.rb"
   "skuter_runs_controller.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   12014
   '(12014 nil)
   nil
@@ -2221,7 +2441,7 @@
   "/Users/cmagid/projects/att/placement/placement.rb"
   "placement.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   35
   '(3342 nil)
   nil
@@ -2232,7 +2452,7 @@
   "/Users/cmagid/projects/att/app/models/skuter_run.rb"
   "skuter_run.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode linum-mode)
   799
   '(799 nil)
   nil
@@ -2243,7 +2463,7 @@
   "/Users/cmagid/projects/att/app/views/skuter_runs/index.haml"
   "index.haml"
   'haml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   370
   '(328 nil)
   nil
@@ -2254,7 +2474,7 @@
   "/Users/cmagid/projects/att/app/views/layouts/placement.haml"
   "placement.haml"
   'haml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(1664 nil)
   nil
@@ -2265,7 +2485,7 @@
   "/Users/cmagid/projects/att/app/views/skuter_runs/show.haml"
   "show.haml"
   'haml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1776
   '(1732 nil)
   nil
@@ -2276,7 +2496,7 @@
   "/Users/cmagid/projects/att/db/migrate/20100124190434_add_contents_requires_approval.rb"
   "20100124190434_add_contents_requires_approval.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   204
   '(214 nil)
   nil
@@ -2287,7 +2507,7 @@
   "/Users/cmagid/projects/att/db/migrate/20100610234200_use_i18n_translations.rb"
   "20100610234200_use_i18n_translations.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   244
   '(201 nil)
   nil
@@ -2298,7 +2518,7 @@
   "/Users/cmagid/projects/att/spec/controllers/skuter_runs_controller_spec.rb"
   "skuter_runs_controller_spec.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-mode inf-ruby-minor-mode)
   1
   '(nil nil)
   nil
@@ -2306,21 +2526,10 @@
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/cmagid/projects/att/.git/hooks/pre-commit.sample"
-  "pre-commit.sample"
-  'sh-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  1622
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/att/lib/tasks/sites/att.rake"
   "att.rake"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   31685
   '(31685 nil)
   nil
@@ -2331,7 +2540,7 @@
   "/Users/cmagid/projects/att/app/views/shared_skuables/show.haml"
   "show.haml"
   'haml-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   206
   '(2794 nil)
   nil
@@ -2342,7 +2551,7 @@
   "/Users/cmagid/projects/att/app/models/content_placement.rb"
   "content_placement.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   8099
   '(1708 nil)
   nil
@@ -2353,7 +2562,7 @@
   nil
   "Downloads"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   2020
   '(2020 t)
   t
@@ -2364,7 +2573,7 @@
   nil
   "Ruby on Rails Guides v2"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   528
   '(nil nil)
   t
@@ -2375,7 +2584,7 @@
   "/Users/cmagid/projects/att/app/models/accessory_skuable.rb"
   "accessory_skuable.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   33
   '(1 nil)
   nil
@@ -2386,7 +2595,7 @@
   "/Users/cmagid/projects/att/app/models/device_skuable.rb"
   "device_skuable.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   30
   '(1 nil)
   nil
@@ -2397,7 +2606,7 @@
   "/Users/cmagid/aliases/.rails_aliases"
   ".rails_aliases"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   124
   '(1 nil)
   nil
@@ -2408,7 +2617,7 @@
   "/Users/cmagid/projects/att/place_ab/place_ab.rb"
   "place_ab.rb"
   'ruby-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-complete-mode rspec-verifiable-mode inf-ruby-minor-mode)
   5889
   '(5208 nil)
   nil
@@ -2419,7 +2628,7 @@
   nil
   "bin"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   60
   '(3 nil)
   t
@@ -2430,7 +2639,7 @@
   nil
   "coffee-script"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   544
   '(nil nil)
   t
@@ -2441,7 +2650,7 @@
   nil
   "node_modules"
   'dired-mode
-  '(textmate-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode yas-minor-mode)
   315
   '(nil nil)
   t
@@ -2449,21 +2658,10 @@
   nil)
 
 (desktop-create-buffer 206
-  "/Users/cmagid/.profile"
-  ".profile"
-  'sh-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
-  41
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
   "/Users/cmagid/projects/att/node_modules/coffee-script/lib/browser.js"
   "browser.js"
   'js-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -2474,7 +2672,7 @@
   "/Users/cmagid/.notes"
   ".notes"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode)
   1
   '(nil nil)
   nil
@@ -2485,10 +2683,32 @@
   "/Users/cmagid/projects/sift/with-mq.log"
   "with-mq.log"
   'fundamental-mode
-  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode magit-auto-revert-mode)
+  '(textmate-mode wrap-region-mode yas-minor-mode auto-revert-mode)
   2324
   '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/loaddefs.el"
+  "loaddefs.el"
+  'emacs-lisp-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  440193
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/att/.git/hooks/pre-commit.sample"
+  "pre-commit.sample"
+  'sh-mode
+  '(textmate-mode wrap-region-mode yas-minor-mode)
+  547
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
 

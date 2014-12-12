@@ -1,3 +1,9 @@
+;; http://viget.com/extend/emacs-24-rails-development-environment-from-scratch-to-productive-in-5-minu
+;; brew install emacs --cocoa --use-git-head --HEAD
+;; mv /usr/local/Cellar/emacs/HEAD/Emacs.app /Applications/
+;; mkdir ~/.emacs.d
+;; echo ";; emacs configuration" > ~/.emacs.d/init.el
+
 (push "/usr/local/bin" exec-path)
 ;(add-to-list 'load-path "~/.emacs.d") ;; -- can no longer use! 2014/05/24
 

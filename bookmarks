@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("update_status_test_info.txt"
+(("gnutls.el.gz"
+ (filename . "~/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/net/gnutls.el.gz")
+ (front-context-string . "               ;")
+ (rear-context-string . "tls-log-level 2)")
+ (position . 5144))
+("update_status_test_info.txt"
  (filename . "~/projects/local-data/organize/update_status_test_info.txt")
  (front-context-string)
  (rear-context-string . "us is 68.982433\n")
