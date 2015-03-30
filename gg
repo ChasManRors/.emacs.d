@@ -1,0 +1,119 @@
+#!/usr/bin/env ruby
+
+class String
+  def is_number?
+    true if Float(self) rescue false
+  end
+  def existing_file?
+    File.exists?(self)
+  end
+end
+
+def visit_file_at_line(options = {})
+  # puts 'MATCHES MATCHES MATCHES MATCHES'
+  filename = options[:filename]
+  linenumber = options[:linenumber]
+  puts "#{@EMACS_CLIENT} -n +#{linenumber} #{filename}"
+  system "#{@EMACS_CLIENT} -n +#{linenumber} #{filename}"
+  exit
+end
+
+@EMACS_CLIENT='/Users/cmagid/brew/bin/emacsclient'
+
+
+
+# ################################# Rules for Dispatching #################################
+
+# --------------
+# From: /Users/cmagid/projects/rbm_validator/lib/rbm_validator.rb @ line 107 RbmValidator#categorize_rules_applied_to_line:
+# --------------
+# ARGV.size == 6 &&
+# ARGV[0] =~ /From:/ &&
+# ARGV[1] =~ //Users/cmagid/projects/rbm_validator/lib/rbm_validator.rb/ &&
+# ARGV[2] =~ /@/ &&
+# ARGV[3] =~ /line/ &&
+# ARGV[4] =~ /107/ &&
+# ARGV[5] =~ /RbmValidator#categorize_rules_applied_to_line:/ &&
+if (ARGV.size == 6 &&
+    ARGV[0] =~ /Fr..:/ &&
+    ARGV[1].split(':').first.existing_file? &&
+    ARGV[2] =~ /@/ &&
+    ARGV[3] =~ /line/ &&
+    ARGV[4].is_number? &&
+    ARGV[5] =~ /[a-zA-Z_\-0-9]*\#[a-zA-Z_\-0-9]*[?]*:/
+   )
+  visit_file_at_line({:filename => ARGV[1],
+                      :linenumber => ARGV[4]})
+end
+
+# --------------
+# - /Users/cmagid/projects/vmm/vendor/gems/activesupport-3.0.11/lib/active_support/dependencies.rb:239
+# --------------
+# ARGV.size == 2 &&
+# ARGV[0] =~ /-/ &&
+# ARGV[1] =~ //Users/cmagid/projects/vmm/vendor/gems/activesupport-3.0.11/lib/active_support/dependencies.rb:239/ &&
+if (ARGV.size == 2 &&
+    ARGV[0] =~ /-/ &&
+    ARGV[1].split(':').first.existing_file? &&
+    ARGV[1].split(':').last.is_number?
+   )
+  visit_file_at_line({ :filename => ARGV[1].split(':').first,
+                       :linenumber => ARGV[1].split(':').last})
+end
+
+# --------------
+# at line /Users/cmagid/projects/newppm/app/helpers/application_helper.rb:403
+# --------------
+# ARGV.size == 3 &&
+# ARGV[0] =~ /at/ &&
+# ARGV[1] =~ /line/ &&
+# ARGV[2] =~ //Users/cmagid/projects/newppm/app/helpers/application_helper.rb:403/ &&
+if (ARGV.size == 3 &&
+    ARGV[0] =~ /at/ &&
+    ARGV[1] =~ /line/ &&
+    ARGV[2].split(':').size == 2 &&
+    ARGV[2].split(':').first.existing_file? &&
+    ARGV[2].split(':').last.is_number? 
+   )
+
+  visit_file_at_line({:filename => ARGV[2].split(':').first, 
+                      :linenumber => ARGV[2].split(':').last})
+end
+
+
+# TODO: At some point change the regex to not use known list of extensions
+# --------------
+# gg lib/rbm_validator.rb21:
+# --------------
+# ARGV.size == 1 &&
+# ARGV[0] =~ /lib/rbm_validator.rb21:/ &&
+if (ARGV.size == 1 &&
+    ARGV[0] =~ /\S*\/\S*\.(rb|css|app|asp|bash_local|bashrc|boot|c|cgi|coffee|conf|config|css|csv|cvsignore|doc|docx|erl|fcgi|gemspec|gif|gitkeep|graffle|h|haml|hrl|htc|html|icc|ico|ja|jpeg|jpg|js|json|keep|linux|lock|log|markdown|md|npmignore|pack|patch|pdf|php|png|primary|r12_212|rabl|rake|rb|rel|rhtml|rjs|ru|rxml|sass|sassc|script|scss|scssc|sh|sql|svg|swf|txt|types|valid|wrap|wsdl|xcf|xml|yaml|yml|zip)[0-9]+:/
+   )
+ triplet = ARGV[0].split(/\S*\/\S*\.(rb|css|app|asp|bash_local|bashrc|boot|c|cgi|coffee|conf|config|css|csv|cvsignore|doc|docx|erl|fcgi|gemspec|gif|gitkeep|graffle|h|haml|hrl|htc|html|icc|ico|ja|jpeg|jpg|js|json|keep|linux|lock|log|markdown|md|npmignore|pack|patch|pdf|php|png|primary|r12_212|rabl|rake|rb|rel|rhtml|rjs|ru|rxml|sass|sassc|script|scss|scssc|sh|sql|svg|swf|txt|types|valid|wrap|wsdl|xcf|xml|yaml|yml|zip)/)
+ ln = triplet.last.split(':').first
+ i = ARGV[0].index(ln)
+ fn = (ARGV[0])[0..i-1]
+ 
+ puts "i = #{i}"
+ puts "fn = #{fn}"
+ puts "ln = #{ln}"
+ 
+ visit_file_at_line({:filename => fn,
+                     :linenumber => ln})
+end
+
+
+
+# Keep following very close to the end of the file
+puts 'edit /usr/local/bin/gg to add this missing case'
+puts 'no matching rule'
+
+# Print out arguments in a way that is easy to turn into a case for dispatching to the editor
+puts "ARGV.size == #{ARGV.size} &&"
+ARGV.each_with_index do|a,i|
+  puts "ARGV[#{i}] =~ /#{a}/ &&"
+end
+
+# end of program
+exit 

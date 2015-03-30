@@ -2,7 +2,42 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("gnutls.el.gz"
+(("Bookmarks"
+ (filename . "~/Library/Application Support/Google/Chrome/Default/Bookmarks")
+ (front-context-string . "               \"")
+ (rear-context-string . " \"type\": \"url\",\n")
+ (position . 3474))
+("rcone.rb"
+ (filename . "~/projects/vmm/rcone.rb")
+ (front-context-string . "require 'csv'\nfl")
+ (rear-context-string)
+ (position . 1))
+("BBY - Sample Data"
+ (filename . "~/Google Drive/BBY - Sample Data/")
+ (front-context-string . "\n  -rw-------  1")
+ (rear-context-string . "1-06 16:14 Icon\n")
+ (position . 1851))
+("transcriptionbackup.org"
+ (filename . "~/aliases/transcriptionbackup.org")
+ (front-context-string . "The general prob")
+ (rear-context-string . "r fixture type\n\n")
+ (position . 1479))
+("heads.log"
+ (filename . "~/Google Drive/BBY - Sample Data/heads.log")
+ (front-context-string . ",\"\",\"LAKEWOOD\",\"")
+ (rear-context-string . " WADSWORTH BLVD\"")
+ (position . 984))
+("R15 plan/readme.txt"
+ (filename . "~/projects/vmm/plan/readme.txt")
+ (front-context-string . "i/11.GNFR Parts-")
+ (rear-context-string . "ts-Signage-Avant")
+ (position . 180))
+("Integration Documentation"
+ (filename . "~/Google Drive/BBY - Bloomington Team Working Folder/Integration Documentation/")
+ (front-context-string . "1 Summary of the")
+ (rear-context-string . "218 01-05 09:54 ")
+ (position . 373))
+("gnutls.el.gz"
  (filename . "~/brew/Cellar/emacs/HEAD/share/emacs/25.0.50/lisp/net/gnutls.el.gz")
  (front-context-string . "               ;")
  (rear-context-string . "tls-log-level 2)")

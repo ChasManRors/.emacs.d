@@ -60,3 +60,4 @@
 (add-hook 'after-init-hook (lambda () (load "~/.emacs.d/chasm-init.el")))
 
 
+(put 'set-goal-column 'disabled nil)

@@ -5,5 +5,7 @@
 (fset 'chasm-debug-helper
    [escape ?\C-r ?^ ?\\ ?\[ ?\[ ?0 ?- ?9 ?\] ?+ ?, ?  ?\C-a ?\C-  ?\C-e escape ?w escape ?> ?\C-x ?4 ?b ?* ?d ?e ?b ?u ?g ?- ?h ?e ?l ?p ?e ?r ?* return escape ?> ?g ?  ?\C-y return])
 
-(global-set-key [33554439] (quote chasm-debug-helper)) ;; C-S-g
+;; ruby 1.8.7 with rails 3
+;;(global-set-key [33554439] (quote chasm-debug-helper)) ;; C-S-g
 
+(global-set-key [33554439] (quote chasm-pry-break-goto)) ;; C-S-g

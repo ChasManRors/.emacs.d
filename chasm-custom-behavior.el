@@ -1,5 +1,5 @@
 ;; yasnippets everywhere
-;; (yas-global-mode 1) 
+;; (yas-global-mode 1)
 ;; Important! Use C-x # to close an emacsclient buffer. ;; very time consuming
 (server-start)
 ;; chasm Mon May 26 22:28:42 2014
@@ -16,11 +16,13 @@
 ;; (shell nil)
 ;; Note trailing white space
 (setq-default show-trailing-whitespace nil)
+
 ;; Remove trailing white space
-;(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; very time consuming but very helpful
 (desktop-save-mode t)
+
 ;; prevent accidental data loss
 (put 'erase-buffer 'disabled nil)
 ;;
@@ -63,10 +65,33 @@
 (setq sr-speedbar-right-side nil)
 
 ;; Stop the utf-8 comment from showing up on top of files with encodings
-;; (setq ruby-insert-encoding-magic-comment nil) 
+;; (setq ruby-insert-encoding-magic-comment nil)
 
 (shell nil) ;; Start up a shell ; Note: time consuming
 
+
+;; list-buffers should not split vertically
+;;(setq split-width-threshold 175)
+(setq split-width-threshold 175)
+(setq split-height-threshold 39)
+
+;; see split-window-sensibly from http://stackoverflow.com/questions/21542914/make-buffer-list-always-appear-in-horizontal-split
+;; Up until Sat Mar 28 18:09:54 2015 I was using the next two sexprs
+;; (defun my-display-buffer-pop-up-same-width-window (buffer alist)
+;;   "A `display-buffer' ACTION forcing a vertical window split.
+;;     See `split-window-sensibly' and `display-buffer-pop-up-window'."
+;;   (let ((split-width-threshold nil)
+;;         (split-height-threshold 0))
+;;     (display-buffer-pop-up-window buffer alist)))
+;; (add-to-list 'display-buffer-alist
+;;              '("\\*Buffer List\\*" my-display-buffer-pop-up-same-width-window))
+
+
+;; Change line color when line is over 110 characters
+(require 'whitespace)
+(setq whitespace-line-column 110) ;; limit line length
+(setq whitespace-style '(face lines-tail))
+(add-hook 'prog-mode-hook 'whitespace-mode)
 
           ;;Experiment with yas
           ;; use popup menu for yas-choose-value

@@ -1,0 +1,22 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("comicvine.com"
+  [url-cookie "ads_firstpg" "1" "22-Jan-2015 05:00:00.00 GMT" "/" "comicvine.com" nil])
+ ("www.comicvine.com"
+  [url-cookie "sptg" "%5B%5D" "04-Feb-2015 14:11:02.00 GMT" "/" "www.comicvine.com" nil]
+  [url-cookie "httponly" nil "21-Feb-2015 08:00:00.00 GMT" "/" "www.comicvine.com" nil]
+  [url-cookie "device_view" "full" "21-Feb-2015 08:00:00.00 GMT" "/" "www.comicvine.com" nil])
+ (".google.com"
+  [url-cookie "PREF" "ID=39734f7820b20126:U=fb26af3ebdbd6471:FF=0:TM=1421849393:LM=1421849436:S=6_31KEyl8yFawphV" "20-Jan-2017 14:10:36.00 GMT" "/" ".google.com" nil]
+  [url-cookie "NID" "67=pLXwEfIEv8ugk7JkWFWr8pX5QbkZ6OnjvgogCjbgfYQH0COGZbu-wnvrCf2QdHlQbAuNwnHGSNF0Dq7heeFMZ644aq0uIf8KEa01tUki82wpzCc7f6ZSDy7ch88jse7t" "23-Jul-2015 14:09:53.00 GMT" "/" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "23-Jul-2015 14:09:53.00 GMT" "/" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

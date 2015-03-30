@@ -14,6 +14,23 @@
 (load "~/.emacs.d/chasm-webjump") ; I compiled this because it did not seem to load correctly
 (load "~/.emacs.d/chasm-yasnippet.el") ;use c-c & c-s
 
+
+;; If you see
+;;
+;;         # coding: UTF-8
+;;
+;; As the first line of a ruby file.
+;;
+;; Emacs inserts that in ruby file if there are non ascii characters in the file.
+;; To get ride of the line remove bad characters. Usually ones copied from a web page.
+;;
+;; If using emacs it will Not let you save without putting that line in,
+;; if you are writing a ruby file with non ascii characters.
+;;
+;; If you don't remove the offending characters and want to save the file
+;; without the UTF-8 directive evaluate the following sexpr: 
+(setq ruby-insert-encoding-magic-comment nil)
+
     ;; Stuff To Be Sorted Out And May No Longer Be Needed - Wed Dec 10 11:14:21 2014 - Probably fold into chasm-viget.el
     (setq ls-lisp-use-insert-directory-program nil)
     (require 'ls-lisp)
