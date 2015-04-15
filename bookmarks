@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Bookmarks"
+(("codeschool"
+ (filename . "~/Dropbox/projects/codeschool/")
+ (front-context-string)
+ (rear-context-string . "447 04-13 09:00 ")
+ (position . 245))
+("bbyfgdoc.org"
+ (filename . "~/projects/local-data/organize/bbyfgdoc.org")
+ (front-context-string . "\n\n      # forall")
+ (rear-context-string . "           end\n\n")
+ (position . 2565))
+("Bookmarks"
  (filename . "~/Library/Application Support/Google/Chrome/Default/Bookmarks")
  (front-context-string . "               \"")
  (rear-context-string . " \"type\": \"url\",\n")
