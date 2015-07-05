@@ -2,7 +2,37 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("codeschool"
+(("BBY - Bloomington Team Working Folder"
+ (filename . "~/Google Drive/BBY - Bloomington Team Working Folder/")
+ (front-context-string)
+ (rear-context-string . "3  o2 video.mov\n")
+ (position . 4279))
+("Goal"
+ (filename . "~/Google Drive/CHASM/BBY/Goal/")
+ (front-context-string . "FD1_floorplan_20")
+ (rear-context-string . "648 05-12 11:16 ")
+ (position . 437))
+("CASES"
+ (filename . "~/Google Drive/BBY - Sample Data/Blessed QA data/Fixture Position Scenario Use Cases/")
+ (front-context-string . "8_Fixture Positi")
+ (rear-context-string . "170 05-06 16:28 ")
+ (position . 1271))
+("Fixture Position Scenario Use Cases"
+ (filename . "~/Google Drive/BBY - Sample Data/Blessed QA data/Fixture Position Scenario Use Cases/")
+ (front-context-string . "10_Fixture Posit")
+ (rear-context-string . "170 05-06 16:28 ")
+ (position . 300))
+("eBooks-purchased"
+ (filename . "~/Dropbox/Documents/eBooks-purchased/")
+ (front-context-string . "the-rspec-book_b")
+ (rear-context-string . "383 2009-09-21  ")
+ (position . 2065))
+("Blessed QA data"
+ (filename . "~/Google Drive/BBY - Sample Data/Blessed QA data/")
+ (front-context-string . "Fixture_Position")
+ (rear-context-string . "589 04-20 14:12 ")
+ (position . 267))
+("codeschool"
  (filename . "~/Dropbox/projects/codeschool/")
  (front-context-string)
  (rear-context-string . "447 04-13 09:00 ")

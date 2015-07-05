@@ -14,6 +14,8 @@
 (load "~/.emacs.d/chasm-webjump") ; I compiled this because it did not seem to load correctly
 (load "~/.emacs.d/chasm-yasnippet.el") ;use c-c & c-s
 
+(setq magit-last-seen-setup-instructions "1.4.0")
+
 (fset 'chasm-pry-break-goto
    [escape ?\C-r ?^ ?F ?r ?o ?m ?: ?  ?\C-a ?\C-  ?\C-e escape ?w escape ?> ?. ?g ?g ?  ?\C-y return])
 
@@ -56,6 +58,13 @@
     (define-key global-map "\C-cc" 'org-capture)
     ;;  # => I tried this((yas-global-mode t)) but it wasn't being picked up so I did the next line
     ;(eval-after-load 'ruby-mode `(yas-global-mode))
+
+
+
+(fset 'chasm-goto
+   [escape ?f ?\C-a backspace C-s-268632075 ?\C-  ?\C-a escape ?w ?\C-x ?u escape ?> ?g ?g ?g backspace ?  ?\C-y return])
+
+
 
 (load "~/.emacs.d/chasm-key-bindings.el") ; eventually remove this and place in corresponding corresponding chasm files
 ;; switched back again because I pushed everythin into  chasm-init.el instead of init.el
