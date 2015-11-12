@@ -42,12 +42,19 @@
 (global-set-key [33554449] (quote realgud-cmd-quit))
 ;; alt-⌘-t
 (global-set-key [142614560] (quote textmate-clear-cache))
+;; Quick search in visible region
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+;; canonical tab binding fails too much so rebind
+(global-set-key [C-tab] (quote yas-expand))
 
 ;; may not work
 (global-set-key (kbd "<C-S-up>")     'buf-move-up)
 (global-set-key (kbd "<C-S-down>")   'buf-move-down)
 (global-set-key (kbd "<C-S-left>")   'buf-move-left)
 (global-set-key (kbd "<C-S-right>")  'buf-move-right)
+
+
 
 (global-set-key [24 103] (quote chasm-get-symbol-at-point)) ;; c-x g
 
@@ -65,3 +72,5 @@
 ;; remote editing c-x c-f
 (setq chas-magid-doc-note '(/app@pcs-stg-app-00.dc-00.rbm.local:~/rails/current/config/routes.rb))
 
+;; C-S-b runs the command magit-blame (found in global-map)
+(global-set-key [33554434] (quote magit-blame))

@@ -25,7 +25,9 @@
 (tooltip-mode -1)
 
 (set-frame-font "Menlo-16")
-(load-theme 'tango-dark)
+;(load-theme 'tango-dark)
+(load-theme 'railscasts t nil) ;; not there's
+(set-cursor-color "LightGrey") ;; not there's
 
 (defun ruby-mode-hook ()
   (autoload 'ruby-mode "ruby-mode" nil t)

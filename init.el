@@ -31,7 +31,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(csv-invisibility-default nil)
- '(fringe-mode 12 nil (fringe))
+ '(custom-safe-themes
+   (quote
+    ("3b0a350918ee819dca209cec62d867678d7dac74f6195f5e3799aa206358a983" default)))
+ '(fringe-mode nil nil (fringe))
+ '(linum-format "%5d  ")
+ '(nlinum-format "%5d ")
  '(safe-local-variable-values
    (quote
     ((eval ignore-errors "Write-contents-functions is a buffer-local alternative to before-save-hook"
@@ -47,6 +52,7 @@
            (whitespace-mode 1))
      (whitespace-line-column . 80)
      (whitespace-style face tabs trailing lines-tail))))
+ '(scroll-bar-mode (quote right))
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")
  '(smtpmail-smtp-service 587))
@@ -55,7 +61,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(highlight ((t (:background "Yellow" :foreground "#2e3436")))))
 
 
 (add-hook 'after-init-hook (lambda () (load "~/.emacs.d/chasm-init.el")))

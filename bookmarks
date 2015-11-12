@@ -2,7 +2,32 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("BBY - Bloomington Team Working Folder"
+(("TodoTxtMac.txt"
+ (filename . "~/Dropbox/TodoTxtMac.txt")
+ (front-context-string . "(#A) Work self a")
+ (rear-context-string . "s  @outandabout\n")
+ (position . 1429))
+("new-todo.org"
+ (filename . "~/aliases/new-todo.org")
+ (front-context-string . "The where's\n@hom")
+ (rear-context-string)
+ (position . 1))
+("1758226-20150930180716490.csv"
+ (filename . "~/projects/vmm/mytestdata/somep3s/inbound/planogram_product_position/1758226-20150930180716490.csv")
+ (front-context-string . "\"\n\"1758226\",\"179")
+ (rear-context-string . ",\"1\",\"10-0-000-N")
+ (position . 301))
+("My Kindle Content"
+ (filename . "~/Library/Application Support/Kindle/My Kindle Content/")
+ (front-context-string . "B004R1QBIS_EBOK.")
+ (rear-context-string . "286 08-17 15:50 ")
+ (position . 565))
+("important!!!! for javascript processing"
+ (filename . "~/foo.html")
+ (front-context-string . "\n    </script>\n ")
+ (rear-context-string . ";\n\n\n      }\n\n\n\n\n")
+ (position . 2787))
+("BBY - Bloomington Team Working Folder"
  (filename . "~/Google Drive/BBY - Bloomington Team Working Folder/")
  (front-context-string)
  (rear-context-string . "3  o2 video.mov\n")

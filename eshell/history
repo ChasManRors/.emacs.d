@@ -1,0 +1,32 @@
+cd ..
+pwd
+cd .
+h
+history
+psgr
+. ~/.bashrc
+pwd
+h
+history
+cd ..
+cd vmm/
+pwd
+ls
+gba
+git branch -a -v
+pwd
+bundle exec rake bby:clear_fixtures_on_maid[1900]
+./setup_import_fixture_positions.sh charles_pinwheel_1900_BB2.csv
+pwd
+alias gba
+alias
+. alias
+bundle exec rake bby:clear_fixtures_on_maid[030359]
+./setup_import_fixture_positions.sh 30.csv
+bundle exec script/rails console
+cd
+cd ~/vmm
+b
+bundle exec script/rails console
+bundle
+gba|grep *

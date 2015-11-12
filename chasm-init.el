@@ -14,6 +14,8 @@
 (load "~/.emacs.d/chasm-webjump") ; I compiled this because it did not seem to load correctly
 (load "~/.emacs.d/chasm-yasnippet.el") ;use c-c & c-s
 
+(autoload 'dirtree "dirtree" "Add directory to tree view" t)
+
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (fset 'chasm-pry-break-goto
