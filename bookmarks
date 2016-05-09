@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("TodoTxtMac.txt"
+(("bashrc"
+ (filename . "/etc/bashrc")
+ (front-context-string . "st name to disam")
+ (rear-context-string . "including the ho")
+ (position . 451))
+("console_scripts"
+ (filename . "~/aliases/console_scripts/")
+ (front-context-string . "planograms_effec")
+ (rear-context-string . "361 12-14 19:03 ")
+ (position . 326))
+("Reviews"
+ (filename . "~/Dropbox/Documents/Reviews/")
+ (front-context-string . "Reflection\n  drw")
+ (rear-context-string . "170 11-02 11:29 ")
+ (position . 1132))
+("PLAN.org"
+ (filename . "~/aliases/PLAN.org")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1))
+("TodoTxtMac.txt"
  (filename . "~/Dropbox/TodoTxtMac.txt")
  (front-context-string . "(#A) Work self a")
  (rear-context-string . "s  @outandabout\n")

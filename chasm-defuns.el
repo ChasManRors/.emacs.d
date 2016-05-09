@@ -94,7 +94,8 @@
         input))
     (occur-read-primary-args)))
   (multi-occur-in-matching-buffers bufregexp regexp allbufs))
-  
 
 
-
+(defun chasm-what-folder (args)
+  (interactive "P")
+  (eval-expression (quote (pwd)) (quote (4))))

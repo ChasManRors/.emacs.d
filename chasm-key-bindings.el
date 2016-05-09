@@ -74,3 +74,6 @@
 
 ;; C-S-b runs the command magit-blame (found in global-map)
 (global-set-key [33554434] (quote magit-blame))
+
+;; M-x omniref - https://github.com/dotemacs/omniref.el
+(define-key ruby-mode-map (kbd "C-c o") 'omniref)

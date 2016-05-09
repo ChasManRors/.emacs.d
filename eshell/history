@@ -30,3 +30,4 @@ b
 bundle exec script/rails console
 bundle
 gba|grep *
+exit

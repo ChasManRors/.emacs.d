@@ -2,10 +2,10 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "PREF" "ID=39734f7820b20126:U=fb26af3ebdbd6471:FF=0:TM=1421849393:LM=1421849436:S=6_31KEyl8yFawphV" "20-Jan-2017 14:10:36.00 GMT" "/" ".google.com" nil]
-  [url-cookie "NID" "67=pLXwEfIEv8ugk7JkWFWr8pX5QbkZ6OnjvgogCjbgfYQH0COGZbu-wnvrCf2QdHlQbAuNwnHGSNF0Dq7heeFMZ644aq0uIf8KEa01tUki82wpzCc7f6ZSDy7ch88jse7t" "23-Jul-2015 14:09:53.00 GMT" "/" ".google.com" nil]
-  [url-cookie "HttpOnly" nil "23-Jul-2015 14:09:53.00 GMT" "/" ".google.com" nil]))
+ '(("www.websequencediagrams.com"
+  [url-cookie "PHPSESSID" "bzredZE5TkF-5fN5kNRV4Me8xpGiO49p" "Wed, 27 Apr 2016 21:43:58 GMT" "/" "www.websequencediagrams.com" nil])
+ (".google.com"
+  [url-cookie "PREF" "ID=39734f7820b20126:U=fb26af3ebdbd6471:FF=0:TM=1421849393:LM=1421849436:S=6_31KEyl8yFawphV" "20-Jan-2017 14:10:36.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
  'nil)

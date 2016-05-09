@@ -9,3 +9,9 @@
 
 (fset 'chasm-make-var
    [?\C-x ?n ?n ?\C-a escape ?x ?r ?e ?p ?l ?a return ?s return ?  return ?_ return ?\C-x escape escape return ?\C-x ?n ?w ?\C-l])
+
+;; poor mans csv operation
+(fset 'chasm-align-commas
+   [?\C-u escape ?x ?a ?l ?i ?g tab ?- ?r ?e ?g tab return ?\C-a ?\\ ?\( ?\\ ?, ?* ?\\ ?\) ?, ?\C-k return return return ?y])
+;;; c-c a
+(global-set-key [3 97] (quote chasm-align-commas))

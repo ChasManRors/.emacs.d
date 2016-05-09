@@ -38,7 +38,7 @@
 
 (require 'linum)                        ;For its face.
 
-(defvar nlinum--width 2)
+(defvar nlinum--width 3)
 (make-variable-buffer-local 'nlinum--width)
 
 ;; (defvar nlinum--desc "")
@@ -247,48 +247,48 @@ it may cause the margin to be resized and line numbers to be recomputed.")
 ;;;; ChangeLog:
 
 ;; 2015-02-09  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* nlinum.el: Use face-width if available.  Hook into text-scale-mode
-;; 
+;;
 ;; 2014-07-02  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	Fixes: debbugs:17906
-;; 
-;; 	* packages/nlinum/nlinum.el (nlinum--setup-window): Don't burp in 
+;;
+;; 	* packages/nlinum/nlinum.el (nlinum--setup-window): Don't burp in
 ;; 	non-graphic terminals.
-;; 
+;;
 ;; 2014-06-20  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* packages/nlinum/nlinum.el (nlinum--face-height): New function.
 ;; 	(nlinum--setup-window): Use it.
-;; 
+;;
 ;; 2014-05-26  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* packages/nlinum/nlinum.el (nlinum-mode): Don't leave overlays around
 ;; 	when switching major mode.
-;; 
+;;
 ;; 2014-04-29  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* nlinum.el (nlinum-format): New custom variable.
 ;; 	(nlinum--region): Change calling convention of nlinum-format-function.
 ;; 	(nlinum-format-function): Change default value accordingly; Use
 ;; 	nlinum-format; Try to generate less garbage.
-;; 
+;;
 ;; 2014-01-02  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* nlinum.el: Add global-nlinum-mode and nlinum-format-function.
-;; 
+;;
 ;; 2012-10-24  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	* nlinum.el: Speed up by caching last line-number.
 ;; 	(nlinum--line-number-cache): New var.
 ;; 	(nlinum--after-change, nlinum--line-number-at-pos): New functions.
 ;; 	(nlinum-mode, nlinum--region): Use them.
-;; 
+;;
 ;; 2012-06-08  Stefan Monnier  <monnier@iro.umontreal.ca>
-;; 
+;;
 ;; 	Add nlinum.el
-;; 
+;;
 
 
 (provide 'nlinum)

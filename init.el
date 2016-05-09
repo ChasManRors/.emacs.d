@@ -25,6 +25,13 @@
 ;;  ⌘RET - Insert Newline at Line's End
 ;;   ⌥⌘T - Reset File Cache (for Go to File)
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -37,6 +44,9 @@
  '(fringe-mode nil nil (fringe))
  '(linum-format "%5d  ")
  '(nlinum-format "%5d ")
+ '(package-selected-packages
+   (quote
+    (yasnippet yaml-mode yafolding wrap-region web-beautify web visual-regexp tomatinho textmate-to-yas tabbar sr-speedbar seeing-is-believing sass-mode rvm rustfmt ruby-test-mode ruby-refactor ruby-interpolation ruby-hash-syntax rubocop rspec-mode rotate robe rinari realgud readline-complete railscasts-theme racer pomodoro pkg-info nlinum markdown-mode magit mactag lorem-ipsum json-mode indent-guide handlebars-mode git-timemachine git-gutter gh-md evernote-mode erlang display-theme dirtree dash-at-point csv-mode crosshairs crontab-mode coffee-mode cm-mode buffer-move bubbles auto-complete ace-jump-mode ac-js2)))
  '(safe-local-variable-values
    (quote
     ((eval ignore-errors "Write-contents-functions is a buffer-local alternative to before-save-hook"
@@ -55,7 +65,15 @@
  '(scroll-bar-mode (quote right))
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")
- '(smtpmail-smtp-service 587))
+ '(smtpmail-smtp-service 587)
+ '(sql-connection-alist
+   (quote
+    (("bby-vmm-local"
+      (sql-product
+       (quote postgres))
+      (sql-user "cmagid")
+      (sql-database "bby-vmm-local")
+      (sql-server "localhost"))))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -69,3 +87,5 @@
 
 (put 'set-goal-column 'disabled nil)
 (put 'narrow-to-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
