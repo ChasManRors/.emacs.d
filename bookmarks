@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("bashrc"
+(("for-tracey-today.txt"
+ (filename . "~/Dropbox/Documents/Reviews/Reflection/2016/for-tracey-today.txt")
+ (front-context-string . "\n, assessable, a")
+ (rear-context-string . "ory Girl by re\n\n")
+ (position . 210))
+("JavaVirtualMachines"
+ (filename . "/Library/Java/JavaVirtualMachines/")
+ (front-context-string)
+ (rear-context-string . " 01-26 14:14 ..\n")
+ (position . 176))
+("bashrc"
  (filename . "/etc/bashrc")
  (front-context-string . "st name to disam")
  (rear-context-string . "including the ho")

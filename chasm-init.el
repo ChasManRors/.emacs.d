@@ -230,6 +230,12 @@ of seeing_is_believing."
 (goto-char (point-min))
 (replace-string "Pivotal Tracker - Sign in" "" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
 (goto-char (point-min))
+(replace-string "https://redmine.rbmtechnologies.com/issues" "Red Mine" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
+(goto-char (point-min))
+(replace-string "https://www.pivotaltracker.com/epic/show" "Pivotal Tracker" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
+(goto-char (point-min))
+(replace-string "https://www.pivotaltracker.com/story/show" "Pivotal Tracker" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
+(goto-char (point-min))
 (replace-string "Pivotal Tracker is a simple, effective agile project management tool that allows your team to collaborate around a shared backlog of stories in real time." "" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
 (goto-char (point-min))
 (replace-string "(edited)" "" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
@@ -238,7 +244,6 @@ of seeing_is_believing."
 
 " "" nil (if (and transient-mark-mode mark-active) (region-beginning)) (if (and transient-mark-mode mark-active) (region-end)) nil)
 )
-
 
 (load "~/.emacs.d/chasm-key-bindings.el") ; eventually remove this and place in corresponding corresponding chasm files
 
@@ -253,3 +258,26 @@ of seeing_is_believing."
    [escape ?\C-r ?^ ?F ?r ?o ?m ?: ?  ?\C-a ?\C-  ?\C-e escape ?w escape ?> ?` ?g ?g ?  ?\C-y ?` return])
 
 (global-set-key [33554448] (quote chasm-pry-gg));; C-shft-P
+
+
+(global-set-key [8388724] (quote textmate-goto-file)) ; cmd-t
+
+
+;; THIS IS A KEEPER Thu May 12 12:38:11 2016
+;; put a copy of the original csv in the top window
+;; put the print_chain output in the bottom window
+;; put the cursor at the start of the first line of the print chain and execute
+;; then keep or reject the '**************** ' marked ones
+(fset 'chasm-mark-csv-from-print_chain
+   [C-s-268632075 C-s-268632074 ?\C-  C-s-268632075 escape ?w ?\C-a ?\C-n ?\C-x ?o escape ?g ?g ?\C-y return ?\C-a ?\C-u ?\C-u ?* ?  ?\C-x ?o])
+
+;;; try out the following
+
+    (add-to-list 'load-path "~/.emacs.d/ruby-complexity/")
+    (require 'linum)
+    (require 'ruby-complexity)
+    (add-hook 'ruby-mode-hook
+        (function (lambda ()
+          (flymake-mode)
+          (linum-mode)
+          (ruby-complexity-mode))))

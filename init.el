@@ -41,6 +41,7 @@
  '(custom-safe-themes
    (quote
     ("3b0a350918ee819dca209cec62d867678d7dac74f6195f5e3799aa206358a983" default)))
+ '(display-time-day-and-date t)
  '(fringe-mode nil nil (fringe))
  '(linum-format "%5d  ")
  '(nlinum-format "%5d ")
