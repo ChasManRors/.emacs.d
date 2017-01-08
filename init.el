@@ -47,7 +47,7 @@
  '(nlinum-format "%5d ")
  '(package-selected-packages
    (quote
-    (yasnippet yaml-mode yafolding wrap-region web-beautify web visual-regexp tomatinho textmate-to-yas tabbar sr-speedbar seeing-is-believing sass-mode rvm rustfmt ruby-test-mode ruby-refactor ruby-interpolation ruby-hash-syntax rubocop rspec-mode rotate robe rinari realgud readline-complete railscasts-theme racer pomodoro pkg-info nlinum markdown-mode magit mactag lorem-ipsum json-mode indent-guide handlebars-mode git-timemachine git-gutter gh-md evernote-mode erlang display-theme dirtree dash-at-point csv-mode crosshairs crontab-mode coffee-mode cm-mode buffer-move bubbles auto-complete ace-jump-mode ac-js2)))
+    (codesearch annotate bm yasnippet yaml-mode yafolding wrap-region web-beautify web visual-regexp tomatinho textmate-to-yas tabbar sr-speedbar seeing-is-believing sass-mode rvm rustfmt ruby-test-mode ruby-refactor ruby-interpolation ruby-hash-syntax rubocop rspec-mode rotate robe rinari realgud readline-complete railscasts-theme racer pomodoro pkg-info nlinum markdown-mode magit mactag lorem-ipsum json-mode indent-guide handlebars-mode git-timemachine git-gutter gh-md evernote-mode erlang display-theme dirtree dash-at-point csv-mode crosshairs crontab-mode coffee-mode cm-mode buffer-move bubbles auto-complete ace-jump-mode ac-js2)))
  '(safe-local-variable-values
    (quote
     ((eval ignore-errors "Write-contents-functions is a buffer-local alternative to before-save-hook"

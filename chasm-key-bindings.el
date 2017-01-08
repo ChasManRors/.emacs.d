@@ -6,11 +6,11 @@
 (global-set-key [C-s-268632075] (quote forward-word))
 ;; C-⌘ j
 (global-set-key [C-s-268632074] (quote backward-word))
-;; C-shft-L
+;; C-shift-L
 (global-set-key [33554444] (quote linum-mode) )
-;; C-shft-T
+;; C-shift-T
 (global-set-key [33554452] (quote toggle-truncate-lines))
-;; C-shft-D
+;; C-shift-D
 (global-set-key [33554436] (quote compare-windows))
 ;; C-shift-R
 (global-set-key [33554450] (quote toggle-read-only))
@@ -26,7 +26,7 @@
 (global-set-key [s-left] (quote backward-sexp))
 ;; ⌘ -> Go to Right over sexp
 (global-set-key [s-right] (quote forward-sexp))
-;; C-shft-+
+;; C-shift-+
 (global-set-key [67108907] (quote crosshairs-mode))
 ;; C-x 4 t
 (setq chas-magid-doc-note 'toggle-window-split)
@@ -77,3 +77,14 @@
 
 ;; M-x omniref - https://github.com/dotemacs/omniref.el
 (define-key ruby-mode-map (kbd "C-c o") 'omniref)
+
+;; codesearch-build-index        M-x ... RET
+;;    Add the contents of DIR to the index.
+;; codesearch-list-directories   M-x ... RET
+;;    List the directories currently being indexed.
+;; codesearch-reset              M-x ... RET
+;;    Reset (delete) the codesearch index.
+;; codesearch-update-index       M-x ... RET
+;;    Rescan all of the directories currently in the index, updating
+;; C-shift-. find using codesearch
+(global-set-key [67108926] (quote codesearch-search))

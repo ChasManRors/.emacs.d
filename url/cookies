@@ -2,13 +2,14 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '(("www.websequencediagrams.com"
-  [url-cookie "PHPSESSID" "bzredZE5TkF-5fN5kNRV4Me8xpGiO49p" "Wed, 27 Apr 2016 21:43:58 GMT" "/" "www.websequencediagrams.com" nil])
- (".google.com"
+ '((".google.com"
   [url-cookie "PREF" "ID=39734f7820b20126:U=fb26af3ebdbd6471:FF=0:TM=1421849393:LM=1421849436:S=6_31KEyl8yFawphV" "20-Jan-2017 14:10:36.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
- 'nil)
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]
+  [url-cookie "HttpOnly" nil "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never

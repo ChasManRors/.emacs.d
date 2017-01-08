@@ -95,6 +95,10 @@
     (occur-read-primary-args)))
   (multi-occur-in-matching-buffers bufregexp regexp allbufs))
 
+;; Next func does not work, how do I make one which works
+(defun cmm-search-all-buffer (pattern)
+  (interactive "P")
+  (cmm-search-buffers ".*" pattern nil))
 
 (defun chasm-what-folder (args)
   (interactive "P")

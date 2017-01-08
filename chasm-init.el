@@ -271,13 +271,21 @@ of seeing_is_believing."
 (fset 'chasm-mark-csv-from-print_chain
    [C-s-268632075 C-s-268632074 ?\C-  C-s-268632075 escape ?w ?\C-a ?\C-n ?\C-x ?o escape ?g ?g ?\C-y return ?\C-a ?\C-u ?\C-u ?* ?  ?\C-x ?o])
 
-;;; try out the following
+;;; try out the following, I don't use it because It breaks linum mode
 
-    (add-to-list 'load-path "~/.emacs.d/ruby-complexity/")
-    (require 'linum)
-    (require 'ruby-complexity)
-    (add-hook 'ruby-mode-hook
-        (function (lambda ()
-          (flymake-mode)
-          (linum-mode)
-          (ruby-complexity-mode))))
+    ;; (add-to-list 'load-path "~/.emacs.d/ruby-complexity/")
+    ;; (require 'linum)
+    ;; (require 'ruby-complexity)
+    ;; (add-hook 'ruby-mode-hook
+    ;;     (function (lambda ()
+    ;;       (flymake-mode)
+    ;;       (linum-mode)
+    ;;       (ruby-complexity-mode))))
+
+;;(defalias 'list-buffers 'ibuffer)
+
+
+(add-to-list 'load-path "/Users/cmagid/.emacs.d/sublimity")
+(require 'sublimity)
+(require 'sublimity-scroll)
+(require 'sublimity-map)

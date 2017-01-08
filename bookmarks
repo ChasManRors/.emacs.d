@@ -2,7 +2,68 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("for-tracey-today.txt"
+(("Ex_Files_RubyonRails5_EssT"
+ (filename . "~/projects_new/Ex_Files_RubyonRails5_EssT/")
+ (front-context-string . "02\n  drwxrwxrwx ")
+ (rear-context-string . "2 20:53 Chapter_")
+ (position . 265))
+("way_path_spec.rb"
+ (filename . "~/projects_new/waypolygon/spec/way_path_spec.rb")
+ (front-context-string . "it 'returns a co")
+ (rear-context-string . "he path' do\n    ")
+ (position . 664))
+("notes-on-performance-goals-2016-10-09-16-27-07.txt"
+ (filename . "~/Dropbox/Documents/Reviews/Reflection/2016/notes-on-performance-goals-2016-10-09-16-27-07.txt")
+ (front-context-string . "*** continue - S")
+ (rear-context-string)
+ (position . 1)
+ (annotation . "*** entered - Sun Oct 9 17:56:54 2016"))
+("today.org"
+ (filename . "~/projects_new/waypolygon/today.org")
+ (front-context-string)
+ (rear-context-string . "ixtures.count ]\n")
+ (position . 2187))
+("way_path.rb"
+ (filename . "~/projects_new/waypolygon/lib/way_path.rb")
+ (front-context-string . "(waypolygon_end)")
+ (rear-context-string . "ps.last.adjacent")
+ (position . 380))
+("car_project"
+ (filename . "~/projects_new/Lynda_RSpec_Exercise_Files/Chapter06/06_07-final/car_project/")
+ (front-context-string)
+ (rear-context-string . "272 09-21 13:59 ")
+ (position . 457))
+("food_finder"
+ (filename . "~/projects_new/Lynda_RSpec_Exercise_Files/Chapter07/07_08-challenge/food_finder/")
+ (front-context-string . ".rspec\n  -rwxrwx")
+ (rear-context-string . " 30 2014-12-01  ")
+ (position . 295))
+("spec"
+ (filename . "~/projects_new/Lynda_RSpec_Exercise_Files/Chapter06/06_07-final/car_project/spec/")
+ (front-context-string . "car_spec.rb\n  -r")
+ (rear-context-string . "775 2014-11-26  ")
+ (position . 303))
+("car_spec.rb"
+ (filename . "~/projects_new/Ex_Files_UsingRSpecTesting/Exercise_Files/Chapter03/03_01/car_project/spec/car_spec.rb")
+ (front-context-string . "\n  end\n\n  descri")
+ (rear-context-string . "r.doors\n    end\n")
+ (position . 661))
+("is this curriculum.org related to railstutorial5 ?"
+ (filename . "~/aliases/curriculum.org")
+ (front-context-string . "** Prioritize th")
+ (rear-context-string . "15:54:06 2016\n\n\n")
+ (position . 9930))
+("railstutorial"
+ (filename . "~/aliases/rubyscratch.rb")
+ (front-context-string)
+ (rear-context-string . "_app (master) $\n")
+ (position . 779))
+("HELLO"
+ (filename . "~/brew/Cellar/emacs/24.5/share/emacs/24.5/etc/HELLO")
+ (front-context-string . "This is a list o")
+ (rear-context-string)
+ (position . 1))
+("for-tracey-today.txt"
  (filename . "~/Dropbox/Documents/Reviews/Reflection/2016/for-tracey-today.txt")
  (front-context-string . "\n, assessable, a")
  (rear-context-string . "ory Girl by re\n\n")
@@ -99,9 +160,9 @@
  (position . 2565))
 ("Bookmarks"
  (filename . "~/Library/Application Support/Google/Chrome/Default/Bookmarks")
- (front-context-string . "               \"")
- (rear-context-string . " \"type\": \"url\",\n")
- (position . 3474))
+ (front-context-string . "{\n   \"checksum\":")
+ (rear-context-string)
+ (position . 1))
 ("rcone.rb"
  (filename . "~/projects/vmm/rcone.rb")
  (front-context-string . "require 'csv'\nfl")
