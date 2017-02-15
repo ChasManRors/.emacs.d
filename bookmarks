@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Ex_Files_RubyonRails5_EssT"
+(("santiago_spec"
+ (filename . "~/projects/vmm_oh/spec_models_content_importer_spec.rb")
+ (front-context-string . "append_line_to_c")
+ (rear-context-string . "nd\n  end\n\n  def ")
+ (position . 8062))
+("livescribe.txt"
+ (filename . "~/Dropbox/aliases/livescribe.txt")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1))
+("Ex_Files_RubyonRails5_EssT"
  (filename . "~/projects_new/Ex_Files_RubyonRails5_EssT/")
  (front-context-string . "02\n  drwxrwxrwx ")
  (rear-context-string . "2 20:53 Chapter_")

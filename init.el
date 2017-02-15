@@ -37,6 +37,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
  '(csv-invisibility-default nil)
  '(custom-safe-themes
    (quote
@@ -63,8 +64,8 @@
            (whitespace-mode 1))
      (whitespace-line-column . 80)
      (whitespace-style face tabs trailing lines-tail))))
- '(scroll-bar-mode (quote right))
  '(send-mail-function (quote smtpmail-send-it))
+ '(show-paren-mode t)
  '(smtpmail-smtp-server "smtp.gmail.com")
  '(smtpmail-smtp-service 587)
  '(sql-connection-alist
@@ -74,7 +75,8 @@
        (quote postgres))
       (sql-user "cmagid")
       (sql-database "bby-vmm-local")
-      (sql-server "localhost"))))))
+      (sql-server "localhost")))))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

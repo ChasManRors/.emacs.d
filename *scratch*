@@ -1,0 +1,15 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+(defun chasm-what-folder (args)
+  (interactive "P")
+  (eval-expression (quote (pwd)) (quote (4))))
+
+
+
+1 mb           1000 c
+--------       --------
+0.066 c          x mb
+
+x = 1000.0 * 0.066
