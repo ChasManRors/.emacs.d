@@ -289,3 +289,11 @@ of seeing_is_believing."
 (require 'sublimity)
 (require 'sublimity-scroll)
 (require 'sublimity-map)
+
+
+
+;; ac-js2 ;; ================================================================
+;; NICE: https://github.com/ScottyB/ac-js2
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq ac-js2-evaluate-calls t)
+(setq ac-js2-external-libraries '("/Users/cmagid/projects_new/wam/js/try1.js"))

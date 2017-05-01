@@ -34,8 +34,8 @@
 ;;
 (require 'todotxt)
 ;;
-;(set-variable (quote visible-bell) t nil) ;; Flash screen for c-g do not ring bell
-(set-variable (quote visible-bell) nil nil) ;; El Capitain 10.11.3 causes GNU Emacs 24.5.1 screen error (persists bell box)
+(set-variable (quote visible-bell) t nil) ;; Flash screen for c-g do not ring bell
+;(set-variable (quote visible-bell) nil nil) ;; El Capitain 10.11.3 causes GNU Emacs 24.5.1 screen error (persists bell box)
 
 ;;
  ;; (wrap-region-global-mode t)

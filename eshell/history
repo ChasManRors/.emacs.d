@@ -31,3 +31,6 @@ bundle exec script/rails console
 bundle
 gba|grep *
 exit
+cd 
+cd ~/.emacs.d
+rg ruby-mode-hook 

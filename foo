@@ -1,28 +1,24 @@
-el-get/el-get-dependencies.el:58:         ;; avoid obsolete `flet' & backward-incompatible `cl-flet'
-el-get/el-get.el:162:;;   - add support for bzr, thanks to Kevin Fletcher
-el-get/recipes/ace-link.rcp:6:       :depends (ace-jump-mode noflet))
-el-get/recipes/fakir.rcp:5:       :depends (noflet dash))
-el-get/recipes/noflet.rcp:1:(:name noflet
-el-get/recipes/noflet.rcp:2:       :description "nic's overriding flet, for fleting functions for the purpose of decorating them"
-el-get/recipes/noflet.rcp:4:       :pkgname "nicferrier/emacs-noflet")
-el-get/rhtml-mode/rhtml-erb.el:103:  (flet ((match? (regex)
-el-get/test/caching-speedtest.el:17:  `(flet ((message (&rest ignored) nil))
-el-get/test/el-get-issue-683.el:65:(flet ((el-get-package-def (&rest ignored) nil))
-el-get/textmate/textmate.el:63:;;; Needed for flet
-el-get/textmate/textmate.el:251:    (flet ((addsymbols (symbol-list)
-elpa/company-20160720.1548/company-elisp.el:82:  (company-elisp--fns-regexp "flet" "labels")
-elpa/elixir-mode-20160718.2245/elixir-smie.el:29:(require 'cl-lib)         ; `cl-flet'
-elpa/elixir-mode-20160718.2245/elixir-smie.el:245:      (cl-flet ((self-call ()
-elpa/emacsql-20160424.747/emacsql-compiler.el:195:     (cl-flet* ((combine (prepared) (emacsql--*combine prepared))
-elpa/emacsql-20160424.747/emacsql-compiler.el:209:  (cl-flet ((check (param)
-elpa/emacsql-20160424.747/emacsql-compiler.el:248:        (cl-flet ((recur (n) (combine (emacsql--*expr (nth n args))))
-elpa/erlang-20160719.535/erlang-flymake.el:72:          (flet ((flymake-get-temp-dir () (erlang-flymake-temp-dir)))
-elpa/erlang-20160719.535/erlang-eunit.el:321:    (flet ((save-some-buffers (&optional any) nil))
-elpa/inflections-20121016.157/inflections.el:52:       ;; Use lexical-let to make closures (in flet).
-elpa/inflections-20121016.157/inflections.el:57:           (flet (($ (i) (match-string i ,str))
-elpa/magit-20160724.858/magit-diff.el:2094:      (cl-flet ((ov (start end &rest args)
-elpa/pcre2el-20151213.234/pcre2el.el:2945:  (cl-flet
-elpa/textmate-readme.txt:48:;;; Needed for flet
-elpa/textmate-readme.txt:214:    (flet ((addsymbols (symbol-list)
-elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:891:                        (flet ((f ()
-elpa/yasnippet-20160723.510/snippets/clojure-mode/ns:5:(ns `(flet ((try-src-prefix
+chasm-key-bindings.el:30:(global-set-key [67108907] (quote crosshairs-mode))
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:12:(defvar crosshairs-mode nil "\
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:14:See the `crosshairs-mode' command
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:18:or call the function `crosshairs-mode'.")
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:20:(custom-autoload 'crosshairs-mode "crosshairs" nil)
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:22:(autoload 'crosshairs-mode "crosshairs" "\
+elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:52:`crosshairs-mode'.
+elpa/crosshairs-20170221.1608/crosshairs.el:40:;;  Command `crosshairs-mode' toggles this highlighting on and off.
+elpa/crosshairs-20170221.1608/crosshairs.el:52:;;  `crosshairs-mode'.
+elpa/crosshairs-20170221.1608/crosshairs.el:77:;;    `crosshairs-mode'.
+elpa/crosshairs-20170221.1608/crosshairs.el:82:;;    `crosshairs-mode', `crosshairs-toggle-when-idle',
+elpa/crosshairs-20170221.1608/crosshairs.el:94:;;   or (global-set-key [(control ?+)] 'crosshairs-mode)
+elpa/crosshairs-20170221.1608/crosshairs.el:102:;;     crosshairs-mode: Call global-hl-line-unhighlight-all (Emacs 24.4+).
+elpa/crosshairs-20170221.1608/crosshairs.el:113:;;     crosshairs-mode, crosshairs-(un)highlight:
+elpa/crosshairs-20170221.1608/crosshairs.el:117:;;     crosshairs-mode: Made it respect crosshairs-overlay-priority.
+elpa/crosshairs-20170221.1608/crosshairs.el:125:;;     crosshairs-mode: Don't set previous state if explicit ARG.
+elpa/crosshairs-20170221.1608/crosshairs.el:140:;;     crosshairs-mode, crosshairs-toggle-when-idle:
+elpa/crosshairs-20170221.1608/crosshairs.el:208:(define-minor-mode crosshairs-mode
+elpa/crosshairs-20170221.1608/crosshairs.el:227:           (setq crosshairs-mode nil))
+elpa/crosshairs-20170221.1608/crosshairs.el:229:           (setq crosshairs-mode t))))
+elpa/crosshairs-20170221.1608/crosshairs.el:230:  (cond (crosshairs-mode
+elpa/crosshairs-20170221.1608/crosshairs.el:310:`crosshairs-mode'."
+elpa/crosshairs-20170221.1608/crosshairs.el:312:  (if modalp (crosshairs-mode 1) (crosshairs-highlight)))
+elpa/crosshairs-20170221.1608/crosshairs.el:335:  (when crosshairs-mode (crosshairs-mode -1))

@@ -22,7 +22,7 @@
       Web'.
 
    2. From the Emacs-Wiki Web site:
-      http://www.emacswiki.org/cgi-bin/wiki/BookmarkPlus.
+      http://www.emacswiki.org/BookmarkPlus.
 
    3. From the Bookmark+ group customization buffer:
       `M-x customize-group bookmark-plus', then click link
@@ -72,7 +72,7 @@
         Bookmark+ features.
 
      2. In your default bookmark file, `bookmark-default-file'
-        (`.emacs.bmk'), and in any other bookmark files you might
+        (`~/.emacs.bmk'), and in any other bookmark files you might
         have.
 
      3. In your `*Bookmark List*' state file,
