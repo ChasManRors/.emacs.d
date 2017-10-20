@@ -1,24 +1,39 @@
-chasm-key-bindings.el:30:(global-set-key [67108907] (quote crosshairs-mode))
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:12:(defvar crosshairs-mode nil "\
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:14:See the `crosshairs-mode' command
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:18:or call the function `crosshairs-mode'.")
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:20:(custom-autoload 'crosshairs-mode "crosshairs" nil)
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:22:(autoload 'crosshairs-mode "crosshairs" "\
-elpa/crosshairs-20170221.1608/crosshairs-autoloads.el:52:`crosshairs-mode'.
-elpa/crosshairs-20170221.1608/crosshairs.el:40:;;  Command `crosshairs-mode' toggles this highlighting on and off.
-elpa/crosshairs-20170221.1608/crosshairs.el:52:;;  `crosshairs-mode'.
-elpa/crosshairs-20170221.1608/crosshairs.el:77:;;    `crosshairs-mode'.
-elpa/crosshairs-20170221.1608/crosshairs.el:82:;;    `crosshairs-mode', `crosshairs-toggle-when-idle',
-elpa/crosshairs-20170221.1608/crosshairs.el:94:;;   or (global-set-key [(control ?+)] 'crosshairs-mode)
-elpa/crosshairs-20170221.1608/crosshairs.el:102:;;     crosshairs-mode: Call global-hl-line-unhighlight-all (Emacs 24.4+).
-elpa/crosshairs-20170221.1608/crosshairs.el:113:;;     crosshairs-mode, crosshairs-(un)highlight:
-elpa/crosshairs-20170221.1608/crosshairs.el:117:;;     crosshairs-mode: Made it respect crosshairs-overlay-priority.
-elpa/crosshairs-20170221.1608/crosshairs.el:125:;;     crosshairs-mode: Don't set previous state if explicit ARG.
-elpa/crosshairs-20170221.1608/crosshairs.el:140:;;     crosshairs-mode, crosshairs-toggle-when-idle:
-elpa/crosshairs-20170221.1608/crosshairs.el:208:(define-minor-mode crosshairs-mode
-elpa/crosshairs-20170221.1608/crosshairs.el:227:           (setq crosshairs-mode nil))
-elpa/crosshairs-20170221.1608/crosshairs.el:229:           (setq crosshairs-mode t))))
-elpa/crosshairs-20170221.1608/crosshairs.el:230:  (cond (crosshairs-mode
-elpa/crosshairs-20170221.1608/crosshairs.el:310:`crosshairs-mode'."
-elpa/crosshairs-20170221.1608/crosshairs.el:312:  (if modalp (crosshairs-mode 1) (crosshairs-highlight)))
-elpa/crosshairs-20170221.1608/crosshairs.el:335:  (when crosshairs-mode (crosshairs-mode -1))
+init.el:54:    (web-mode dad-joke yahoo-weather textmate visual-regexp-steroids neotree paradox company-inf-ruby company ace-window e2wm diminish howm calfw bookmark+ bln-mode railscasts-reloaded-theme realgud-pry rust-playground codesearch annotate bm yasnippet yaml-mode yafolding wrap-region web-beautify web visual-regexp tomatinho textmate-to-yas tabbar sr-speedbar seeing-is-believing sass-mode rvm rustfmt ruby-test-mode ruby-refactor ruby-interpolation ruby-hash-syntax rubocop rspec-mode rotate robe rinari realgud readline-complete railscasts-theme racer pomodoro pkg-info nlinum markdown-mode magit mactag lorem-ipsum json-mode indent-guide handlebars-mode git-timemachine git-gutter gh-md evernote-mode erlang display-theme dirtree dash-at-point csv-mode crosshairs crontab-mode coffee-mode cm-mode buffer-move bubbles auto-complete ace-jump-mode ac-js2)))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-pkg.el:1:(define-package "textmate-to-yas" "20160409.1008" "Import Textmate macros into yasnippet syntax" 'nil :url "https://github.com/mlf176f2/textmate-to-yas.el/" :keywords
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:1:;;; textmate-to-yas-autoloads.el --- automatically extracted autoloads
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:6:;;;### (autoloads nil "textmate-to-yas" "textmate-to-yas.el" (22307
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:8:;;; Generated autoloads from textmate-to-yas.el
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:10:(autoload 'textmate-regexp-to-emacs-regexp "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:15:(autoload 'textmate-yas-submenu "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:20:(autoload 'textmate-import-drag-and-drop "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:31:(autoload 'textmate-import-git-tar\.gz "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:36:(autoload 'textmate-import-bundle "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:41:(autoload 'textmate-import-svn-from-url "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:46:(autoload 'yas---t/ "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:51:(autoload 'yas-text-on-moving-away "textmate-to-yas" "\
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:58:;;;### (autoloads nil nil ("textmate-to-yas-pkg.el") (22307 49097
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas-autoloads.el:68:;;; textmate-to-yas-autoloads.el ends here
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1:;;; textmate-to-yas.el --- Import Textmate macros into yasnippet syntax
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:3:;; Filename: textmate-to-yas.el
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:12:;; URL: https://github.com/mlf176f2/textmate-to-yas.el/
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:85:;;    Added better auto-installing support for textmate-to-yas.
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:88:;;    Better fix for requiring 'textmate-to-yas in Emacs 24+.  It should
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:89:;;    download textmate-to-yas if it isn't present.
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:92:;;    Added textmate-to-yas automatic package installation for emacs 24
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:296:(provide 'textmate-to-yas)
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:298:(defvar textmate-to-yas-backward-compatability
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:322:  "Yasnippet backward compatability functions used in textmate-to-yas.el")
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:336: textmate-to-yas-backward-compatability)
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:866:      (let ((ret (concat ";; Translated Menu from textmate-to-yas.el\n(yas-define-menu '" mode-name "\n" (make-string 17 ? ) "'("))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:933:                (unless (search-backward "(require 'textmate-to-yas" nil t)
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:934:                  (insert "(require 'textmate-to-yas nil t)(if (and (or (not (fboundp 'yas---t/)) (not (featurep 'textmate-to-yas)) (not (package-installed-p 'textmate-to-yas))) (fboundp 'package-install))(require 'package)(add-to-list 'package-archives '(\"marmalade\" .\"http://marmalade-repo.org/packages/\"))(package-initialize) (package-install 'textmate-to-yas))\n"))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1054:                     (message "[textmate-to-yas] Error Guessing mode: %s" (error-message-string error))))))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1219:                          (unless (search-backward "(require 'textmate-to-yas" nil t)
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1220:                            (insert "(require 'textmate-to-yas nil t)(if (and (or (not (fboundp 'yas---t/)) (not (featurep 'textmate-to-yas)) (not (package-installed-p 'textmate-to-yas))) (fboundp 'package-install))(require 'package)(add-to-list 'package-archives '(\"marmalade\" .\"http://marmalade-repo.org/packages/\"))(package-initialize) (package-install 'textmate-to-yas))\n"))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1421:                (let ((tmp-file (make-temp-file "textmate-to-yas-convert-")))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1472:          (let ((tmp-file (make-temp-file "textmate-to-yas-convert-")))
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1774:(provide 'textmate-to-yas)
+elpa/textmate-to-yas-20160409.1008/textmate-to-yas.el:1776:;;; textmate-to-yas.el ends here
+el-get/recipes/textmate-to-yas.rcp:1:(:name textmate-to-yas
+el-get/recipes/textmate-to-yas.rcp:2:       :website "https://github.com/mlf176f2/textmate-to-yas.el"
+el-get/recipes/textmate-to-yas.rcp:5:       :pkgname "mlf176f2/textmate-to-yas.el")

@@ -3,12 +3,13 @@
 
 (setq url-cookie-storage
  '((".google.com"
-  [url-cookie "PREF" "ID=39734f7820b20126:U=fb26af3ebdbd6471:FF=0:TM=1421849393:LM=1421849436:S=6_31KEyl8yFawphV" "20-Jan-2017 14:10:36.00 GMT" "/" ".google.com" nil]))
+  [url-cookie "NID" "111=O3HshXlZAjM4yxfPcBeaI7Bmctsprne5fhobsTbMeMdOVFRgorLZEW4GlueqOLE4-xjObRqBG5UqZXfr5x8kZUSZ-OGB8kXR7BtflfqokevHvbWmXODiEL-LRRD1fQgo" "10-Mar-2018 20:28:00.00 GMT" "/" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "10-Mar-2018 20:28:00.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
  '((".github.com"
-  [url-cookie "logged_in" "no" "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]
-  [url-cookie "HttpOnly" nil "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]))
+  [url-cookie "HttpOnly" nil "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]
+  [url-cookie "logged_in" "no" "Mon, 07 Jul 2036 18:12:59 -0000" "/" ".github.com" t]))
 )
 
 ;; Local Variables:

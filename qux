@@ -1,0 +1,61 @@
+chasm-open-file-in-external-app.el:16:                 (y-or-n-p "Open more than 5 files? ") ) )
+csv-mode.el:508:		  (or (y-or-n-p "Region OK? ")
+csv-mode.el:510:		  (message nil)		; clear y-or-n-p message
+csv-mode.el:934:      (if (y-or-n-p (concat (error-message-string end)
+el-get/el-get-list-packages.el:39:                   (when (y-or-n-p
+el-get/el-get-list-packages.el:48:                   (when (y-or-n-p
+el-get/el-get-list-packages.el:57:                   (when (y-or-n-p
+elpa/alchemist-20170118.142/alchemist-project.el:140:      (if (y-or-n-p "No test file found; create one now?")
+elpa/bubbles-0.5/bubbles.el:947:            (y-or-n-p "Start new game? "))
+elpa/csv-mode-1.6/csv-mode.el:498:		  (or (y-or-n-p "Region OK? ")
+elpa/csv-mode-1.6/csv-mode.el:500:		  (message nil)		; clear y-or-n-p message
+elpa/csv-mode-1.6/csv-mode.el:923:      (if (y-or-n-p (concat (error-message-string end)
+elpa/evernote-mode-0.41/evernote-mode.el:773:          (when (y-or-n-p "Changing text mode will remove all format information. Continue? ")
+elpa/evernote-mode-0.41/evernote-mode.el:814:           (y-or-n-p "Do you really want to remove this note? "))
+elpa/erlang-20170209.52/erlang.el:4009:                        (y-or-n-p
+elpa/findr-20130824.1207/findr.el:262:                                (y-or-n-p (format "Find file %s? " file)))
+elpa/git-commit-20170214.347/git-commit.el:512:                   (y-or-n-p "Summary line is too long.  Commit anyway? "))
+elpa/git-commit-20170214.347/git-commit.el:516:                   (y-or-n-p "Second line is not empty.  Commit anyway? ")))))))
+elpa/magit-20170221.1917/magit-commit.el:296:         (y-or-n-p "Nothing staged.  Continue in-progress rebase? "))
+elpa/magit-20170221.1917/magit-commit.el:307:    (prog1 (when (y-or-n-p "Nothing staged.  Stage and commit everything? ")
+elpa/magit-20170221.1917/magit-ediff.el:191:                     (when (y-or-n-p
+elpa/magit-20170221.1917/magit-files.el:75:                    (y-or-n-p (format "%s already exists; revert it? "
+elpa/magit-20170221.1917/magit-files.el:142:    (if (y-or-n-p (format "Update index with contents of %s" (buffer-name)))
+elpa/magit-20170221.1917/magit-status.el:152:       (unless (y-or-n-p (if (string-equal toplevel directory)
+elpa/magit-20170221.1917/magit-status.el:180:          (when (y-or-n-p
+elpa/magit-20170221.1917/magit-submodule.el:230:               (not (y-or-n-p (format "Initialize submodule '%s' first?"
+elpa/magit-20170221.1917/magit-remote.el:79:                        (y-or-n-p "Set `remote.pushDefault' to \"origin\"? ")))
+elpa/magit-20170221.1917/magit-remote.el:127:         (y-or-n-p (format "Set `remote.pushDefault' to \"%s\"? " remote))))
+elpa/magit-20170221.1917/magit-utils.el:209:When this is nil, then `y-or-n-p' is used when the user has to
+elpa/magit-20170221.1917/magit-utils.el:213:`y-or-no-p' for all others.  The list of actions is the same as
+elpa/magit-20170221.1917/magit-utils.el:417:(defun magit-y-or-n-p (prompt &optional action)
+elpa/magit-20170221.1917/magit-utils.el:424:    (y-or-n-p prompt)))
+elpa/magit-20170221.1917/magit-utils.el:443:         (magit-y-or-n-p prompt action))
+elpa/magit-20170221.1917/magit-utils.el:445:         (and (magit-y-or-n-p prompt action) items))
+elpa/magit-20170221.1917/magit-utils.el:454:                  (unwind-protect (and (magit-y-or-n-p prompt-n action) items)
+elpa/pcre2el-20161120.1303/pcre2el.el:955:              (y-or-n-p "Repeat throughout line? "))
+elpa/realgud-20170218.740/realgud/common/cmds.el:47:      (when (y-or-n-p (concat message " "))
+elpa/rust-playground-20170211.5/rust-playground.el:137:	       (y-or-n-p (format "Do you want delete whole snippet dir %s? "
+elpa/tomatinho-20161023.1853/tomatinho.el:151:  (if (y-or-n-p "Are you sure you want to reset the timer? ")
+elpa/tomatinho-20161023.1853/tomatinho.el:167:  (if (y-or-n-p "Are you sure you want to turn off Tomatinho? ")
+elpa/yasnippet-20170216.1928/yasnippet.el:1869:              (if (y-or-n-p "Some buffers editing live snippets, close them and proceed with reload? ")
+elpa/yasnippet-20170216.1928/yasnippet.el:2469:        (if (y-or-n-p (format "Guessed directory (%s) for%s%s table \"%s\" does not exist! Create? "
+elpa/yasnippet-20170216.1928/yasnippet.el:2626:               (y-or-n-p
+elpa/yasnippet-20170216.1928/yasnippet.el:2908:      (if (y-or-n-p (format "This snippet is unimplemented (missing %s) Visit the snippet definition? "
+rails-new.el:49:                     (if (y-or-n-p "Use default ruby executable?")
+rails-new.el:52:                     (if (y-or-n-p "Use template file?")
+rails-new.el:55:                     (y-or-n-p "Skip Gemfile?") ;; parameter 4
+rails-new.el:56:                     (y-or-n-p "Skip bundle?") ;; parameter 5
+rails-new.el:57:                     (y-or-n-p "Skip git?") ;; parameter 6
+rails-new.el:58:                     (y-or-n-p "Skip keeps?") ;; parameter 7
+rails-new.el:59:                     (y-or-n-p "Skip active record?") ;; parameter 8
+rails-new.el:60:                     (y-or-n-p "Skip action view?") ;; parameter 9
+rails-new.el:61:                     (y-or-n-p "Skip sprockets?") ;; parameter 10
+rails-new.el:62:                     (y-or-n-p "Skip spring?") ;; parameter 11
+rails-new.el:63:                     (if (y-or-n-p "Use default sqlite3 database?")
+rails-new.el:73:                     (if (y-or-n-p "Use default js library(jQuery)?")
+rails-new.el:80:                     (y-or-n-p "Skip javascript?") ;; parameter 14
+rails-new.el:81:                     (y-or-n-p "Skip test unit?") ;; parameter 15
+snippets/emacs-lisp-mode/y-or-n-p:2:#name: y-or-n-p
+snippets/emacs-lisp-mode/y-or-n-p:3:#key: y-or-n-p
+viget.el:16:(fset 'yes-or-no-p 'y-or-n-p)

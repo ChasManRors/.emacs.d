@@ -122,3 +122,58 @@
           ;;      )))
 
           ;; (setq yas-prompt-functions '(yas-popup-isearch-prompt yas-ido-prompt yas-no-prompt))
+
+
+(defun display-ansi-colors ()
+  (interactive)
+  (let ((inhibit-read-only t))
+    (ansi-color-apply-on-region (point-min) (point-max))))
+
+(setq paradox-github-token "231cee86dd374ae0b4c97c3c8ccf92ed6f24e65d")
+
+
+
+;; https://www.emacswiki.org/emacs/CopyWithoutSelection#toc4  Fri May 19 13:22:03 2017
+(defun get-point (symbol &optional arg)
+  "get the point"
+  (funcall symbol arg)
+  (point)
+  )
+(defun copy-thing (begin-of-thing end-of-thing &optional arg)
+  "copy thing between beg & end into kill ring"
+  (save-excursion
+    (let ((beg (get-point begin-of-thing 1))
+          (end (get-point end-of-thing arg)))
+      (copy-region-as-kill beg end)))
+  )
+(defun paste-to-mark(&optional arg)
+  "Paste things to mark, or to the prompt in shell-mode"
+  (let ((pasteMe
+         (lambda()
+           (if (string= "shell-mode" major-mode)
+               (progn (comint-next-prompt 25535) (yank))
+             (progn (goto-char (mark)) (yank) )))))
+    (if arg
+        (if (= arg 1)
+            nil
+          (funcall pasteMe))
+      (funcall pasteMe))
+    ))
+(defun copy-word (&optional arg)
+  "Copy words at point into kill-ring"
+  (interactive "P")
+  (copy-thing 'backward-sexp 'forward-sexp arg)
+  ;;(paste-to-mark arg)
+  )
+;; Key binding
+(global-set-key (kbd "C-c g")         (quote copy-word))
+
+
+
+;; I keep hitting C-Z by misstake, so I bind it to something ARBITRARY Fri May 19 15:21:54 2017
+(global-set-key (kbd "C-z")         (quote copy-word))
+
+
+
+;; faster than emacs tags
+(global-set-key [33554455] (quote codesearch-update-index)) ; C-S-w
