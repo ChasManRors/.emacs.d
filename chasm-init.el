@@ -16,6 +16,7 @@
 
 (autoload 'dirtree "dirtree" "Add directory to tree view" t)
 
+(setenv "EDITOR" "emacsclient")
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (fset 'chasm-pry-break-goto

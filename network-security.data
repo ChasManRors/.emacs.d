@@ -1,5 +1,5 @@
 (
+ (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:0613edc5ccedf3a521fb49b1c5b8dc9008437712" :fingerprint "sha1:83:3d:e5:82:90:60:31:87:ba:a4:e8:fe:f4:e9:ca:ce:55:6a:d1:30" :host "ci.solanolabs.com:443" :host "ci.solanolabs.com:443" :conditions (:self-signed :invalid))
  (:id "sha1:88d4df3ce5800820f90edda8f27d13572234b2b9" :fingerprint "sha1:dc:9f:1c:64:87:9d:88:ca:7d:0c:ce:64:d1:8d:23:2d:10:95:aa:1c" :host "api.github.com:443" :host "api.github.com:443" :conditions (:self-signed :invalid))
- (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :host "marmalade-repo.org:443" :conditions (:self-signed :invalid))
 )
